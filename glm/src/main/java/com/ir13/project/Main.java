@@ -11,16 +11,19 @@ import org.apache.lucene.analysis.standard.StandardAnalyzer;
  *
  * @author matteo
  */
-public class Indexer {
+public class Main {
 
     public static final String DOCS_PATH = "src/main/resources/docs";
     public static final String INDEX_PATH = "src/main/resources/index";
+    public static final String REPORT_PATH = "src/main/resources/report/topics.301-350.trec6.txt";
+    public static final String QUERY_PATH = "src/main/resources/query/topics.301-350.trec6.txt";
+    public static final String SVM_PATH = "src/main/resources/svm/topics.301-350.trec6.txt";
 
     public static void main(String[] args) {
         StandardAnalyzer standardAnalyzer = new StandardAnalyzer();
         LuceneIndexer.index(DOCS_PATH, INDEX_PATH, standardAnalyzer);
-        /* LuceneSearcher.runQueries(systemPath + QUERY_PATH, standardAnalyzer, systemPath + INDEX_PATH, systemPath + OUTPUT_PATH_STANDARD, systemPath + OUTPUT_PATH_STANDARD1);
-        NgramAnalyzer ngramAnalyzer = new NgramAnalyzer();
+        LuceneSearcher.runQueries(QUERY_PATH, standardAnalyzer, INDEX_PATH, REPORT_PATH, SVM_PATH);
+        /*NgramAnalyzer ngramAnalyzer = new NgramAnalyzer();
         EnglishSynonymCustomAnalyzer synAnalyzer1 = new EnglishSynonymCustomAnalyzer();
         EnglishSynonymWNAnalyzer wn = new EnglishSynonymWNAnalyzer();
         EnglishStopAnalyzer ea = new EnglishStopAnalyzer();

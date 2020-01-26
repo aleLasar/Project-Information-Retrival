@@ -22,7 +22,7 @@ import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.index.IndexWriterConfig.OpenMode;
 import org.apache.lucene.index.Term;
-import org.apache.lucene.search.similarities.LMDirichletSimilarity;
+import org.apache.lucene.search.similarities.LMJelinekMercerSimilarity;
 import org.apache.lucene.search.similarities.MultiSimilarity;
 import org.apache.lucene.search.similarities.Similarity;
 import org.apache.lucene.store.Directory;
@@ -60,7 +60,7 @@ public class LuceneIndexer {
             // to lowercase and filters out stopwords
             // IndexWriterConfig stores all the configuration parameters for IndexWriter
             IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
-            Similarity similarity[] = {new LMDirichletSimilarity(1500)};
+            Similarity similarity[] = {new LMJelinekMercerSimilarity((float) 0.2)};
             iwc.setSimilarity(new MultiSimilarity(similarity));
             if (create) {
                 // A new index will be created and any existing indexes will be removed
@@ -124,16 +124,8 @@ public class LuceneIndexer {
 
             // Call the parseHTML() method to parse the html file
             org.jsoup.nodes.Document document = parseHTML(file);
-            String tag;
-            Pattern number = Pattern.compile("Number: \\s*(\\S+)\\s*<");
 
-            if (file.toString().contains("robust")) {
-                tag = "num";
-            } else {
-                tag = "doc";
-            }
-
-            for (Element e : document.getElementsByTag(tag)) {
+            for (Element e : document.getElementsByTag("doc")) {
                 String doc_number;
                 String text;
                 String publication;
@@ -185,17 +177,6 @@ public class LuceneIndexer {
                     text = org.jsoup.parser.Parser.unescapeEntities(e.getElementsByTag("text").text(), true).replaceAll("\\b&[^&]*;\\b", "");
                     System.out.println("Doc Number:" + doc_number + "\n" + "Abs Text:" + text + "\n\n");
                     addDocumentToIndex(doc, doc_number, text, "", "", publication, writer, file);
-                } // Reading from Robust
-                else if (file.toString().contains("robust")) {
-                    publication = "robust";
-                    Elements inner = e.getElementsByTag("num");
-                    Matcher m = number.matcher(inner.html());
-                    m.find();
-                    doc_number = m.group(1);
-                    title = e.getElementsByTag("title").text();
-                    text = e.getElementsByTag("desc").text();
-                    System.out.println("Doc Number:" + doc_number + "\n" + "Title:" + title + "\n" + "Abs Text:" + text + "\n\n");
-                    addDocumentToIndex(doc, doc_number, text, title, "", publication, writer, file);
                 }
             }
 
