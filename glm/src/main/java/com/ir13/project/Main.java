@@ -21,7 +21,7 @@ public class Main {
 
     public static void main(String[] args) {
         StandardAnalyzer standardAnalyzer = new StandardAnalyzer();
-        LuceneIndexer.index(DOCS_PATH, INDEX_PATH, standardAnalyzer);
+        //LuceneIndexer.index(DOCS_PATH, INDEX_PATH, standardAnalyzer);
         LuceneSearcher.runQueries(QUERY_PATH, standardAnalyzer, INDEX_PATH, REPORT_PATH, SVM_PATH);
         /*NgramAnalyzer ngramAnalyzer = new NgramAnalyzer();
         EnglishSynonymCustomAnalyzer synAnalyzer1 = new EnglishSynonymCustomAnalyzer();

@@ -8,15 +8,19 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
+import java.nio.charset.Charset;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
 import org.apache.lucene.analysis.Analyzer;
+import org.apache.lucene.benchmark.quality.QualityBenchmark;
 import org.apache.lucene.benchmark.quality.QualityQuery;
 import org.apache.lucene.benchmark.quality.QualityQueryParser;
+import org.apache.lucene.benchmark.quality.QualityStats;
 import org.apache.lucene.benchmark.quality.trec.*;
 import org.apache.lucene.benchmark.quality.utils.SimpleQQParser;
 import org.apache.lucene.benchmark.quality.utils.SubmissionReport;
@@ -77,6 +81,8 @@ public class LuceneSearcher {
 
             try (BufferedWriter bufferedWriterVSM = new BufferedWriter(new FileWriter(new File(outputVSM)))) {
                 SubmissionReport submitLog = new SubmissionReport(new PrintWriter(outputReport, IOUtils.UTF_8), "lucene");
+
+                //Questo calcola i file con le run
                 for (QualityQuery qq : qqs) {
                     System.out.println("Parsing Query ID:" + qq.getQueryID());
                     // generate query
@@ -103,11 +109,40 @@ public class LuceneSearcher {
                         submitLog.report(qq, td, "doc_number", searcher);
                     }
                 }
-                /*QualityBenchmark qrun = new QualityBenchmark(qqs, qqParser, searcher, "text");
+
+                QualityBenchmark qrun = new QualityBenchmark(qqs, qqParser, searcher, "text");
                 qrun.setMaxResults(1000);
                 qrun.setMaxQueries(50);
                 PrintWriter logger = new PrintWriter(new OutputStreamWriter(System.out, Charset.defaultCharset()), true);
-                QualityStats stats[] = qrun.execute(null, submitLog, logger);*/
+
+                //Qui va calcolato TrecJudge.
+                //TrecJudge fa il parsing delle qrels.
+                /*
+                public TrecJudge(BufferedReader reader)
+                            throws IOException
+                  Constructor from a reader.
+                  Expected input format:
+
+                       qnum  0   doc-name     is-relevant
+
+                  Two sample lines:
+
+                       19    0   doc303       1
+                       19    0   doc7295      0
+
+                  Parameters:
+                  reader - where judgments are read from.
+                  Throws:
+                  IOException - If there is a low-level I/O error.
+                 */
+                //Una volta calcolato va dato in pasto a execute
+                QualityStats stats[] = qrun.execute(null/*qui va messo TrecJudge*/, submitLog, logger);
+
+                //Qui possiamo calcolare recall, map e gmap, facendo la media tra i vari topic in stats.
+                double recall;
+                for (QualityStats stat : stats) {
+                    //qui si calcolano le medie
+                }
             }
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block

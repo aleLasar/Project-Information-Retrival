@@ -61,6 +61,9 @@ public class LuceneIndexer {
             // IndexWriterConfig stores all the configuration parameters for IndexWriter
             IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
             Similarity similarity[] = {new LMJelinekMercerSimilarity((float) 0.2)};
+
+            /*
+
             iwc.setSimilarity(new MultiSimilarity(similarity));
             if (create) {
                 // A new index will be created and any existing indexes will be removed
@@ -81,8 +84,7 @@ public class LuceneIndexer {
 
             // Get the current system time and print the time it took to index all documents
             Date end = new Date();
-            System.out.println("Documents Indexed In " + ((end.getTime() - start.getTime()) / 1000.0) + " Seconds");
-
+            System.out.println("Documents Indexed In " + ((end.getTime() - start.getTime()) / 1000.0) + " Seconds");*/
         } catch (IOException e) {
             System.out.println(" caught a " + e.getClass()
                     + "\n with message: " + e.getMessage());
