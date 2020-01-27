@@ -29,7 +29,8 @@ hs_err_pid*
 
 # End of https://www.gitignore.io/api/java
 
-src/main/resources/*
+src/main/resources/docs/*
+src/main/resources/index/*
 target/*
 .idea/*
 nb-configuration.xml
