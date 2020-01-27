@@ -15,14 +15,15 @@ public class Main {
 
     public static final String DOCS_PATH = "src/main/resources/docs";
     public static final String INDEX_PATH = "src/main/resources/index";
-    public static final String REPORT_PATH = "src/main/resources/report/topics.301-350.trec6.txt";
-    public static final String QUERY_PATH = "src/main/resources/query/topics.301-350.trec6.txt";
-    public static final String SVM_PATH = "src/main/resources/svm/topics.301-350.trec6.txt";
+    public static final String REPORT_PATH = "src/main/resources/report";
+    public static final String QUERY_PATH = "src/main/resources/query";
+    public static final String VSM_PATH = "src/main/resources/vsm";
+    public static final String[] TOPICS = {"topics.301-350.trec6.txt", "topics.351-400_trec7.txt", "topics.401-450_trec8.txt", "trec.robust.2004.txt"};
 
     public static void main(String[] args) {
         StandardAnalyzer standardAnalyzer = new StandardAnalyzer();
-        LuceneIndexer.index(DOCS_PATH, INDEX_PATH, standardAnalyzer);
-        //LuceneSearcher.runQueries(QUERY_PATH, standardAnalyzer, INDEX_PATH, REPORT_PATH, SVM_PATH);
+        //LuceneIndexer.index(DOCS_PATH, INDEX_PATH, standardAnalyzer);
+        LuceneSearcher.runQueries(QUERY_PATH, standardAnalyzer, INDEX_PATH, VSM_PATH, TOPICS);
         /*NgramAnalyzer ngramAnalyzer = new NgramAnalyzer();
         EnglishSynonymCustomAnalyzer synAnalyzer1 = new EnglishSynonymCustomAnalyzer();
         EnglishSynonymWNAnalyzer wn = new EnglishSynonymWNAnalyzer();
