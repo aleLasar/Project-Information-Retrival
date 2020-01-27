@@ -62,7 +62,7 @@ public class LuceneIndexer {
             IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
             Similarity similarity[] = {new LMJelinekMercerSimilarity((float) 0.2)};
 
-            /*
+
 
             iwc.setSimilarity(new MultiSimilarity(similarity));
             if (create) {
@@ -84,7 +84,7 @@ public class LuceneIndexer {
 
             // Get the current system time and print the time it took to index all documents
             Date end = new Date();
-            System.out.println("Documents Indexed In " + ((end.getTime() - start.getTime()) / 1000.0) + " Seconds");*/
+            System.out.println("Documents Indexed In " + ((end.getTime() - start.getTime()) / 1000.0) + " Seconds");
         } catch (IOException e) {
             System.out.println(" caught a " + e.getClass()
                     + "\n with message: " + e.getMessage());
@@ -198,12 +198,6 @@ public class LuceneIndexer {
         return document;
     }
 
-    /**
-     * This function adds documents with respective fields in the IndexWriter
-     *
-     * @param indexWriter list of parsed input cranfield documents to be indexed
-     * @param collectionDoc the analyzer to be used during the indexing
-     */
     private static void addDocumentToIndex(Document doc, String doc_number, String text, String title, String date, String publication, IndexWriter writer, Path file) throws IOException {
         doc.add(new TextField("text", text, Field.Store.YES));
         doc.add(new StringField("doc_number", doc_number, Field.Store.YES));

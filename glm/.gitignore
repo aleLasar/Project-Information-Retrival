@@ -31,4 +31,5 @@ hs_err_pid*
 
 src/main/resources/*
 target/*
+.idea/*
 nb-configuration.xml
