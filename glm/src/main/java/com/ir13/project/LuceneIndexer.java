@@ -10,8 +10,6 @@ import java.nio.file.Paths;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.Date;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import org.apache.commons.io.FileUtils;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.document.Document;
@@ -29,7 +27,6 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 
 public class LuceneIndexer {
 
@@ -56,30 +53,19 @@ public class LuceneIndexer {
             FileUtils.cleanDirectory(new File(indexPath));
             Directory dir = FSDirectory.open(Paths.get(indexPath));
 
-            // Initialize a StandardAnalyzer object. This analyzer converts tokens
-            // to lowercase and filters out stopwords
-            // IndexWriterConfig stores all the configuration parameters for IndexWriter
             IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
             Similarity similarity[] = {new LMJelinekMercerSimilarity((float) 0.2)};
 
-
-
             iwc.setSimilarity(new MultiSimilarity(similarity));
             if (create) {
-                // A new index will be created and any existing indexes will be removed
                 iwc.setOpenMode(OpenMode.CREATE);
             } else {
-                // An index already exists so we add new documents to it
                 iwc.setOpenMode(OpenMode.CREATE_OR_APPEND);
             }
 
-            // Call the indexDocs function that will start the indexing process
-            try ( // IndexWriter object creates and maintains an index
-                    IndexWriter writer = new IndexWriter(dir, iwc)) {
-                // Call the indexDocs function that will start the indexing process
+            try (IndexWriter writer = new IndexWriter(dir, iwc)) {
                 System.out.println("indexDocs");
                 indexDocs(writer, docDir);
-                // Close the IndexWriter
             }
 
             // Get the current system time and print the time it took to index all documents
@@ -102,8 +88,6 @@ public class LuceneIndexer {
                 @Override
                 public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
                     try {
-                        // Recurse the directory tree
-                        System.out.println("indexDoc");
                         indexDoc(writer, file, attrs.lastModifiedTime().toMillis());
                     } catch (IOException ignore) {
                         ignore.printStackTrace();
@@ -112,7 +96,6 @@ public class LuceneIndexer {
                 }
             });
         } else {
-            System.out.println("indexDoc");
             indexDoc(writer, path, Files.getLastModifiedTime(path).toMillis());
         }
     }
@@ -122,64 +105,61 @@ public class LuceneIndexer {
      */
     static void indexDoc(IndexWriter writer, Path file, long lastModified) throws IOException {
 
-        try (InputStream stream = Files.newInputStream(file)) {
+        // Call the parseHTML() method to parse the html file
+        org.jsoup.nodes.Document document = parseHTML(file);
 
-            // Call the parseHTML() method to parse the html file
-            org.jsoup.nodes.Document document = parseHTML(file);
+        for (Element e : document.getElementsByTag("doc")) {
+            String doc_number;
+            String text;
+            String publication;
+            String title;
+            String date;
+            Document doc = new Document();
+            // Add the path of the file as a field named "path".
+            Field pathField = new StringField("path", file.toString(), Field.Store.YES);
+            doc.add(pathField);
 
-            for (Element e : document.getElementsByTag("doc")) {
-                String doc_number;
-                String text;
-                String publication;
-                String title;
-                String date;
-                Document doc = new Document();
-                // Add the path of the file as a field named "path".
-                Field pathField = new StringField("path", file.toString(), Field.Store.YES);
-                doc.add(pathField);
-
-                // Add the last modified date of the file a field named "modified".
-                /*Field modifiedField = new LongPoint("modified", lastModified);
+            // Add the last modified date of the file a field named "modified".
+            /*Field modifiedField = new LongPoint("modified", lastModified);
                     doc.add(modifiedField);*/
-                // Reading Foreign Broadcast Information Service (1996)- fbis
-                if (file.toString().contains("FBIS")) {
+            // Reading Foreign Broadcast Information Service (1996)- fbis
+            if (file.toString().contains("FBIS")) {
 
-                    publication = "fbis";
-                    doc_number = e.getElementsByTag("docno").text();
-                    text = e.getElementsByTag("text").text();
-                    title = e.getElementsByTag("h3").text();
-                    date = e.getElementsByTag("date1").text();
-                    System.out.println("Doc Number:" + doc_number + "\n" + "Abs Text:" + text + "\n" + "Title:" + title + "\n" + "Date:" + date + "\n\n");
-                    addDocumentToIndex(doc, doc_number, text, title, date, publication, writer, file);
-                } // Reading from Los Angeles Times (1989, 1990)- latimes
-                else if (file.toString().contains("LATIMES")) {
+                publication = "fbis";
+                doc_number = e.getElementsByTag("docno").text();
+                text = e.getElementsByTag("text").text();
+                title = e.getElementsByTag("h3").text();
+                date = e.getElementsByTag("date1").text();
+                System.out.println("Doc Number:" + doc_number + "\n" + "Abs Text:" + text + "\n" + "Title:" + title + "\n" + "Date:" + date + "\n\n");
+                addDocumentToIndex(doc, doc_number, text, title, date, publication, writer, file);
+            } // Reading from Los Angeles Times (1989, 1990)- latimes
+            else if (file.toString().contains("LATIMES")) {
 
-                    publication = "latimes";
-                    doc_number = e.getElementsByTag("docno").text();
-                    text = e.getElementsByTag("text").text();
-                    title = e.getElementsByTag("headline").text();
-                    date = e.getElementsByTag("date").text();
-                    System.out.println("Doc Number:" + doc_number + "\n" + "Abs Text:" + text + "\n" + "Title:" + title + "\n" + "Date:" + date + "\n\n");
-                    addDocumentToIndex(doc, doc_number, text, title, date, publication, writer, file);
+                publication = "latimes";
+                doc_number = e.getElementsByTag("docno").text();
+                text = e.getElementsByTag("text").text();
+                title = e.getElementsByTag("headline").text();
+                date = e.getElementsByTag("date").text();
+                System.out.println("Doc Number:" + doc_number + "\n" + "Abs Text:" + text + "\n" + "Title:" + title + "\n" + "Date:" + date + "\n\n");
+                addDocumentToIndex(doc, doc_number, text, title, date, publication, writer, file);
 
-                } // Reading from Financial Times Limited (1991, 1992, 1993, 1994)- ft
-                else if (file.toString().contains("FT")) {
+            } // Reading from Financial Times Limited (1991, 1992, 1993, 1994)- ft
+            else if (file.toString().contains("FT")) {
 
-                    publication = "ft";
-                    doc_number = e.getElementsByTag("docno").text();
-                    text = e.getElementsByTag("text").text();
-                    title = e.getElementsByTag("headline").text();
-                    date = e.getElementsByTag("date").text();
-                    System.out.println("Doc Number:" + doc_number + "\n" + "Abs Text:" + text + "\n" + "Title:" + title + "\n" + "Date:" + date + "\n\n");
-                    addDocumentToIndex(doc, doc_number, text, title, date, publication, writer, file);
-                } // Reading from Fr94
-                else if (file.toString().contains("FR94")) {
-                    publication = "fr94";
-                    doc_number = e.getElementsByTag("docno").text();
-                    text = org.jsoup.parser.Parser.unescapeEntities(e.getElementsByTag("text").text(), true).replaceAll("\\b&[^&]*;\\b", "");
-                    System.out.println("Doc Number:" + doc_number + "\n" + "Abs Text:" + text + "\n\n");
-                    addDocumentToIndex(doc, doc_number, text, "", "", publication, writer, file);
-                }
+                publication = "ft";
+                doc_number = e.getElementsByTag("docno").text();
+                text = e.getElementsByTag("text").text();
+                title = e.getElementsByTag("headline").text();
+                date = e.getElementsByTag("date").text();
+                System.out.println("Doc Number:" + doc_number + "\n" + "Abs Text:" + text + "\n" + "Title:" + title + "\n" + "Date:" + date + "\n\n");
+                addDocumentToIndex(doc, doc_number, text, title, date, publication, writer, file);
+            } // Reading from Fr94
+            else if (file.toString().contains("FR94")) {
+                publication = "fr94";
+                doc_number = e.getElementsByTag("docno").text();
+                text = org.jsoup.parser.Parser.unescapeEntities(e.getElementsByTag("text").text(), true).replaceAll("\\b&[^&]*;\\b", "");
+                System.out.println("Doc Number:" + doc_number + "\n" + "Abs Text:" + text + "\n\n");
+                addDocumentToIndex(doc, doc_number, text, "", "", publication, writer, file);
             }
 
         }
