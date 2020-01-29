@@ -1,142 +1,14 @@
-301  -  (text:international text:organized text:crime) (text:identify text:organizations text:participate text:international text:criminal text:activity text:activity text:possible text:collaborating text:organizations text:countries text:involved) (text:relevant text:document text:must text:minimum text:identify text:organization text:type text:illegal text:activity text:e.g text:columbian text:cartel text:exporting text:cocaine text:vague text:references text:international text:drug text:trade text:without text:identification (text:organization text:s) text:involved text:would text:relevant)
+301  -  (title:international title:organized title:crime) (title:identify title:organizations title:participate title:international title:criminal title:activity title:activity title:possible title:collaborating title:organizations title:countries title:involved) (title:relevant title:document title:must title:minimum title:identify title:organization title:type title:illegal title:activity title:e.g title:columbian title:cartel title:exporting title:cocaine title:vague title:references title:international title:drug title:trade title:without title:identification (title:organization title:s) title:involved title:would title:relevant)
 
 301 Stats:
-  Search Seconds:         0.544
-  DocName Seconds:        0.651
+  Search Seconds:         0.329
+  DocName Seconds:        1.069
   Num Points:         1,000.000
-  Num Good Points:      139.000
+  Num Good Points:       24.000
   Max Good Points:      474.000
-  Average Precision:      0.093
-  MRR:                    0.500
-  Recall:                 0.293
-  Precision At 1:         0.000
-  Precision At 2:         0.500
-  Precision At 3:         0.667
-  Precision At 4:         0.750
-  Precision At 5:         0.600
-  Precision At 6:         0.500
-  Precision At 7:         0.429
-  Precision At 8:         0.375
-  Precision At 9:         0.333
-  Precision At 10:        0.300
-  Precision At 11:        0.364
-  Precision At 12:        0.417
-  Precision At 13:        0.462
-  Precision At 14:        0.500
-  Precision At 15:        0.533
-  Precision At 16:        0.500
-  Precision At 17:        0.471
-  Precision At 18:        0.444
-  Precision At 19:        0.421
-  Precision At 20:        0.450
-
-302  -  (text:poliomyelitis (text:post text:polio)) (text:disease text:poliomyelitis text:polio text:under text:control text:world) (text:relevant text:documents text:should text:contain text:data text:outbreaks text:polio text:disease text:large text:small text:scale text:medical text:protection text:against text:disease text:reports text:what text:has text:been text:labeled (text:post text:polio) text:problems text:interest text:would text:location text:cases text:how text:severe text:well text:what text:being text:done (text:post text:polio) text:area)
-
-302 Stats:
-  Search Seconds:         0.288
-  DocName Seconds:        0.483
-  Num Points:         1,000.000
-  Num Good Points:       64.000
-  Max Good Points:       77.000
-  Average Precision:      0.524
-  MRR:                    1.000
-  Recall:                 0.831
-  Precision At 1:         1.000
-  Precision At 2:         1.000
-  Precision At 3:         0.667
-  Precision At 4:         0.750
-  Precision At 5:         0.800
-  Precision At 6:         0.833
-  Precision At 7:         0.857
-  Precision At 8:         0.875
-  Precision At 9:         0.889
-  Precision At 10:        0.800
-  Precision At 11:        0.818
-  Precision At 12:        0.833
-  Precision At 13:        0.846
-  Precision At 14:        0.786
-  Precision At 15:        0.733
-  Precision At 16:        0.750
-  Precision At 17:        0.765
-  Precision At 18:        0.778
-  Precision At 19:        0.789
-  Precision At 20:        0.800
-
-303  -  (text:hubble text:telescope text:achievements) (text:identify text:positive text:accomplishments text:hubble text:telescope text:since text:launched text:1991) (text:documents text:relevant text:show text:hubble text:telescope text:has text:produced text:new text:data text:better text:quality text:data text:than text:previously text:available text:data text:has text:increased text:human text:knowledge text:universe text:data text:has text:led text:disproving text:previously text:existing text:theories text:hypotheses text:documents text:limited text:shortcomings text:telescope text:would text:irrelevant text:details text:repairs text:modifications text:telescope text:without text:reference text:positive text:achievements text:would text:relevant)
-
-303 Stats:
-  Search Seconds:         0.237
-  DocName Seconds:        0.447
-  Num Points:         1,000.000
-  Num Good Points:       10.000
-  Max Good Points:       10.000
-  Average Precision:      0.169
-  MRR:                    0.250
-  Recall:                 1.000
-  Precision At 1:         0.000
-  Precision At 2:         0.000
-  Precision At 3:         0.000
-  Precision At 4:         0.250
-  Precision At 5:         0.200
-  Precision At 6:         0.167
-  Precision At 7:         0.143
-  Precision At 8:         0.125
-  Precision At 9:         0.111
-  Precision At 10:        0.100
-  Precision At 11:        0.182
-  Precision At 12:        0.250
-  Precision At 13:        0.231
-  Precision At 14:        0.214
-  Precision At 15:        0.200
-  Precision At 16:        0.188
-  Precision At 17:        0.176
-  Precision At 18:        0.167
-  Precision At 19:        0.158
-  Precision At 20:        0.150
-
-304  -  (text:endangered text:species text:mammals) (text:compile text:list text:mammals text:considered text:endangered text:identify text:habitat text:possible text:specify text:what text:threatens text:them) (text:any text:document text:identifying text:mammal text:endangered text:relevant text:statements text:authorities text:disputing text:endangered text:status text:would text:also text:relevant text:document text:containing text:information text:habitat text:populations text:mammal text:identified text:elsewhere text:endangered text:would text:also text:relevant text:even text:document text:hand text:did text:identify text:species text:endangered text:generalized text:statements text:about text:endangered text:species text:without text:reference text:specific text:mammals text:would text:relevant)
-
-304 Stats:
-  Search Seconds:         0.188
-  DocName Seconds:        0.151
-  Num Points:         1,000.000
-  Num Good Points:      108.000
-  Max Good Points:      226.000
-  Average Precision:      0.065
-  MRR:                    1.000
-  Recall:                 0.478
-  Precision At 1:         1.000
-  Precision At 2:         0.500
-  Precision At 3:         0.333
-  Precision At 4:         0.250
-  Precision At 5:         0.200
-  Precision At 6:         0.333
-  Precision At 7:         0.286
-  Precision At 8:         0.250
-  Precision At 9:         0.222
-  Precision At 10:        0.200
-  Precision At 11:        0.182
-  Precision At 12:        0.167
-  Precision At 13:        0.154
-  Precision At 14:        0.143
-  Precision At 15:        0.133
-  Precision At 16:        0.125
-  Precision At 17:        0.118
-  Precision At 18:        0.167
-  Precision At 19:        0.158
-  Precision At 20:        0.150
-
-305  -  (text:most text:dangerous text:vehicles) (text:which text:most text:crashworthy text:least text:crashworthy text:passenger text:vehicles) (text:relevant text:document text:contain text:information text:crashworthiness text:given text:vehicle text:vehicles text:can text:used text:draw text:comparison text:other text:vehicles text:document text:have (text:describe text:compare) text:vehicles text:drivers text:instance text:should text:expected text:vehicles text:preferred (text:16 text:25) (text:year text:olds) text:would text:involved text:more text:crashes text:because text:age text:group text:involved text:more text:crashes text:i text:would text:view text:number text:fatalities text:per text:100 text:crashes text:more text:revealing text:vehicle's text:crashworthiness text:than text:number text:crashes text:per text:100,000 text:miles text:example)
-
-305 Stats:
-  Search Seconds:         0.362
-  DocName Seconds:        0.401
-  Num Points:         1,000.000
-  Num Good Points:        7.000
-  Max Good Points:       35.000
-  Average Precision:      0.007
+  Average Precision:      0.002
   MRR:                    0.000
-  Recall:                 0.200
+  Recall:                 0.051
   Precision At 1:         0.000
   Precision At 2:         0.000
   Precision At 3:         0.000
@@ -158,17 +30,49 @@
   Precision At 19:        0.000
   Precision At 20:        0.000
 
-306  -  (text:african text:civilian text:deaths) (text:how text:many text:civilian (text:non text:combatants) text:have text:been text:killed text:various text:civil text:wars text:africa) (text:relevant text:document text:contain text:specific text:casualty text:information text:given text:area text:country text:region text:cite text:numbers text:civilian text:deaths text:caused text:directly text:indirectly text:armed text:conflict)
+302  -  (title:poliomyelitis (title:post title:polio)) (title:disease title:poliomyelitis title:polio title:under title:control title:world) (title:relevant title:documents title:should title:contain title:data title:outbreaks title:polio title:disease title:large title:small title:scale title:medical title:protection title:against title:disease title:reports title:what title:has title:been title:labeled (title:post title:polio) title:problems title:interest title:would title:location title:cases title:how title:severe title:well title:what title:being title:done (title:post title:polio) title:area)
 
-306 Stats:
-  Search Seconds:         0.140
-  DocName Seconds:        0.397
+302 Stats:
+  Search Seconds:         0.103
+  DocName Seconds:        0.626
   Num Points:         1,000.000
-  Num Good Points:       60.000
-  Max Good Points:      352.000
-  Average Precision:      0.023
+  Num Good Points:       11.000
+  Max Good Points:       77.000
+  Average Precision:      0.087
+  MRR:                    1.000
+  Recall:                 0.143
+  Precision At 1:         1.000
+  Precision At 2:         0.500
+  Precision At 3:         0.667
+  Precision At 4:         0.750
+  Precision At 5:         0.800
+  Precision At 6:         0.667
+  Precision At 7:         0.714
+  Precision At 8:         0.625
+  Precision At 9:         0.667
+  Precision At 10:        0.700
+  Precision At 11:        0.727
+  Precision At 12:        0.667
+  Precision At 13:        0.615
+  Precision At 14:        0.571
+  Precision At 15:        0.533
+  Precision At 16:        0.500
+  Precision At 17:        0.471
+  Precision At 18:        0.444
+  Precision At 19:        0.421
+  Precision At 20:        0.400
+
+303  -  (title:hubble title:telescope title:achievements) (title:identify title:positive title:accomplishments title:hubble title:telescope title:since title:launched title:1991) (title:documents title:relevant title:show title:hubble title:telescope title:has title:produced title:new title:data title:better title:quality title:data title:than title:previously title:available title:data title:has title:increased title:human title:knowledge title:universe title:data title:has title:led title:disproving title:previously title:existing title:theories title:hypotheses title:documents title:limited title:shortcomings title:telescope title:would title:irrelevant title:details title:repairs title:modifications title:telescope title:without title:reference title:positive title:achievements title:would title:relevant)
+
+303 Stats:
+  Search Seconds:         0.047
+  DocName Seconds:        0.801
+  Num Points:         1,000.000
+  Num Good Points:        3.000
+  Max Good Points:       10.000
+  Average Precision:      0.017
   MRR:                    0.000
-  Recall:                 0.170
+  Recall:                 0.300
   Precision At 1:         0.000
   Precision At 2:         0.000
   Precision At 3:         0.000
@@ -178,10 +82,10 @@
   Precision At 7:         0.000
   Precision At 8:         0.000
   Precision At 9:         0.000
-  Precision At 10:        0.100
-  Precision At 11:        0.091
-  Precision At 12:        0.083
-  Precision At 13:        0.077
+  Precision At 10:        0.000
+  Precision At 11:        0.000
+  Precision At 12:        0.000
+  Precision At 13:        0.000
   Precision At 14:        0.071
   Precision At 15:        0.067
   Precision At 16:        0.062
@@ -190,24 +94,56 @@
   Precision At 19:        0.053
   Precision At 20:        0.050
 
-307  -  (text:new text:hydroelectric text:projects) (text:identify text:hydroelectric text:projects text:proposed text:under text:construction text:country text:location text:detailed text:description text:nature text:extent text:purpose text:problems text:consequences text:desirable) (text:relevant text:documents text:would text:contain text:minimum text:clear text:statement text:hydroelectric text:project text:planned text:construction text:under text:way text:location text:project text:renovation text:existing text:facilities text:would text:judged text:relevant text:unless text:plans text:call text:significant text:increase (text:acre text:feet) text:reservoir text:marked text:change text:environmental text:impact text:project text:arguments text:against text:proposed text:projects text:relevant text:long text:supported text:specifics text:including text:minimum text:name text:location text:project text:statement text:individual text:organization text:against text:projects text:general text:would text:relevant text:proposals text:projects text:underway text:dismantle text:existing text:facilities text:drain text:existing text:reservoirs text:relevant text:nor text:articles text:reporting text:decision text:drop text:proposed text:plan)
+304  -  (title:endangered title:species title:mammals) (title:compile title:list title:mammals title:considered title:endangered title:identify title:habitat title:possible title:specify title:what title:threatens title:them) (title:any title:document title:identifying title:mammal title:endangered title:relevant title:statements title:authorities title:disputing title:endangered title:status title:would title:also title:relevant title:document title:containing title:information title:habitat title:populations title:mammal title:identified title:elsewhere title:endangered title:would title:also title:relevant title:even title:document title:hand title:did title:identify title:species title:endangered title:generalized title:statements title:about title:endangered title:species title:without title:reference title:specific title:mammals title:would title:relevant)
 
-307 Stats:
-  Search Seconds:         0.296
-  DocName Seconds:        0.355
+304 Stats:
+  Search Seconds:         0.062
+  DocName Seconds:        0.571
   Num Points:         1,000.000
-  Num Good Points:       85.000
-  Max Good Points:      215.000
-  Average Precision:      0.068
-  MRR:                    0.500
-  Recall:                 0.395
-  Precision At 1:         0.000
+  Num Good Points:       20.000
+  Max Good Points:      226.000
+  Average Precision:      0.020
+  MRR:                    1.000
+  Recall:                 0.088
+  Precision At 1:         1.000
   Precision At 2:         0.500
   Precision At 3:         0.333
   Precision At 4:         0.250
   Precision At 5:         0.200
   Precision At 6:         0.167
   Precision At 7:         0.143
+  Precision At 8:         0.125
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.167
+  Precision At 13:        0.231
+  Precision At 14:        0.214
+  Precision At 15:        0.200
+  Precision At 16:        0.250
+  Precision At 17:        0.235
+  Precision At 18:        0.222
+  Precision At 19:        0.211
+  Precision At 20:        0.200
+
+305  -  (title:most title:dangerous title:vehicles) (title:which title:most title:crashworthy title:least title:crashworthy title:passenger title:vehicles) (title:relevant title:document title:contain title:information title:crashworthiness title:given title:vehicle title:vehicles title:can title:used title:draw title:comparison title:other title:vehicles title:document title:have (title:describe title:compare) title:vehicles title:drivers title:instance title:should title:expected title:vehicles title:preferred (title:16 title:25) (title:year title:olds) title:would title:involved title:more title:crashes title:because title:age title:group title:involved title:more title:crashes title:i title:would title:view title:number title:fatalities title:per title:100 title:crashes title:more title:revealing title:vehicle's title:crashworthiness title:than title:number title:crashes title:per title:100,000 title:miles title:example)
+
+305 Stats:
+  Search Seconds:         0.102
+  DocName Seconds:        0.536
+  Num Points:         1,000.000
+  Num Good Points:        4.000
+  Max Good Points:       35.000
+  Average Precision:      0.009
+  MRR:                    0.000
+  Recall:                 0.114
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
   Precision At 8:         0.125
   Precision At 9:         0.111
   Precision At 10:        0.100
@@ -222,49 +158,81 @@
   Precision At 19:        0.105
   Precision At 20:        0.100
 
-308  -  (text:implant text:dentistry) (text:what text:advantages text:disadvantages text:tooth text:implants) (text:tooth text:replacement text:procedure text:begun text:1960s text:doctor text:branemark text:becoming text:more text:widely text:used text:today text:involves text:replacement text:lost (text:tooth text:teeth) text:implantation text:process text:which text:secures text:fabricated text:tooth text:titanium text:post text:adhesive text:resulting text:stable text:sturdy text:denture text:almost text:like text:original text:relevant text:document text:include text:any text:clinical text:experiment text:report text:study text:paper text:medical text:discussion text:which text:describes text:advantages text:disadvantages text:tooth (text:implant text:s) text:conditions text:under text:which text:procedure text:favorable text:denture text:comfort text:function text:compared text:false text:teeth text:bridge text:plate text:comparative text:cost text:differential)
+306  -  (title:african title:civilian title:deaths) (title:how title:many title:civilian (title:non title:combatants) title:have title:been title:killed title:various title:civil title:wars title:africa) (title:relevant title:document title:contain title:specific title:casualty title:information title:given title:area title:country title:region title:cite title:numbers title:civilian title:deaths title:caused title:directly title:indirectly title:armed title:conflict)
 
-308 Stats:
-  Search Seconds:         0.233
-  DocName Seconds:        0.498
+306 Stats:
+  Search Seconds:         0.027
+  DocName Seconds:        0.591
   Num Points:         1,000.000
-  Num Good Points:        4.000
-  Max Good Points:        4.000
-  Average Precision:      0.586
+  Num Good Points:       14.000
+  Max Good Points:      352.000
+  Average Precision:      0.001
+  MRR:                    0.000
+  Recall:                 0.040
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.167
+  Precision At 7:         0.143
+  Precision At 8:         0.125
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.083
+  Precision At 13:        0.077
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.062
+  Precision At 17:        0.059
+  Precision At 18:        0.056
+  Precision At 19:        0.053
+  Precision At 20:        0.050
+
+307  -  (title:new title:hydroelectric title:projects) (title:identify title:hydroelectric title:projects title:proposed title:under title:construction title:country title:location title:detailed title:description title:nature title:extent title:purpose title:problems title:consequences title:desirable) (title:relevant title:documents title:would title:contain title:minimum title:clear title:statement title:hydroelectric title:project title:planned title:construction title:under title:way title:location title:project title:renovation title:existing title:facilities title:would title:judged title:relevant title:unless title:plans title:call title:significant title:increase (title:acre title:feet) title:reservoir title:marked title:change title:environmental title:impact title:project title:arguments title:against title:proposed title:projects title:relevant title:long title:supported title:specifics title:including title:minimum title:name title:location title:project title:statement title:individual title:organization title:against title:projects title:general title:would title:relevant title:proposals title:projects title:underway title:dismantle title:existing title:facilities title:drain title:existing title:reservoirs title:relevant title:nor title:articles title:reporting title:decision title:drop title:proposed title:plan)
+
+307 Stats:
+  Search Seconds:         0.126
+  DocName Seconds:        0.510
+  Num Points:         1,000.000
+  Num Good Points:       22.000
+  Max Good Points:      215.000
+  Average Precision:      0.008
   MRR:                    1.000
-  Recall:                 1.000
+  Recall:                 0.102
   Precision At 1:         1.000
   Precision At 2:         0.500
-  Precision At 3:         0.667
-  Precision At 4:         0.500
-  Precision At 5:         0.600
-  Precision At 6:         0.500
-  Precision At 7:         0.429
-  Precision At 8:         0.375
-  Precision At 9:         0.333
-  Precision At 10:        0.300
-  Precision At 11:        0.273
-  Precision At 12:        0.250
-  Precision At 13:        0.231
-  Precision At 14:        0.214
-  Precision At 15:        0.200
-  Precision At 16:        0.188
-  Precision At 17:        0.176
-  Precision At 18:        0.167
-  Precision At 19:        0.158
-  Precision At 20:        0.150
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.200
+  Precision At 6:         0.167
+  Precision At 7:         0.143
+  Precision At 8:         0.125
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.083
+  Precision At 13:        0.077
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.062
+  Precision At 17:        0.059
+  Precision At 18:        0.056
+  Precision At 19:        0.053
+  Precision At 20:        0.050
 
-309  -  (text:rap text:crime) (text:evidence text:rap text:music text:has text:negative text:effect text:young text:people) (text:lyrics text:rap text:music text:replete text:words text:which text:degrade text:women text:glorify text:drug text:abuse text:killing text:policemen text:even text:romanticize text:suicide text:crusade text:begun text:few text:years text:ago text:which text:music text:industry text:asked text:clean text:up text:its text:act text:because text:detrimental text:effect text:having text:upon text:teenagers text:were text:some text:instances text:which text:teenagers text:who text:demonstrated text:sign text:internal text:strife text:committed text:suicide text:only text:clues (text:self text:destruction) text:were text:notes text:found text:near text:bodies text:lyrics text:from text:rap text:songs text:relating text:suicide text:relevant text:item text:should text:include text:any text:psychological text:study text:evidence text:poll text:documentation text:psychological text:opinion text:rap text:music text:has text:deleterious text:effect text:upon text:young text:people text:has text:led text:discernible text:change text:personality text:life text:style text:crime text:alteration text:personality text:any text:other text:negative text:effect text:upon text:psyche text:mores text:culture text:teenagers)
+308  -  (title:implant title:dentistry) (title:what title:advantages title:disadvantages title:tooth title:implants) (title:tooth title:replacement title:procedure title:begun title:1960s title:doctor title:branemark title:becoming title:more title:widely title:used title:today title:involves title:replacement title:lost (title:tooth title:teeth) title:implantation title:process title:which title:secures title:fabricated title:tooth title:titanium title:post title:adhesive title:resulting title:stable title:sturdy title:denture title:almost title:like title:original title:relevant title:document title:include title:any title:clinical title:experiment title:report title:study title:paper title:medical title:discussion title:which title:describes title:advantages title:disadvantages title:tooth (title:implant title:s) title:conditions title:under title:which title:procedure title:favorable title:denture title:comfort title:function title:compared title:false title:teeth title:bridge title:plate title:comparative title:cost title:differential)
 
-309 Stats:
-  Search Seconds:         0.472
-  DocName Seconds:        0.480
+308 Stats:
+  Search Seconds:         0.062
+  DocName Seconds:        0.400
   Num Points:         1,000.000
-  Num Good Points:        2.000
-  Max Good Points:        3.000
-  Average Precision:      0.007
+  Num Good Points:        1.000
+  Max Good Points:        4.000
+  Average Precision:      0.005
   MRR:                    0.000
-  Recall:                 0.667
+  Recall:                 0.250
   Precision At 1:         0.000
   Precision At 2:         0.000
   Precision At 3:         0.000
@@ -286,177 +254,17 @@
   Precision At 19:        0.000
   Precision At 20:        0.000
 
-310  -  (text:radio text:waves text:brain text:cancer) (text:evidence text:radio text:waves text:from text:radio text:towers text:car text:phones text:affect text:brain text:cancer text:occurrence) (text:persons text:living text:near text:radio text:towers text:more text:recently text:persons text:using text:car text:phones text:have text:been text:diagnosed text:brain text:cancer text:argument text:rages text:regarding text:direct text:association text:one text:other text:incidence text:cancer text:among text:groups text:cited text:considered text:some text:higher text:than text:found text:normal text:population text:relevant text:document text:includes text:any text:experiment text:animals text:statistical text:study text:articles text:news text:items text:which text:report text:incidence text:brain text:cancer text:being (text:higher text:lower text:same) text:those text:persons text:who text:live text:near text:radio text:tower text:those text:using text:car text:phones text:compared text:those text:general text:population)
+309  -  (title:rap title:crime) (title:evidence title:rap title:music title:has title:negative title:effect title:young title:people) (title:lyrics title:rap title:music title:replete title:words title:which title:degrade title:women title:glorify title:drug title:abuse title:killing title:policemen title:even title:romanticize title:suicide title:crusade title:begun title:few title:years title:ago title:which title:music title:industry title:asked title:clean title:up title:its title:act title:because title:detrimental title:effect title:having title:upon title:teenagers title:were title:some title:instances title:which title:teenagers title:who title:demonstrated title:sign title:internal title:strife title:committed title:suicide title:only title:clues (title:self title:destruction) title:were title:notes title:found title:near title:bodies title:lyrics title:from title:rap title:songs title:relating title:suicide title:relevant title:item title:should title:include title:any title:psychological title:study title:evidence title:poll title:documentation title:psychological title:opinion title:rap title:music title:has title:deleterious title:effect title:upon title:young title:people title:has title:led title:discernible title:change title:personality title:life title:style title:crime title:alteration title:personality title:any title:other title:negative title:effect title:upon title:psyche title:mores title:culture title:teenagers)
 
-310 Stats:
-  Search Seconds:         0.288
-  DocName Seconds:        0.386
+309 Stats:
+  Search Seconds:         0.101
+  DocName Seconds:        0.449
   Num Points:         1,000.000
-  Num Good Points:        7.000
-  Max Good Points:       13.000
-  Average Precision:      0.179
-  MRR:                    1.000
-  Recall:                 0.538
-  Precision At 1:         1.000
-  Precision At 2:         0.500
-  Precision At 3:         0.667
-  Precision At 4:         0.500
-  Precision At 5:         0.400
-  Precision At 6:         0.500
-  Precision At 7:         0.429
-  Precision At 8:         0.375
-  Precision At 9:         0.333
-  Precision At 10:        0.300
-  Precision At 11:        0.273
-  Precision At 12:        0.250
-  Precision At 13:        0.231
-  Precision At 14:        0.214
-  Precision At 15:        0.200
-  Precision At 16:        0.188
-  Precision At 17:        0.176
-  Precision At 18:        0.167
-  Precision At 19:        0.158
-  Precision At 20:        0.150
-
-311  -  (text:industrial text:espionage) (text:document text:discuss text:theft text:trade text:secrets text:along text:sources text:information text:trade text:journals text:business text:meetings text:data text:from text:patent text:offices text:trade text:shows text:analysis text:competitor's text:products) (text:relevant text:document text:contain text:specific text:information text:theft text:trade text:secrets text:new text:existing text:technology text:relevant text:information text:includes text:limited text:espionage text:highly text:competitive text:fashion text:industry text:toy text:companies text:drug text:firms text:computer text:companies text:apparently text:legal text:way text:stealing text:company text:secrets text:using text:freedom text:information text:act text:passed text:u.s text:congress text:1966 text:help text:people text:press text:get text:information text:public text:good text:law text:has text:often text:been text:used text:instead text:companies text:private text:gain text:documents text:discussing text:company text:counterespionage text:also text:considered text:relevant)
-
-311 Stats:
-  Search Seconds:         0.351
-  DocName Seconds:        0.528
-  Num Points:         1,000.000
-  Num Good Points:      115.000
-  Max Good Points:      186.000
-  Average Precision:      0.181
-  MRR:                    1.000
-  Recall:                 0.618
-  Precision At 1:         1.000
-  Precision At 2:         1.000
-  Precision At 3:         1.000
-  Precision At 4:         1.000
-  Precision At 5:         1.000
-  Precision At 6:         0.833
-  Precision At 7:         0.714
-  Precision At 8:         0.625
-  Precision At 9:         0.556
-  Precision At 10:        0.600
-  Precision At 11:        0.636
-  Precision At 12:        0.583
-  Precision At 13:        0.538
-  Precision At 14:        0.500
-  Precision At 15:        0.467
-  Precision At 16:        0.438
-  Precision At 17:        0.471
-  Precision At 18:        0.500
-  Precision At 19:        0.474
-  Precision At 20:        0.500
-
-312  -  text:hydroponics (text:document text:discuss text:science text:growing text:plants text:water text:some text:substance text:other text:than text:soil) (text:relevant text:document text:contain text:specific text:information text:necessary text:nutrients text:experiments text:types text:substrates text:any text:other text:pertinent text:facts text:related text:science text:hydroponics text:related text:information text:includes text:limited text:history text:hydroponics text:advantages text:over text:standard text:soil text:agricultural text:practices text:approach text:suspending text:roots text:humid text:enclosure text:spraying text:them text:periodically text:nutrient text:solution text:promote text:plant text:growth)
-
-312 Stats:
-  Search Seconds:         0.188
-  DocName Seconds:        0.492
-  Num Points:         1,000.000
-  Num Good Points:        4.000
-  Max Good Points:       11.000
-  Average Precision:      0.171
-  MRR:                    1.000
-  Recall:                 0.364
-  Precision At 1:         1.000
-  Precision At 2:         0.500
-  Precision At 3:         0.333
-  Precision At 4:         0.500
-  Precision At 5:         0.400
-  Precision At 6:         0.333
-  Precision At 7:         0.286
-  Precision At 8:         0.375
-  Precision At 9:         0.333
-  Precision At 10:        0.300
-  Precision At 11:        0.273
-  Precision At 12:        0.250
-  Precision At 13:        0.231
-  Precision At 14:        0.214
-  Precision At 15:        0.200
-  Precision At 16:        0.188
-  Precision At 17:        0.176
-  Precision At 18:        0.167
-  Precision At 19:        0.158
-  Precision At 20:        0.150
-
-313  -  (text:magnetic (text:levitation text:maglev)) (text:commercial text:uses text:magnetic text:levitation) (text:relevant text:document text:must text:contain text:magnetic text:levitation text:maglev text:should text:concerned text:possible text:commercial text:applications text:phenomenon text:include text:primarily text:mass text:transit text:also text:other text:commercial text:applications text:maglev text:flywheels text:cars text:discussions text:superconductivity text:when text:linked text:maglev text:government text:support text:plans text:when text:linked text:maglev text:also text:relevant)
-
-313 Stats:
-  Search Seconds:         0.131
-  DocName Seconds:        0.362
-  Num Points:         1,000.000
-  Num Good Points:       74.000
-  Max Good Points:      107.000
-  Average Precision:      0.528
-  MRR:                    1.000
-  Recall:                 0.692
-  Precision At 1:         1.000
-  Precision At 2:         1.000
-  Precision At 3:         1.000
-  Precision At 4:         1.000
-  Precision At 5:         1.000
-  Precision At 6:         1.000
-  Precision At 7:         1.000
-  Precision At 8:         1.000
-  Precision At 9:         1.000
-  Precision At 10:        1.000
-  Precision At 11:        1.000
-  Precision At 12:        1.000
-  Precision At 13:        1.000
-  Precision At 14:        1.000
-  Precision At 15:        1.000
-  Precision At 16:        1.000
-  Precision At 17:        1.000
-  Precision At 18:        1.000
-  Precision At 19:        1.000
-  Precision At 20:        1.000
-
-314  -  (text:marine text:vegetation) (text:commercial text:harvesting text:marine text:vegetation text:algae text:seaweed text:kelp text:food text:drug text:purposes) (text:recent text:research text:has text:shown text:marine text:vegetation text:valuable text:source text:both text:food text:human text:animal text:potentially text:useful text:drug text:search text:focus text:primarily text:two text:uses text:also text:considered text:relevant text:would text:instances text:other text:possible text:commercial text:uses text:fertilizer text:etc)
-
-314 Stats:
-  Search Seconds:         0.133
-  DocName Seconds:        0.308
-  Num Points:         1,000.000
-  Num Good Points:       13.000
-  Max Good Points:       45.000
-  Average Precision:      0.051
-  MRR:                    1.000
-  Recall:                 0.289
-  Precision At 1:         1.000
-  Precision At 2:         0.500
-  Precision At 3:         0.333
-  Precision At 4:         0.500
-  Precision At 5:         0.400
-  Precision At 6:         0.333
-  Precision At 7:         0.286
-  Precision At 8:         0.250
-  Precision At 9:         0.222
-  Precision At 10:        0.200
-  Precision At 11:        0.182
-  Precision At 12:        0.167
-  Precision At 13:        0.231
-  Precision At 14:        0.214
-  Precision At 15:        0.200
-  Precision At 16:        0.188
-  Precision At 17:        0.176
-  Precision At 18:        0.167
-  Precision At 19:        0.158
-  Precision At 20:        0.150
-
-315  -  (text:unexplained text:highway text:accidents) (text:how text:many text:fatal text:highway text:accidents text:each text:year text:resolved text:cause) (text:relevant text:document text:contain text:data text:relating text:highway text:accidents text:where text:cause text:accident text:cannot text:determined text:typical text:accidents text:would text:those text:where text:one text:vehicle text:suddenly text:swerves text:oncoming text:traffic)
-
-315 Stats:
-  Search Seconds:         0.130
-  DocName Seconds:        0.381
-  Num Points:         1,000.000
-  Num Good Points:       13.000
-  Max Good Points:       67.000
-  Average Precision:      0.004
+  Num Good Points:        0.000
+  Max Good Points:        3.000
+  Average Precision:      0.000
   MRR:                    0.000
-  Recall:                 0.194
+  Recall:                 0.000
   Precision At 1:         0.000
   Precision At 2:         0.000
   Precision At 3:         0.000
@@ -468,6 +276,38 @@
   Precision At 9:         0.000
   Precision At 10:        0.000
   Precision At 11:        0.000
+  Precision At 12:        0.000
+  Precision At 13:        0.000
+  Precision At 14:        0.000
+  Precision At 15:        0.000
+  Precision At 16:        0.000
+  Precision At 17:        0.000
+  Precision At 18:        0.000
+  Precision At 19:        0.000
+  Precision At 20:        0.000
+
+310  -  (title:radio title:waves title:brain title:cancer) (title:evidence title:radio title:waves title:from title:radio title:towers title:car title:phones title:affect title:brain title:cancer title:occurrence) (title:persons title:living title:near title:radio title:towers title:more title:recently title:persons title:using title:car title:phones title:have title:been title:diagnosed title:brain title:cancer title:argument title:rages title:regarding title:direct title:association title:one title:other title:incidence title:cancer title:among title:groups title:cited title:considered title:some title:higher title:than title:found title:normal title:population title:relevant title:document title:includes title:any title:experiment title:animals title:statistical title:study title:articles title:news title:items title:which title:report title:incidence title:brain title:cancer title:being (title:higher title:lower title:same) title:those title:persons title:who title:live title:near title:radio title:tower title:those title:using title:car title:phones title:compared title:those title:general title:population)
+
+310 Stats:
+  Search Seconds:         0.070
+  DocName Seconds:        0.467
+  Num Points:         1,000.000
+  Num Good Points:        7.000
+  Max Good Points:       13.000
+  Average Precision:      0.036
+  MRR:                    0.333
+  Recall:                 0.538
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.200
+  Precision At 6:         0.167
+  Precision At 7:         0.143
+  Precision At 8:         0.125
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
   Precision At 12:        0.083
   Precision At 13:        0.077
   Precision At 14:        0.071
@@ -478,119 +318,215 @@
   Precision At 19:        0.053
   Precision At 20:        0.050
 
-316  -  (text:polygamy text:polyandry text:polygyny) (text:look text:roots text:prevalence text:polygamy text:world text:today) (text:polygamy text:form text:marriage text:which text:permits text:person text:have text:more text:than text:one text:husband text:wife text:polyandry text:refers text:one text:woman text:sharing text:two text:more text:husbands text:same text:time text:polygyny text:refers text:one text:man text:sharing text:two text:more text:wives text:same text:time text:primary text:focus text:search text:prevalence text:practices text:world text:today text:societal text:attitudes text:towards text:practices text:also text:relevant text:would text:discussions text:roots text:practical text:sources text:customs text:modern text:development text:area text:serial text:polygamy text:phrase text:coined text:label text:practice text:men text:who text:take text:series text:wives text:sequence text:solution text:practical text:welfare text:considerations text:child text:care text:housing text:etc text:documents text:discussing text:serial text:polygamy text:considered text:relevant)
+311  -  (title:industrial title:espionage) (title:document title:discuss title:theft title:trade title:secrets title:along title:sources title:information title:trade title:journals title:business title:meetings title:data title:from title:patent title:offices title:trade title:shows title:analysis title:competitor's title:products) (title:relevant title:document title:contain title:specific title:information title:theft title:trade title:secrets title:new title:existing title:technology title:relevant title:information title:includes title:limited title:espionage title:highly title:competitive title:fashion title:industry title:toy title:companies title:drug title:firms title:computer title:companies title:apparently title:legal title:way title:stealing title:company title:secrets title:using title:freedom title:information title:act title:passed title:u.s title:congress title:1966 title:help title:people title:press title:get title:information title:public title:good title:law title:has title:often title:been title:used title:instead title:companies title:private title:gain title:documents title:discussing title:company title:counterespionage title:also title:considered title:relevant)
+
+311 Stats:
+  Search Seconds:         0.112
+  DocName Seconds:        0.504
+  Num Points:         1,000.000
+  Num Good Points:        8.000
+  Max Good Points:      186.000
+  Average Precision:      0.001
+  MRR:                    0.000
+  Recall:                 0.043
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.000
+  Precision At 10:        0.000
+  Precision At 11:        0.000
+  Precision At 12:        0.000
+  Precision At 13:        0.000
+  Precision At 14:        0.000
+  Precision At 15:        0.000
+  Precision At 16:        0.000
+  Precision At 17:        0.000
+  Precision At 18:        0.000
+  Precision At 19:        0.000
+  Precision At 20:        0.000
+
+312  -  title:hydroponics (title:document title:discuss title:science title:growing title:plants title:water title:some title:substance title:other title:than title:soil) (title:relevant title:document title:contain title:specific title:information title:necessary title:nutrients title:experiments title:types title:substrates title:any title:other title:pertinent title:facts title:related title:science title:hydroponics title:related title:information title:includes title:limited title:history title:hydroponics title:advantages title:over title:standard title:soil title:agricultural title:practices title:approach title:suspending title:roots title:humid title:enclosure title:spraying title:them title:periodically title:nutrient title:solution title:promote title:plant title:growth)
+
+312 Stats:
+  Search Seconds:         0.056
+  DocName Seconds:        0.284
+  Num Points:         1,000.000
+  Num Good Points:        0.000
+  Max Good Points:       11.000
+  Average Precision:      0.000
+  MRR:                    0.000
+  Recall:                 0.000
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.000
+  Precision At 10:        0.000
+  Precision At 11:        0.000
+  Precision At 12:        0.000
+  Precision At 13:        0.000
+  Precision At 14:        0.000
+  Precision At 15:        0.000
+  Precision At 16:        0.000
+  Precision At 17:        0.000
+  Precision At 18:        0.000
+  Precision At 19:        0.000
+  Precision At 20:        0.000
+
+313  -  (title:magnetic (title:levitation title:maglev)) (title:commercial title:uses title:magnetic title:levitation) (title:relevant title:document title:must title:contain title:magnetic title:levitation title:maglev title:should title:concerned title:possible title:commercial title:applications title:phenomenon title:include title:primarily title:mass title:transit title:also title:other title:commercial title:applications title:maglev title:flywheels title:cars title:discussions title:superconductivity title:when title:linked title:maglev title:government title:support title:plans title:when title:linked title:maglev title:also title:relevant)
+
+313 Stats:
+  Search Seconds:         0.018
+  DocName Seconds:        0.307
+  Num Points:         1,000.000
+  Num Good Points:       14.000
+  Max Good Points:      107.000
+  Average Precision:      0.082
+  MRR:                    1.000
+  Recall:                 0.131
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         0.667
+  Precision At 4:         0.750
+  Precision At 5:         0.800
+  Precision At 6:         0.833
+  Precision At 7:         0.857
+  Precision At 8:         0.875
+  Precision At 9:         0.889
+  Precision At 10:        0.800
+  Precision At 11:        0.727
+  Precision At 12:        0.667
+  Precision At 13:        0.615
+  Precision At 14:        0.571
+  Precision At 15:        0.600
+  Precision At 16:        0.562
+  Precision At 17:        0.529
+  Precision At 18:        0.500
+  Precision At 19:        0.474
+  Precision At 20:        0.450
+
+314  -  (title:marine title:vegetation) (title:commercial title:harvesting title:marine title:vegetation title:algae title:seaweed title:kelp title:food title:drug title:purposes) (title:recent title:research title:has title:shown title:marine title:vegetation title:valuable title:source title:both title:food title:human title:animal title:potentially title:useful title:drug title:search title:focus title:primarily title:two title:uses title:also title:considered title:relevant title:would title:instances title:other title:possible title:commercial title:uses title:fertilizer title:etc)
+
+314 Stats:
+  Search Seconds:         0.017
+  DocName Seconds:        0.247
+  Num Points:         1,000.000
+  Num Good Points:        2.000
+  Max Good Points:       45.000
+  Average Precision:      0.001
+  MRR:                    0.000
+  Recall:                 0.044
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.000
+  Precision At 10:        0.000
+  Precision At 11:        0.000
+  Precision At 12:        0.000
+  Precision At 13:        0.000
+  Precision At 14:        0.000
+  Precision At 15:        0.000
+  Precision At 16:        0.000
+  Precision At 17:        0.000
+  Precision At 18:        0.000
+  Precision At 19:        0.000
+  Precision At 20:        0.000
+
+315  -  (title:unexplained title:highway title:accidents) (title:how title:many title:fatal title:highway title:accidents title:each title:year title:resolved title:cause) (title:relevant title:document title:contain title:data title:relating title:highway title:accidents title:where title:cause title:accident title:cannot title:determined title:typical title:accidents title:would title:those title:where title:one title:vehicle title:suddenly title:swerves title:oncoming title:traffic)
+
+315 Stats:
+  Search Seconds:         0.011
+  DocName Seconds:        0.277
+  Num Points:         1,000.000
+  Num Good Points:        4.000
+  Max Good Points:       67.000
+  Average Precision:      0.002
+  MRR:                    0.000
+  Recall:                 0.060
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.083
+  Precision At 13:        0.077
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.062
+  Precision At 17:        0.059
+  Precision At 18:        0.056
+  Precision At 19:        0.053
+  Precision At 20:        0.050
+
+316  -  (title:polygamy title:polyandry title:polygyny) (title:look title:roots title:prevalence title:polygamy title:world title:today) (title:polygamy title:form title:marriage title:which title:permits title:person title:have title:more title:than title:one title:husband title:wife title:polyandry title:refers title:one title:woman title:sharing title:two title:more title:husbands title:same title:time title:polygyny title:refers title:one title:man title:sharing title:two title:more title:wives title:same title:time title:primary title:focus title:search title:prevalence title:practices title:world title:today title:societal title:attitudes title:towards title:practices title:also title:relevant title:would title:discussions title:roots title:practical title:sources title:customs title:modern title:development title:area title:serial title:polygamy title:phrase title:coined title:label title:practice title:men title:who title:take title:series title:wives title:sequence title:solution title:practical title:welfare title:considerations title:child title:care title:housing title:etc title:documents title:discussing title:serial title:polygamy title:considered title:relevant)
 
 316 Stats:
-  Search Seconds:         0.406
-  DocName Seconds:        0.592
+  Search Seconds:         0.081
+  DocName Seconds:        0.368
   Num Points:         1,000.000
-  Num Good Points:       25.000
+  Num Good Points:        1.000
   Max Good Points:       35.000
-  Average Precision:      0.581
+  Average Precision:      0.029
   MRR:                    1.000
-  Recall:                 0.714
-  Precision At 1:         1.000
-  Precision At 2:         1.000
-  Precision At 3:         1.000
-  Precision At 4:         1.000
-  Precision At 5:         0.800
-  Precision At 6:         0.667
-  Precision At 7:         0.714
-  Precision At 8:         0.750
-  Precision At 9:         0.778
-  Precision At 10:        0.800
-  Precision At 11:        0.818
-  Precision At 12:        0.833
-  Precision At 13:        0.846
-  Precision At 14:        0.857
-  Precision At 15:        0.867
-  Precision At 16:        0.875
-  Precision At 17:        0.882
-  Precision At 18:        0.889
-  Precision At 19:        0.895
-  Precision At 20:        0.850
-
-317  -  (text:unsolicited text:faxes) (text:have text:regulations text:been text:passed text:fcc text:banning text:junk text:facsimile text:fax text:so text:effective) (text:relevant text:documents text:provide text:information text:cost text:junk text:fax text:transmitted text:individuals text:businesses text:documents text:which text:contain text:laws text:regulations text:passed text:banning text:junk text:fax text:articles text:indicating text:effectiveness text:ineffectiveness text:laws text:relevant text:additionally text:any text:document text:showing text:where (text:unsolicited text:junk) text:fax text:invasion text:privacy text:also text:relevant)
-
-317 Stats:
-  Search Seconds:         0.247
-  DocName Seconds:        0.370
-  Num Points:         1,000.000
-  Num Good Points:       13.000
-  Max Good Points:       14.000
-  Average Precision:      0.354
-  MRR:                    1.000
-  Recall:                 0.929
-  Precision At 1:         1.000
-  Precision At 2:         1.000
-  Precision At 3:         1.000
-  Precision At 4:         0.750
-  Precision At 5:         0.600
-  Precision At 6:         0.500
-  Precision At 7:         0.429
-  Precision At 8:         0.375
-  Precision At 9:         0.333
-  Precision At 10:        0.300
-  Precision At 11:        0.273
-  Precision At 12:        0.250
-  Precision At 13:        0.231
-  Precision At 14:        0.214
-  Precision At 15:        0.200
-  Precision At 16:        0.250
-  Precision At 17:        0.235
-  Precision At 18:        0.222
-  Precision At 19:        0.263
-  Precision At 20:        0.250
-
-318  -  (text:best text:retirement text:country) (text:aside text:from text:united text:states text:which text:country text:offers text:best text:living text:conditions text:quality text:life text:u.s text:retiree) (text:relevant text:document text:contain text:information text:describing text:living text:conditions text:costs text:one text:more text:foreign text:countries text:provide text:information text:potential text:retiree text:could text:use text:deciding text:where text:establish text:retirement text:home)
-
-318 Stats:
-  Search Seconds:         0.221
-  DocName Seconds:        0.513
-  Num Points:         1,000.000
-  Num Good Points:       35.000
-  Max Good Points:      128.000
-  Average Precision:      0.030
-  MRR:                    1.000
-  Recall:                 0.273
+  Recall:                 0.029
   Precision At 1:         1.000
   Precision At 2:         0.500
-  Precision At 3:         0.667
-  Precision At 4:         0.500
-  Precision At 5:         0.400
-  Precision At 6:         0.333
-  Precision At 7:         0.286
-  Precision At 8:         0.250
-  Precision At 9:         0.222
-  Precision At 10:        0.200
-  Precision At 11:        0.182
-  Precision At 12:        0.167
-  Precision At 13:        0.154
-  Precision At 14:        0.143
-  Precision At 15:        0.133
-  Precision At 16:        0.188
-  Precision At 17:        0.176
-  Precision At 18:        0.167
-  Precision At 19:        0.158
-  Precision At 20:        0.150
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.200
+  Precision At 6:         0.167
+  Precision At 7:         0.143
+  Precision At 8:         0.125
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.083
+  Precision At 13:        0.077
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.062
+  Precision At 17:        0.059
+  Precision At 18:        0.056
+  Precision At 19:        0.053
+  Precision At 20:        0.050
 
-319  -  (text:new text:fuel text:sources) (text:what text:research text:ongoing text:new text:fuel text:sources) (text:relevant text:documents text:contain text:information text:actual text:research text:being text:accomplished text:new text:fuel text:sources text:documents text:may text:also text:reveal text:company text:companies text:involved text:research (text:listing text:s) text:possible text:new text:fuel text:sources text:also text:relevance text:relevant text:documents text:can text:also text:show text:how text:much text:current text:fuel text:sources text:available text:however text:articles text:which text:simply text:refer text:current text:sources text:relevant text:documents text:about text:nuclear text:power text:relevant text:only text:discuss text:new text:developments text:nuclear text:field text:processing text:spent text:fuel text:establish text:new text:nuclear text:fuel text:system)
+317  -  (title:unsolicited title:faxes) (title:have title:regulations title:been title:passed title:fcc title:banning title:junk title:facsimile title:fax title:so title:effective) (title:relevant title:documents title:provide title:information title:cost title:junk title:fax title:transmitted title:individuals title:businesses title:documents title:which title:contain title:laws title:regulations title:passed title:banning title:junk title:fax title:articles title:indicating title:effectiveness title:ineffectiveness title:laws title:relevant title:additionally title:any title:document title:showing title:where (title:unsolicited title:junk) title:fax title:invasion title:privacy title:also title:relevant)
 
-319 Stats:
-  Search Seconds:         0.315
-  DocName Seconds:        0.407
+317 Stats:
+  Search Seconds:         0.016
+  DocName Seconds:        0.356
   Num Points:         1,000.000
-  Num Good Points:       96.000
-  Max Good Points:      187.000
-  Average Precision:      0.126
+  Num Good Points:        5.000
+  Max Good Points:       14.000
+  Average Precision:      0.345
   MRR:                    1.000
-  Recall:                 0.513
+  Recall:                 0.357
   Precision At 1:         1.000
   Precision At 2:         1.000
   Precision At 3:         1.000
   Precision At 4:         1.000
   Precision At 5:         0.800
-  Precision At 6:         0.667
+  Precision At 6:         0.833
   Precision At 7:         0.714
   Precision At 8:         0.625
   Precision At 9:         0.556
@@ -600,261 +536,69 @@
   Precision At 13:        0.385
   Precision At 14:        0.357
   Precision At 15:        0.333
-  Precision At 16:        0.375
-  Precision At 17:        0.412
-  Precision At 18:        0.389
-  Precision At 19:        0.421
-  Precision At 20:        0.400
+  Precision At 16:        0.312
+  Precision At 17:        0.294
+  Precision At 18:        0.278
+  Precision At 19:        0.263
+  Precision At 20:        0.250
 
-320  -  (text:undersea text:fiber text:optic text:cable) (text:fiber text:optic text:link text:around text:globe text:flag text:world's text:longest text:undersea text:fiber text:optic text:cable text:who's text:involved text:how text:extensive text:technology text:system text:what text:problems text:exist) (text:relevant text:documents text:reference text:companies text:involved text:building text:system text:technology text:needed text:endeavor text:relevance text:also text:would text:information text:link text:up text:points text:flag text:landing text:sites text:interconnection text:other text:telecommunication text:cables text:relevant text:documents text:may text:reference text:any text:regulatory text:problems text:system text:once text:constructed (text:non text:relevant) text:document text:would text:contain text:information text:other text:fiber text:optic text:systems text:currently text:place)
+318  -  (title:best title:retirement title:country) (title:aside title:from title:united title:states title:which title:country title:offers title:best title:living title:conditions title:quality title:life title:u.s title:retiree) (title:relevant title:document title:contain title:information title:describing title:living title:conditions title:costs title:one title:more title:foreign title:countries title:provide title:information title:potential title:retiree title:could title:use title:deciding title:where title:establish title:retirement title:home)
 
-320 Stats:
-  Search Seconds:         0.264
-  DocName Seconds:        0.425
+318 Stats:
+  Search Seconds:         0.023
+  DocName Seconds:        0.390
   Num Points:         1,000.000
-  Num Good Points:        6.000
-  Max Good Points:        6.000
-  Average Precision:      0.145
-  MRR:                    0.200
-  Recall:                 1.000
-  Precision At 1:         0.000
-  Precision At 2:         0.000
-  Precision At 3:         0.000
-  Precision At 4:         0.000
-  Precision At 5:         0.200
-  Precision At 6:         0.333
-  Precision At 7:         0.286
-  Precision At 8:         0.250
-  Precision At 9:         0.222
-  Precision At 10:        0.200
-  Precision At 11:        0.182
-  Precision At 12:        0.167
-  Precision At 13:        0.154
-  Precision At 14:        0.143
-  Precision At 15:        0.133
-  Precision At 16:        0.125
-  Precision At 17:        0.118
-  Precision At 18:        0.111
-  Precision At 19:        0.105
-  Precision At 20:        0.100
-
-321  -  (text:women text:parliaments) (text:pertinent text:documents text:reflect text:fact text:women text:continue text:poorly text:represented text:parliaments text:across text:world text:gap text:political text:power text:between text:sexes text:very text:wide text:particularly text:third text:world) (text:pertinent text:documents text:relating text:issue text:discuss text:lack text:representation text:women text:countries text:mandate text:inclusion text:certain text:percentage text:women text:legislatures text:decreases text:any text:female text:representation text:legislatures text:those text:countries text:which text:representation text:women)
-
-321 Stats:
-  Search Seconds:         0.226
-  DocName Seconds:        0.499
-  Num Points:         1,000.000
-  Num Good Points:       65.000
-  Max Good Points:      234.000
-  Average Precision:      0.079
+  Num Good Points:        8.000
+  Max Good Points:      128.000
+  Average Precision:      0.008
   MRR:                    1.000
-  Recall:                 0.278
+  Recall:                 0.062
   Precision At 1:         1.000
-  Precision At 2:         1.000
-  Precision At 3:         1.000
-  Precision At 4:         1.000
-  Precision At 5:         1.000
-  Precision At 6:         1.000
-  Precision At 7:         0.857
-  Precision At 8:         0.750
-  Precision At 9:         0.667
-  Precision At 10:        0.700
-  Precision At 11:        0.636
-  Precision At 12:        0.667
-  Precision At 13:        0.615
-  Precision At 14:        0.571
-  Precision At 15:        0.533
-  Precision At 16:        0.500
-  Precision At 17:        0.471
-  Precision At 18:        0.444
-  Precision At 19:        0.474
-  Precision At 20:        0.450
-
-322  -  (text:international text:art text:crime) (text:isolate text:instances text:fraud text:embezzlement text:international text:art text:trade) (text:relevant text:document text:any text:report text:identifies text:instance text:fraud text:embezzlement text:international text:buying text:selling text:art text:objects text:objects text:include text:paintings text:jewelry text:sculptures text:any text:other text:valuable text:works text:art text:specific text:instances text:must text:identified text:document text:relevant text:generalities text:relevant)
-
-322 Stats:
-  Search Seconds:         0.215
-  DocName Seconds:        0.419
-  Num Points:         1,000.000
-  Num Good Points:       18.000
-  Max Good Points:       34.000
-  Average Precision:      0.028
-  MRR:                    0.250
-  Recall:                 0.529
-  Precision At 1:         0.000
-  Precision At 2:         0.000
-  Precision At 3:         0.000
-  Precision At 4:         0.250
-  Precision At 5:         0.200
-  Precision At 6:         0.333
-  Precision At 7:         0.286
-  Precision At 8:         0.250
-  Precision At 9:         0.222
-  Precision At 10:        0.200
-  Precision At 11:        0.182
-  Precision At 12:        0.167
-  Precision At 13:        0.154
-  Precision At 14:        0.143
-  Precision At 15:        0.133
-  Precision At 16:        0.125
-  Precision At 17:        0.118
-  Precision At 18:        0.111
-  Precision At 19:        0.105
-  Precision At 20:        0.100
-
-323  -  ((text:literary text:journalistic) text:plagiarism) (text:find text:instances text:plagiarism text:literary text:journalistic text:worlds) (text:relevant text:document text:report text:any text:occasion text:suspected text:instance text:plagiarism text:areas text:either text:literature text:journalism text:relevant text:documents text:also text:include text:areas text:doctorate text:master's text:theses text:encompass text:writings text:well text:ideas text:concepts text:developed text:some text:authors text:taken text:borrowed text:others text:without text:attribution)
-
-323 Stats:
-  Search Seconds:         0.108
-  DocName Seconds:        0.453
-  Num Points:         1,000.000
-  Num Good Points:       24.000
-  Max Good Points:       63.000
-  Average Precision:      0.209
-  MRR:                    1.000
-  Recall:                 0.381
-  Precision At 1:         1.000
-  Precision At 2:         1.000
-  Precision At 3:         0.667
-  Precision At 4:         0.750
-  Precision At 5:         0.800
-  Precision At 6:         0.833
-  Precision At 7:         0.857
-  Precision At 8:         0.875
-  Precision At 9:         0.889
-  Precision At 10:        0.900
-  Precision At 11:        0.909
-  Precision At 12:        0.833
-  Precision At 13:        0.846
-  Precision At 14:        0.786
-  Precision At 15:        0.800
-  Precision At 16:        0.750
-  Precision At 17:        0.706
-  Precision At 18:        0.667
-  Precision At 19:        0.632
-  Precision At 20:        0.600
-
-324  -  ((text:argentine text:british) text:relations) (text:define text:argentine text:british text:international text:relations) (text:has text:been text:15 text:years text:since text:war text:between text:argentina text:united text:kingdom text:1982 text:over text:sovereignty text:falkland text:islands text:relevant text:report text:describe text:relations text:after text:period text:any text:kind text:international text:contact text:between text:two text:countries text:relevant text:include text:commercial text:economic text:cultural text:diplomatic text:military text:exchanges text:negative text:reports text:absence text:exchanges text:also text:desirable text:reports text:containing text:information text:direct text:exchanges text:between text:argentina text:falkland text:islands text:also text:relevant)
-
-324 Stats:
-  Search Seconds:         0.441
-  DocName Seconds:        0.375
-  Num Points:         1,000.000
-  Num Good Points:      126.000
-  Max Good Points:      162.000
-  Average Precision:      0.494
-  MRR:                    1.000
-  Recall:                 0.778
-  Precision At 1:         1.000
-  Precision At 2:         1.000
-  Precision At 3:         1.000
-  Precision At 4:         1.000
-  Precision At 5:         1.000
-  Precision At 6:         1.000
-  Precision At 7:         1.000
-  Precision At 8:         1.000
-  Precision At 9:         1.000
-  Precision At 10:        1.000
-  Precision At 11:        1.000
-  Precision At 12:        1.000
-  Precision At 13:        1.000
-  Precision At 14:        1.000
-  Precision At 15:        1.000
-  Precision At 16:        1.000
-  Precision At 17:        1.000
-  Precision At 18:        1.000
-  Precision At 19:        1.000
-  Precision At 20:        1.000
-
-325  -  (text:cult text:lifestyles) (text:describe text:cult text:name text:identify text:cult text:members text:activities text:everyday text:life) (text:relevant text:document text:would text:include text:name text:cult text:offer text:information text:about text:members text:lifestyles text:may text:include text:how text:dress text:what text:do text:attain text:ultimate text:goal text:organization text:relevant text:document text:may text:tell text:what text:eat text:how text:contribute text:cult text:just text:mention text:existence text:cult text:name text:other text:clarifying text:information text:would text:relevant)
-
-325 Stats:
-  Search Seconds:         0.214
-  DocName Seconds:        0.409
-  Num Points:         1,000.000
-  Num Good Points:       21.000
-  Max Good Points:       24.000
-  Average Precision:      0.146
-  MRR:                    0.333
-  Recall:                 0.875
-  Precision At 1:         0.000
-  Precision At 2:         0.000
+  Precision At 2:         0.500
   Precision At 3:         0.333
   Precision At 4:         0.250
   Precision At 5:         0.200
+  Precision At 6:         0.167
+  Precision At 7:         0.143
+  Precision At 8:         0.125
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.083
+  Precision At 13:        0.077
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.062
+  Precision At 17:        0.059
+  Precision At 18:        0.056
+  Precision At 19:        0.053
+  Precision At 20:        0.050
+
+319  -  (title:new title:fuel title:sources) (title:what title:research title:ongoing title:new title:fuel title:sources) (title:relevant title:documents title:contain title:information title:actual title:research title:being title:accomplished title:new title:fuel title:sources title:documents title:may title:also title:reveal title:company title:companies title:involved title:research (title:listing title:s) title:possible title:new title:fuel title:sources title:also title:relevance title:relevant title:documents title:can title:also title:show title:how title:much title:current title:fuel title:sources title:available title:however title:articles title:which title:simply title:refer title:current title:sources title:relevant title:documents title:about title:nuclear title:power title:relevant title:only title:discuss title:new title:developments title:nuclear title:field title:processing title:spent title:fuel title:establish title:new title:nuclear title:fuel title:system)
+
+319 Stats:
+  Search Seconds:         0.041
+  DocName Seconds:        0.222
+  Num Points:         1,000.000
+  Num Good Points:       38.000
+  Max Good Points:      187.000
+  Average Precision:      0.029
+  MRR:                    0.333
+  Recall:                 0.203
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.333
+  Precision At 4:         0.500
+  Precision At 5:         0.400
   Precision At 6:         0.333
   Precision At 7:         0.286
-  Precision At 8:         0.375
-  Precision At 9:         0.333
-  Precision At 10:        0.300
-  Precision At 11:        0.364
-  Precision At 12:        0.333
-  Precision At 13:        0.308
-  Precision At 14:        0.286
-  Precision At 15:        0.267
-  Precision At 16:        0.250
-  Precision At 17:        0.235
-  Precision At 18:        0.222
-  Precision At 19:        0.211
-  Precision At 20:        0.200
-
-326  -  (text:ferry text:sinkings) (text:any text:report text:ferry text:sinking text:where text:100 text:more text:people text:lost text:lives) (text:relevant text:document text:must text:identify text:ferry text:has text:sunk text:causing text:death text:100 text:more text:humans text:must text:identify text:ferry text:name text:place text:where text:sinking text:occurred text:details text:cause text:sinking text:would text:helpful text:necessary text:relevant text:reference text:ferry text:sinking text:without text:number text:deaths text:would text:relevant)
-
-326 Stats:
-  Search Seconds:         0.298
-  DocName Seconds:        0.381
-  Num Points:         1,000.000
-  Num Good Points:       44.000
-  Max Good Points:       48.000
-  Average Precision:      0.567
-  MRR:                    1.000
-  Recall:                 0.917
-  Precision At 1:         1.000
-  Precision At 2:         1.000
-  Precision At 3:         1.000
-  Precision At 4:         1.000
-  Precision At 5:         1.000
-  Precision At 6:         1.000
-  Precision At 7:         1.000
-  Precision At 8:         1.000
-  Precision At 9:         1.000
-  Precision At 10:        1.000
-  Precision At 11:        1.000
-  Precision At 12:        1.000
-  Precision At 13:        0.923
-  Precision At 14:        0.857
-  Precision At 15:        0.800
-  Precision At 16:        0.812
-  Precision At 17:        0.824
-  Precision At 18:        0.833
-  Precision At 19:        0.842
-  Precision At 20:        0.850
-
-327  -  (text:modern text:slavery) (text:identify text:country text:city text:where text:evidence text:human text:slavery text:being text:practiced text:eighties text:nineties) (text:relevant text:document text:would text:present text:evidence text:current text:slavery text:practices text:being text:carried text:out text:would text:identify text:specific text:country text:city text:give text:some text:information text:who text:slaves text:who text:buying text:selling text:them text:what text:purposes text:were text:being text:used text:references text:slavery text:being text:carried text:out text:several text:years text:ago text:would text:relevant)
-
-327 Stats:
-  Search Seconds:         0.493
-  DocName Seconds:        0.547
-  Num Points:         1,000.000
-  Num Good Points:       10.000
-  Max Good Points:       18.000
-  Average Precision:      0.172
-  MRR:                    1.000
-  Recall:                 0.556
-  Precision At 1:         1.000
-  Precision At 2:         0.500
-  Precision At 3:         0.667
-  Precision At 4:         0.750
-  Precision At 5:         0.600
-  Precision At 6:         0.500
-  Precision At 7:         0.429
-  Precision At 8:         0.375
-  Precision At 9:         0.333
-  Precision At 10:        0.300
-  Precision At 11:        0.273
-  Precision At 12:        0.250
-  Precision At 13:        0.231
-  Precision At 14:        0.214
+  Precision At 8:         0.250
+  Precision At 9:         0.222
+  Precision At 10:        0.200
+  Precision At 11:        0.182
+  Precision At 12:        0.167
+  Precision At 13:        0.154
+  Precision At 14:        0.143
   Precision At 15:        0.200
   Precision At 16:        0.188
   Precision At 17:        0.176
@@ -862,22 +606,406 @@
   Precision At 19:        0.158
   Precision At 20:        0.150
 
-328  -  (text:pope text:beatifications) (text:identify text:individual text:has text:been text:beatified text:pope) (text:relevant text:document text:must text:include text:person's text:name text:well text:person's text:deeds text:actions text:led text:recognition text:pope text:must text:also text:include text:when text:actions text:deeds text:occurred text:giving text:year text:period text:time text:i.e text:late text:17th text:century)
+320  -  (title:undersea title:fiber title:optic title:cable) (title:fiber title:optic title:link title:around title:globe title:flag title:world's title:longest title:undersea title:fiber title:optic title:cable title:who's title:involved title:how title:extensive title:technology title:system title:what title:problems title:exist) (title:relevant title:documents title:reference title:companies title:involved title:building title:system title:technology title:needed title:endeavor title:relevance title:also title:would title:information title:link title:up title:points title:flag title:landing title:sites title:interconnection title:other title:telecommunication title:cables title:relevant title:documents title:may title:reference title:any title:regulatory title:problems title:system title:once title:constructed (title:non title:relevant) title:document title:would title:contain title:information title:other title:fiber title:optic title:systems title:currently title:place)
 
-328 Stats:
-  Search Seconds:         0.238
-  DocName Seconds:        0.439
+320 Stats:
+  Search Seconds:         0.028
+  DocName Seconds:        0.227
   Num Points:         1,000.000
-  Num Good Points:        7.000
-  Max Good Points:        9.000
-  Average Precision:      0.216
+  Num Good Points:        3.000
+  Max Good Points:        6.000
+  Average Precision:      0.017
+  MRR:                    0.000
+  Recall:                 0.500
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.000
+  Precision At 10:        0.000
+  Precision At 11:        0.000
+  Precision At 12:        0.000
+  Precision At 13:        0.000
+  Precision At 14:        0.000
+  Precision At 15:        0.000
+  Precision At 16:        0.000
+  Precision At 17:        0.000
+  Precision At 18:        0.000
+  Precision At 19:        0.000
+  Precision At 20:        0.000
+
+321  -  (title:women title:parliaments) (title:pertinent title:documents title:reflect title:fact title:women title:continue title:poorly title:represented title:parliaments title:across title:world title:gap title:political title:power title:between title:sexes title:very title:wide title:particularly title:third title:world) (title:pertinent title:documents title:relating title:issue title:discuss title:lack title:representation title:women title:countries title:mandate title:inclusion title:certain title:percentage title:women title:legislatures title:decreases title:any title:female title:representation title:legislatures title:those title:countries title:which title:representation title:women)
+
+321 Stats:
+  Search Seconds:         0.021
+  DocName Seconds:        0.258
+  Num Points:         1,000.000
+  Num Good Points:       47.000
+  Max Good Points:      234.000
+  Average Precision:      0.013
+  MRR:                    0.000
+  Recall:                 0.201
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.125
+  Precision At 9:         0.222
+  Precision At 10:        0.200
+  Precision At 11:        0.182
+  Precision At 12:        0.167
+  Precision At 13:        0.154
+  Precision At 14:        0.143
+  Precision At 15:        0.133
+  Precision At 16:        0.125
+  Precision At 17:        0.118
+  Precision At 18:        0.111
+  Precision At 19:        0.105
+  Precision At 20:        0.150
+
+322  -  (title:international title:art title:crime) (title:isolate title:instances title:fraud title:embezzlement title:international title:art title:trade) (title:relevant title:document title:any title:report title:identifies title:instance title:fraud title:embezzlement title:international title:buying title:selling title:art title:objects title:objects title:include title:paintings title:jewelry title:sculptures title:any title:other title:valuable title:works title:art title:specific title:instances title:must title:identified title:document title:relevant title:generalities title:relevant)
+
+322 Stats:
+  Search Seconds:         0.028
+  DocName Seconds:        0.258
+  Num Points:         1,000.000
+  Num Good Points:       12.000
+  Max Good Points:       34.000
+  Average Precision:      0.027
+  MRR:                    0.333
+  Recall:                 0.353
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.200
+  Precision At 6:         0.167
+  Precision At 7:         0.143
+  Precision At 8:         0.125
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.167
+  Precision At 13:        0.154
+  Precision At 14:        0.143
+  Precision At 15:        0.200
+  Precision At 16:        0.188
+  Precision At 17:        0.176
+  Precision At 18:        0.167
+  Precision At 19:        0.158
+  Precision At 20:        0.150
+
+323  -  ((title:literary title:journalistic) title:plagiarism) (title:find title:instances title:plagiarism title:literary title:journalistic title:worlds) (title:relevant title:document title:report title:any title:occasion title:suspected title:instance title:plagiarism title:areas title:either title:literature title:journalism title:relevant title:documents title:also title:include title:areas title:doctorate title:master's title:theses title:encompass title:writings title:well title:ideas title:concepts title:developed title:some title:authors title:taken title:borrowed title:others title:without title:attribution)
+
+323 Stats:
+  Search Seconds:         0.014
+  DocName Seconds:        0.261
+  Num Points:         1,000.000
+  Num Good Points:        6.000
+  Max Good Points:       63.000
+  Average Precision:      0.065
   MRR:                    1.000
-  Recall:                 0.778
+  Recall:                 0.095
+  Precision At 1:         1.000
+  Precision At 2:         0.500
+  Precision At 3:         0.667
+  Precision At 4:         0.750
+  Precision At 5:         0.800
+  Precision At 6:         0.833
+  Precision At 7:         0.714
+  Precision At 8:         0.625
+  Precision At 9:         0.556
+  Precision At 10:        0.500
+  Precision At 11:        0.455
+  Precision At 12:        0.417
+  Precision At 13:        0.385
+  Precision At 14:        0.357
+  Precision At 15:        0.333
+  Precision At 16:        0.312
+  Precision At 17:        0.294
+  Precision At 18:        0.278
+  Precision At 19:        0.263
+  Precision At 20:        0.250
+
+324  -  ((title:argentine title:british) title:relations) (title:define title:argentine title:british title:international title:relations) (title:has title:been title:15 title:years title:since title:war title:between title:argentina title:united title:kingdom title:1982 title:over title:sovereignty title:falkland title:islands title:relevant title:report title:describe title:relations title:after title:period title:any title:kind title:international title:contact title:between title:two title:countries title:relevant title:include title:commercial title:economic title:cultural title:diplomatic title:military title:exchanges title:negative title:reports title:absence title:exchanges title:also title:desirable title:reports title:containing title:information title:direct title:exchanges title:between title:argentina title:falkland title:islands title:also title:relevant)
+
+324 Stats:
+  Search Seconds:         0.034
+  DocName Seconds:        0.332
+  Num Points:         1,000.000
+  Num Good Points:       17.000
+  Max Good Points:      162.000
+  Average Precision:      0.009
+  MRR:                    1.000
+  Recall:                 0.105
   Precision At 1:         1.000
   Precision At 2:         0.500
   Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.200
+  Precision At 6:         0.167
+  Precision At 7:         0.143
+  Precision At 8:         0.125
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.083
+  Precision At 13:        0.077
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.062
+  Precision At 17:        0.059
+  Precision At 18:        0.056
+  Precision At 19:        0.053
+  Precision At 20:        0.050
+
+325  -  (title:cult title:lifestyles) (title:describe title:cult title:name title:identify title:cult title:members title:activities title:everyday title:life) (title:relevant title:document title:would title:include title:name title:cult title:offer title:information title:about title:members title:lifestyles title:may title:include title:how title:dress title:what title:do title:attain title:ultimate title:goal title:organization title:relevant title:document title:may title:tell title:what title:eat title:how title:contribute title:cult title:just title:mention title:existence title:cult title:name title:other title:clarifying title:information title:would title:relevant)
+
+325 Stats:
+  Search Seconds:         0.031
+  DocName Seconds:        0.318
+  Num Points:         1,000.000
+  Num Good Points:        4.000
+  Max Good Points:       24.000
+  Average Precision:      0.011
+  MRR:                    0.000
+  Recall:                 0.167
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.000
+  Precision At 10:        0.000
+  Precision At 11:        0.000
+  Precision At 12:        0.000
+  Precision At 13:        0.000
+  Precision At 14:        0.000
+  Precision At 15:        0.000
+  Precision At 16:        0.000
+  Precision At 17:        0.000
+  Precision At 18:        0.000
+  Precision At 19:        0.000
+  Precision At 20:        0.050
+
+326  -  (title:ferry title:sinkings) (title:any title:report title:ferry title:sinking title:where title:100 title:more title:people title:lost title:lives) (title:relevant title:document title:must title:identify title:ferry title:has title:sunk title:causing title:death title:100 title:more title:humans title:must title:identify title:ferry title:name title:place title:where title:sinking title:occurred title:details title:cause title:sinking title:would title:helpful title:necessary title:relevant title:reference title:ferry title:sinking title:without title:number title:deaths title:would title:relevant)
+
+326 Stats:
+  Search Seconds:         0.056
+  DocName Seconds:        0.288
+  Num Points:         1,000.000
+  Num Good Points:       22.000
+  Max Good Points:       48.000
+  Average Precision:      0.058
+  MRR:                    0.500
+  Recall:                 0.458
+  Precision At 1:         0.000
+  Precision At 2:         0.500
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.200
+  Precision At 6:         0.167
+  Precision At 7:         0.143
+  Precision At 8:         0.125
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.083
+  Precision At 13:        0.077
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.062
+  Precision At 17:        0.118
+  Precision At 18:        0.111
+  Precision At 19:        0.105
+  Precision At 20:        0.100
+
+327  -  (title:modern title:slavery) (title:identify title:country title:city title:where title:evidence title:human title:slavery title:being title:practiced title:eighties title:nineties) (title:relevant title:document title:would title:present title:evidence title:current title:slavery title:practices title:being title:carried title:out title:would title:identify title:specific title:country title:city title:give title:some title:information title:who title:slaves title:who title:buying title:selling title:them title:what title:purposes title:were title:being title:used title:references title:slavery title:being title:carried title:out title:several title:years title:ago title:would title:relevant)
+
+327 Stats:
+  Search Seconds:         0.045
+  DocName Seconds:        0.273
+  Num Points:         1,000.000
+  Num Good Points:        4.000
+  Max Good Points:       18.000
+  Average Precision:      0.024
+  MRR:                    0.000
+  Recall:                 0.222
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.083
+  Precision At 13:        0.077
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.062
+  Precision At 17:        0.118
+  Precision At 18:        0.111
+  Precision At 19:        0.105
+  Precision At 20:        0.100
+
+328  -  (title:pope title:beatifications) (title:identify title:individual title:has title:been title:beatified title:pope) (title:relevant title:document title:must title:include title:person's title:name title:well title:person's title:deeds title:actions title:led title:recognition title:pope title:must title:also title:include title:when title:actions title:deeds title:occurred title:giving title:year title:period title:time title:i.e title:late title:17th title:century)
+
+328 Stats:
+  Search Seconds:         0.014
+  DocName Seconds:        0.262
+  Num Points:         1,000.000
+  Num Good Points:        2.000
+  Max Good Points:        9.000
+  Average Precision:      0.115
+  MRR:                    1.000
+  Recall:                 0.222
+  Precision At 1:         1.000
+  Precision At 2:         0.500
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.200
+  Precision At 6:         0.167
+  Precision At 7:         0.143
+  Precision At 8:         0.125
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.083
+  Precision At 13:        0.077
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.062
+  Precision At 17:        0.059
+  Precision At 18:        0.056
+  Precision At 19:        0.053
+  Precision At 20:        0.050
+
+329  -  (title:mexican title:air title:pollution) (title:mexico title:city title:has title:worst title:air title:pollution title:world title:pertinent title:documents title:would title:contain title:specific title:steps title:mexican title:authorities title:have title:taken title:combat title:deplorable title:situation) (title:relevant title:documents title:would title:discuss title:steps title:mexican title:government title:has title:taken title:alleviate title:air title:pollution title:mexico title:city title:steps title:reducing title:number title:automobiles title:city title:encouraging title:use title:mass title:public title:transportation title:creating title:new title:mass title:transportation title:systems title:relevant title:among title:others title:mention title:any title:new title:methods title:design title:stage title:would title:also title:appropriate)
+
+329 Stats:
+  Search Seconds:         0.027
+  DocName Seconds:        0.244
+  Num Points:         1,000.000
+  Num Good Points:        9.000
+  Max Good Points:       50.000
+  Average Precision:      0.037
+  MRR:                    0.500
+  Recall:                 0.180
+  Precision At 1:         0.000
+  Precision At 2:         0.500
+  Precision At 3:         0.667
   Precision At 4:         0.500
   Precision At 5:         0.400
+  Precision At 6:         0.333
+  Precision At 7:         0.286
+  Precision At 8:         0.250
+  Precision At 9:         0.222
+  Precision At 10:        0.200
+  Precision At 11:        0.182
+  Precision At 12:        0.167
+  Precision At 13:        0.154
+  Precision At 14:        0.214
+  Precision At 15:        0.267
+  Precision At 16:        0.250
+  Precision At 17:        0.235
+  Precision At 18:        0.222
+  Precision At 19:        0.211
+  Precision At 20:        0.200
+
+330  -  ((title:iran title:iraq) title:cooperation) (title:query title:looking title:examples title:cooperation title:friendly title:ties title:between title:iran title:iraq title:ways title:which title:two title:countries title:could title:considered title:allies) (title:relevant title:document title:would title:mention title:things title:mutually title:beneficial title:economic title:military title:religious title:social title:relations title:cooperation title:border title:control title:treatment title:minorities title:collaboration title:getting title:around title:trade title:sanctions title:placed title:upon title:either title:country title:etc title:any title:mention title:possible title:return title:airplanes title:iraq title:flew title:iran title:during title:gulf title:war title:would title:also title:relevant)
+
+330 Stats:
+  Search Seconds:         0.028
+  DocName Seconds:        0.233
+  Num Points:         1,000.000
+  Num Good Points:       16.000
+  Max Good Points:       60.000
+  Average Precision:      0.016
+  MRR:                    0.000
+  Recall:                 0.267
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.000
+  Precision At 10:        0.000
+  Precision At 11:        0.000
+  Precision At 12:        0.000
+  Precision At 13:        0.000
+  Precision At 14:        0.000
+  Precision At 15:        0.000
+  Precision At 16:        0.000
+  Precision At 17:        0.059
+  Precision At 18:        0.056
+  Precision At 19:        0.053
+  Precision At 20:        0.050
+
+331  -  (title:world title:bank title:criticism) (title:what title:criticisms title:have title:been title:made title:world title:bank title:policies title:activities title:personnel) (title:query title:looking title:any title:instances title:where title:world title:bank title:has title:been title:accused title:things title:like title:being title:responsive title:unique title:problems title:individual title:countries title:being title:too title:strict title:its title:policies title:pursuing title:agendas title:biased title:because title:benefits title:western title:countries title:being title:longer title:useful title:practical title:its title:personnel title:being title:difficult title:work title:etc)
+
+331 Stats:
+  Search Seconds:         0.046
+  DocName Seconds:        0.209
+  Num Points:         1,000.000
+  Num Good Points:       44.000
+  Max Good Points:      222.000
+  Average Precision:      0.009
+  MRR:                    0.200
+  Recall:                 0.198
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.200
+  Precision At 6:         0.167
+  Precision At 7:         0.143
+  Precision At 8:         0.125
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.083
+  Precision At 13:        0.077
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.062
+  Precision At 17:        0.059
+  Precision At 18:        0.056
+  Precision At 19:        0.053
+  Precision At 20:        0.050
+
+332  -  (title:income title:tax title:evasion) (title:query title:looking title:investigations title:have title:targeted title:evaders title:u.s title:income title:tax) (title:relevant title:document title:would title:mention title:investigations title:either title:u.s title:abroad title:people title:suspected title:evading title:u.s title:income title:tax title:laws title:particular title:interest title:investigations title:involving title:revenue title:from title:illegal title:activities title:strategy title:bring title:known title:suspected title:criminals title:justice)
+
+332 Stats:
+  Search Seconds:         0.024
+  DocName Seconds:        0.233
+  Num Points:         1,000.000
+  Num Good Points:       16.000
+  Max Good Points:      278.000
+  Average Precision:      0.007
+  MRR:                    1.000
+  Recall:                 0.058
+  Precision At 1:         1.000
+  Precision At 2:         0.500
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.200
   Precision At 6:         0.333
   Precision At 7:         0.286
   Precision At 8:         0.250
@@ -894,122 +1022,26 @@
   Precision At 19:        0.105
   Precision At 20:        0.100
 
-329  -  (text:mexican text:air text:pollution) (text:mexico text:city text:has text:worst text:air text:pollution text:world text:pertinent text:documents text:would text:contain text:specific text:steps text:mexican text:authorities text:have text:taken text:combat text:deplorable text:situation) (text:relevant text:documents text:would text:discuss text:steps text:mexican text:government text:has text:taken text:alleviate text:air text:pollution text:mexico text:city text:steps text:reducing text:number text:automobiles text:city text:encouraging text:use text:mass text:public text:transportation text:creating text:new text:mass text:transportation text:systems text:relevant text:among text:others text:mention text:any text:new text:methods text:design text:stage text:would text:also text:appropriate)
+333  -  (title:antibiotics title:bacteria title:disease) (title:determine title:reasons title:why title:bacteria title:seems title:winning title:war title:against title:antibiotics title:rendering title:antibiotics title:now title:less title:effective title:treating title:diseases title:than title:were title:past) (title:relevant title:document title:address title:questions title:how title:why title:what title:degree title:bacteria title:able title:fend title:off title:curative title:effects title:antibiotics title:overuse title:antibiotics title:well title:increasing title:use title:antibiotics title:promoting title:growth title:crops title:animals title:whose title:food title:products title:meant title:human title:consumption title:have title:played title:roles title:creating title:situation title:where title:every title:known (title:bacteria title:generated) title:disease title:now title:has title:versions title:resist title:least title:one title:more title:than title:100 title:antibiotics title:now title:use)
 
-329 Stats:
-  Search Seconds:         0.342
-  DocName Seconds:        0.450
+333 Stats:
+  Search Seconds:         0.040
+  DocName Seconds:        0.234
   Num Points:         1,000.000
-  Num Good Points:       23.000
-  Max Good Points:       50.000
-  Average Precision:      0.181
-  MRR:                    1.000
-  Recall:                 0.460
-  Precision At 1:         1.000
-  Precision At 2:         1.000
-  Precision At 3:         0.667
-  Precision At 4:         0.750
-  Precision At 5:         0.600
-  Precision At 6:         0.667
-  Precision At 7:         0.714
-  Precision At 8:         0.750
-  Precision At 9:         0.778
-  Precision At 10:        0.700
-  Precision At 11:        0.636
-  Precision At 12:        0.583
-  Precision At 13:        0.615
-  Precision At 14:        0.571
-  Precision At 15:        0.533
-  Precision At 16:        0.562
-  Precision At 17:        0.529
-  Precision At 18:        0.500
-  Precision At 19:        0.474
-  Precision At 20:        0.450
-
-330  -  ((text:iran text:iraq) text:cooperation) (text:query text:looking text:examples text:cooperation text:friendly text:ties text:between text:iran text:iraq text:ways text:which text:two text:countries text:could text:considered text:allies) (text:relevant text:document text:would text:mention text:things text:mutually text:beneficial text:economic text:military text:religious text:social text:relations text:cooperation text:border text:control text:treatment text:minorities text:collaboration text:getting text:around text:trade text:sanctions text:placed text:upon text:either text:country text:etc text:any text:mention text:possible text:return text:airplanes text:iraq text:flew text:iran text:during text:gulf text:war text:would text:also text:relevant)
-
-330 Stats:
-  Search Seconds:         0.345
-  DocName Seconds:        0.341
-  Num Points:         1,000.000
-  Num Good Points:       40.000
-  Max Good Points:       60.000
-  Average Precision:      0.068
+  Num Good Points:        7.000
+  Max Good Points:       72.000
+  Average Precision:      0.045
   MRR:                    0.500
-  Recall:                 0.667
+  Recall:                 0.097
   Precision At 1:         0.000
   Precision At 2:         0.500
-  Precision At 3:         0.333
-  Precision At 4:         0.250
-  Precision At 5:         0.200
-  Precision At 6:         0.333
-  Precision At 7:         0.286
-  Precision At 8:         0.250
-  Precision At 9:         0.222
-  Precision At 10:        0.200
-  Precision At 11:        0.182
-  Precision At 12:        0.167
-  Precision At 13:        0.154
-  Precision At 14:        0.214
-  Precision At 15:        0.200
-  Precision At 16:        0.250
-  Precision At 17:        0.235
-  Precision At 18:        0.222
-  Precision At 19:        0.211
-  Precision At 20:        0.200
-
-331  -  (text:world text:bank text:criticism) (text:what text:criticisms text:have text:been text:made text:world text:bank text:policies text:activities text:personnel) (text:query text:looking text:any text:instances text:where text:world text:bank text:has text:been text:accused text:things text:like text:being text:responsive text:unique text:problems text:individual text:countries text:being text:too text:strict text:its text:policies text:pursuing text:agendas text:biased text:because text:benefits text:western text:countries text:being text:longer text:useful text:practical text:its text:personnel text:being text:difficult text:work text:etc)
-
-331 Stats:
-  Search Seconds:         0.308
-  DocName Seconds:        0.955
-  Num Points:         1,000.000
-  Num Good Points:       82.000
-  Max Good Points:      222.000
-  Average Precision:      0.112
-  MRR:                    1.000
-  Recall:                 0.369
-  Precision At 1:         1.000
-  Precision At 2:         1.000
   Precision At 3:         0.667
   Precision At 4:         0.750
   Precision At 5:         0.800
   Precision At 6:         0.667
-  Precision At 7:         0.714
-  Precision At 8:         0.750
-  Precision At 9:         0.778
-  Precision At 10:        0.700
-  Precision At 11:        0.636
-  Precision At 12:        0.583
-  Precision At 13:        0.538
-  Precision At 14:        0.500
-  Precision At 15:        0.467
-  Precision At 16:        0.438
-  Precision At 17:        0.471
-  Precision At 18:        0.500
-  Precision At 19:        0.474
-  Precision At 20:        0.500
-
-332  -  (text:income text:tax text:evasion) (text:query text:looking text:investigations text:have text:targeted text:evaders text:u.s text:income text:tax) (text:relevant text:document text:would text:mention text:investigations text:either text:u.s text:abroad text:people text:suspected text:evading text:u.s text:income text:tax text:laws text:particular text:interest text:investigations text:involving text:revenue text:from text:illegal text:activities text:strategy text:bring text:known text:suspected text:criminals text:justice)
-
-332 Stats:
-  Search Seconds:         0.146
-  DocName Seconds:        0.323
-  Num Points:         1,000.000
-  Num Good Points:      106.000
-  Max Good Points:      278.000
-  Average Precision:      0.085
-  MRR:                    1.000
-  Recall:                 0.381
-  Precision At 1:         1.000
-  Precision At 2:         0.500
-  Precision At 3:         0.333
-  Precision At 4:         0.500
-  Precision At 5:         0.400
-  Precision At 6:         0.333
-  Precision At 7:         0.286
-  Precision At 8:         0.250
-  Precision At 9:         0.333
+  Precision At 7:         0.571
+  Precision At 8:         0.500
+  Precision At 9:         0.444
   Precision At 10:        0.400
   Precision At 11:        0.364
   Precision At 12:        0.417
@@ -1019,126 +1051,62 @@
   Precision At 16:        0.312
   Precision At 17:        0.294
   Precision At 18:        0.278
-  Precision At 19:        0.316
-  Precision At 20:        0.300
+  Precision At 19:        0.263
+  Precision At 20:        0.250
 
-333  -  (text:antibiotics text:bacteria text:disease) (text:determine text:reasons text:why text:bacteria text:seems text:winning text:war text:against text:antibiotics text:rendering text:antibiotics text:now text:less text:effective text:treating text:diseases text:than text:were text:past) (text:relevant text:document text:address text:questions text:how text:why text:what text:degree text:bacteria text:able text:fend text:off text:curative text:effects text:antibiotics text:overuse text:antibiotics text:well text:increasing text:use text:antibiotics text:promoting text:growth text:crops text:animals text:whose text:food text:products text:meant text:human text:consumption text:have text:played text:roles text:creating text:situation text:where text:every text:known (text:bacteria text:generated) text:disease text:now text:has text:versions text:resist text:least text:one text:more text:than text:100 text:antibiotics text:now text:use)
-
-333 Stats:
-  Search Seconds:         0.390
-  DocName Seconds:        0.464
-  Num Points:         1,000.000
-  Num Good Points:       52.000
-  Max Good Points:       72.000
-  Average Precision:      0.290
-  MRR:                    1.000
-  Recall:                 0.722
-  Precision At 1:         1.000
-  Precision At 2:         0.500
-  Precision At 3:         0.667
-  Precision At 4:         0.750
-  Precision At 5:         0.800
-  Precision At 6:         0.833
-  Precision At 7:         0.857
-  Precision At 8:         0.875
-  Precision At 9:         0.889
-  Precision At 10:        0.900
-  Precision At 11:        0.909
-  Precision At 12:        0.833
-  Precision At 13:        0.769
-  Precision At 14:        0.786
-  Precision At 15:        0.800
-  Precision At 16:        0.750
-  Precision At 17:        0.765
-  Precision At 18:        0.722
-  Precision At 19:        0.737
-  Precision At 20:        0.700
-
-334  -  (text:export text:controls text:cryptography) (text:determine text:usefulness text:effectiveness text:continuing text:maintain text:export text:controls text:encryption text:software) (text:relevant text:documents text:argue text:against text:continuing text:make text:encryption text:software text:subject text:export text:controls text:since text:1993 text:quality text:encryption text:software text:ensure text:secrecy text:communications text:has text:been text:available text:u.s text:government text:has text:considered text:software text:subject text:same text:export text:controls text:munitions text:has text:sought text:restrict text:export text:encryption text:software text:unless text:contains text:device text:which text:could text:allow text:u.s text:read text:underlying text:messages text:business text:interests text:say text:make text:impossible text:u.s text:producers text:compete text:international text:market)
+334  -  (title:export title:controls title:cryptography) (title:determine title:usefulness title:effectiveness title:continuing title:maintain title:export title:controls title:encryption title:software) (title:relevant title:documents title:argue title:against title:continuing title:make title:encryption title:software title:subject title:export title:controls title:since title:1993 title:quality title:encryption title:software title:ensure title:secrecy title:communications title:has title:been title:available title:u.s title:government title:has title:considered title:software title:subject title:same title:export title:controls title:munitions title:has title:sought title:restrict title:export title:encryption title:software title:unless title:contains title:device title:which title:could title:allow title:u.s title:read title:underlying title:messages title:business title:interests title:say title:make title:impossible title:u.s title:producers title:compete title:international title:market)
 
 334 Stats:
-  Search Seconds:         0.307
-  DocName Seconds:        0.474
+  Search Seconds:         0.034
+  DocName Seconds:        0.232
   Num Points:         1,000.000
-  Num Good Points:        9.000
+  Num Good Points:        1.000
   Max Good Points:       18.000
-  Average Precision:      0.310
+  Average Precision:      0.001
+  MRR:                    0.000
+  Recall:                 0.056
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.000
+  Precision At 10:        0.000
+  Precision At 11:        0.000
+  Precision At 12:        0.000
+  Precision At 13:        0.000
+  Precision At 14:        0.000
+  Precision At 15:        0.000
+  Precision At 16:        0.000
+  Precision At 17:        0.000
+  Precision At 18:        0.000
+  Precision At 19:        0.000
+  Precision At 20:        0.000
+
+335  -  (title:adoptive title:biological title:parents) (title:identify title:problems title:solutions title:those title:problems title:which title:arise title:relationships title:among title:biological title:parents title:adoptive title:parents title:child title:children title:involved) (title:relevant title:document title:report title:court title:procedures title:decisions title:which title:affect title:rights title:biological title:parents title:adoptive title:parents title:well title:adopted title:child title:problems title:arise title:when title:biological title:parents title:child title:given title:up title:adoption title:decide (title:he title:she) title:would title:like title:reclaim title:child title:against title:wishes title:adoptive title:parents title:problems title:also title:arise title:when title:adopted title:child title:tries title:identify title:contact title:biological title:parents title:find title:way title:blocked title:sealed title:court title:orders)
+
+335 Stats:
+  Search Seconds:         0.052
+  DocName Seconds:        0.224
+  Num Points:         1,000.000
+  Num Good Points:       23.000
+  Max Good Points:       70.000
+  Average Precision:      0.061
   MRR:                    1.000
-  Recall:                 0.500
+  Recall:                 0.329
   Precision At 1:         1.000
   Precision At 2:         1.000
   Precision At 3:         1.000
-  Precision At 4:         1.000
-  Precision At 5:         0.800
-  Precision At 6:         0.667
-  Precision At 7:         0.714
-  Precision At 8:         0.625
-  Precision At 9:         0.556
-  Precision At 10:        0.500
-  Precision At 11:        0.455
-  Precision At 12:        0.417
-  Precision At 13:        0.385
-  Precision At 14:        0.357
-  Precision At 15:        0.333
-  Precision At 16:        0.375
-  Precision At 17:        0.412
-  Precision At 18:        0.389
-  Precision At 19:        0.368
-  Precision At 20:        0.350
-
-335  -  (text:adoptive text:biological text:parents) (text:identify text:problems text:solutions text:those text:problems text:which text:arise text:relationships text:among text:biological text:parents text:adoptive text:parents text:child text:children text:involved) (text:relevant text:document text:report text:court text:procedures text:decisions text:which text:affect text:rights text:biological text:parents text:adoptive text:parents text:well text:adopted text:child text:problems text:arise text:when text:biological text:parents text:child text:given text:up text:adoption text:decide (text:he text:she) text:would text:like text:reclaim text:child text:against text:wishes text:adoptive text:parents text:problems text:also text:arise text:when text:adopted text:child text:tries text:identify text:contact text:biological text:parents text:find text:way text:blocked text:sealed text:court text:orders)
-
-335 Stats:
-  Search Seconds:         0.284
-  DocName Seconds:        0.327
-  Num Points:         1,000.000
-  Num Good Points:       58.000
-  Max Good Points:       70.000
-  Average Precision:      0.360
-  MRR:                    1.000
-  Recall:                 0.829
-  Precision At 1:         1.000
-  Precision At 2:         1.000
-  Precision At 3:         0.667
   Precision At 4:         0.750
-  Precision At 5:         0.800
-  Precision At 6:         0.833
-  Precision At 7:         0.857
-  Precision At 8:         0.875
-  Precision At 9:         0.778
-  Precision At 10:        0.800
-  Precision At 11:        0.727
-  Precision At 12:        0.750
-  Precision At 13:        0.692
-  Precision At 14:        0.643
-  Precision At 15:        0.667
-  Precision At 16:        0.688
-  Precision At 17:        0.647
-  Precision At 18:        0.667
-  Precision At 19:        0.684
-  Precision At 20:        0.650
-
-336  -  (text:black text:bear text:attacks) (text:relevant text:document text:would text:discuss text:frequency text:vicious text:black text:bear text:attacks text:worldwide text:possible text:causes text:savage text:behavior) (text:has text:been text:reported text:food text:cosmetics text:sometimes text:attract text:hungry text:black text:bears text:causing text:them text:viciously text:attack text:humans text:relevant text:documents text:would text:include text:aforementioned text:causes text:well text:speculation text:preferably text:from text:scientific text:community text:other text:possible text:causes text:vicious text:attacks text:black text:bears text:relevant text:document text:would text:also text:detail text:steps text:taken text:new text:methods text:devised text:wildlife text:officials text:control text:modify text:savageness text:black text:bear)
-
-336 Stats:
-  Search Seconds:         0.431
-  DocName Seconds:        0.556
-  Num Points:         1,000.000
-  Num Good Points:        9.000
-  Max Good Points:       12.000
-  Average Precision:      0.187
-  MRR:                    0.500
-  Recall:                 0.750
-  Precision At 1:         0.000
-  Precision At 2:         0.500
-  Precision At 3:         0.333
-  Precision At 4:         0.500
-  Precision At 5:         0.400
-  Precision At 6:         0.333
+  Precision At 5:         0.600
+  Precision At 6:         0.500
   Precision At 7:         0.429
   Precision At 8:         0.375
-  Precision At 9:         0.444
-  Precision At 10:        0.400
+  Precision At 9:         0.333
+  Precision At 10:        0.300
   Precision At 11:        0.364
   Precision At 12:        0.333
   Precision At 13:        0.308
@@ -1150,55 +1118,151 @@
   Precision At 19:        0.211
   Precision At 20:        0.200
 
-337  -  (text:viral text:hepatitis) (text:what text:research text:has text:been text:done text:viral text:hepatitis text:what text:progress text:has text:been text:made text:its text:treatment) (text:relevant text:document text:might text:include text:any text:following text:information text:medical text:procedure text:used text:treatment text:hepatitis text:ongoing text:research text:vaccines text:including text:identity text:strain text:hepatitis text:how text:hepatitis text:affects text:body's text:immune text:system text:third text:world text:countries text:reports text:control text:disease)
+336  -  (title:black title:bear title:attacks) (title:relevant title:document title:would title:discuss title:frequency title:vicious title:black title:bear title:attacks title:worldwide title:possible title:causes title:savage title:behavior) (title:has title:been title:reported title:food title:cosmetics title:sometimes title:attract title:hungry title:black title:bears title:causing title:them title:viciously title:attack title:humans title:relevant title:documents title:would title:include title:aforementioned title:causes title:well title:speculation title:preferably title:from title:scientific title:community title:other title:possible title:causes title:vicious title:attacks title:black title:bears title:relevant title:document title:would title:also title:detail title:steps title:taken title:new title:methods title:devised title:wildlife title:officials title:control title:modify title:savageness title:black title:bear)
+
+336 Stats:
+  Search Seconds:         0.021
+  DocName Seconds:        0.219
+  Num Points:         1,000.000
+  Num Good Points:        0.000
+  Max Good Points:       12.000
+  Average Precision:      0.000
+  MRR:                    0.000
+  Recall:                 0.000
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.000
+  Precision At 10:        0.000
+  Precision At 11:        0.000
+  Precision At 12:        0.000
+  Precision At 13:        0.000
+  Precision At 14:        0.000
+  Precision At 15:        0.000
+  Precision At 16:        0.000
+  Precision At 17:        0.000
+  Precision At 18:        0.000
+  Precision At 19:        0.000
+  Precision At 20:        0.000
+
+337  -  (title:viral title:hepatitis) (title:what title:research title:has title:been title:done title:viral title:hepatitis title:what title:progress title:has title:been title:made title:its title:treatment) (title:relevant title:document title:might title:include title:any title:following title:information title:medical title:procedure title:used title:treatment title:hepatitis title:ongoing title:research title:vaccines title:including title:identity title:strain title:hepatitis title:how title:hepatitis title:affects title:body's title:immune title:system title:third title:world title:countries title:reports title:control title:disease)
 
 337 Stats:
-  Search Seconds:         0.215
-  DocName Seconds:        0.362
+  Search Seconds:         0.021
+  DocName Seconds:        0.198
   Num Points:         1,000.000
-  Num Good Points:       92.000
+  Num Good Points:       21.000
   Max Good Points:       98.000
-  Average Precision:      0.355
+  Average Precision:      0.105
   MRR:                    1.000
-  Recall:                 0.939
+  Recall:                 0.214
   Precision At 1:         1.000
   Precision At 2:         0.500
-  Precision At 3:         0.667
+  Precision At 3:         0.333
   Precision At 4:         0.500
   Precision At 5:         0.400
-  Precision At 6:         0.333
-  Precision At 7:         0.429
+  Precision At 6:         0.500
+  Precision At 7:         0.571
   Precision At 8:         0.500
-  Precision At 9:         0.556
-  Precision At 10:        0.600
-  Precision At 11:        0.636
-  Precision At 12:        0.583
-  Precision At 13:        0.538
+  Precision At 9:         0.444
+  Precision At 10:        0.500
+  Precision At 11:        0.455
+  Precision At 12:        0.417
+  Precision At 13:        0.462
   Precision At 14:        0.500
   Precision At 15:        0.533
   Precision At 16:        0.562
   Precision At 17:        0.529
-  Precision At 18:        0.556
-  Precision At 19:        0.526
-  Precision At 20:        0.550
+  Precision At 18:        0.500
+  Precision At 19:        0.474
+  Precision At 20:        0.500
 
-338  -  (text:risk text:aspirin) (text:what text:adverse text:effects text:have text:people text:experienced text:while text:taking text:aspirin text:repeatedly) (text:relevant text:document text:should text:identify text:any text:adverse text:effects text:experienced text:from text:repeated text:use text:aspirin text:possible text:effects text:might text:include text:intestinal text:bleeding text:inflammation text:stomach text:various text:forms text:ulcers text:purpose text:individual's text:repeated text:aspirin text:use text:should text:also text:stated)
+338  -  (title:risk title:aspirin) (title:what title:adverse title:effects title:have title:people title:experienced title:while title:taking title:aspirin title:repeatedly) (title:relevant title:document title:should title:identify title:any title:adverse title:effects title:experienced title:from title:repeated title:use title:aspirin title:possible title:effects title:might title:include title:intestinal title:bleeding title:inflammation title:stomach title:various title:forms title:ulcers title:purpose title:individual's title:repeated title:aspirin title:use title:should title:also title:stated)
 
 338 Stats:
-  Search Seconds:         0.225
-  DocName Seconds:        0.370
+  Search Seconds:         0.022
+  DocName Seconds:        0.266
+  Num Points:         1,000.000
+  Num Good Points:        2.000
+  Max Good Points:        5.000
+  Average Precision:      0.051
+  MRR:                    0.000
+  Recall:                 0.400
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.083
+  Precision At 13:        0.077
+  Precision At 14:        0.143
+  Precision At 15:        0.133
+  Precision At 16:        0.125
+  Precision At 17:        0.118
+  Precision At 18:        0.111
+  Precision At 19:        0.105
+  Precision At 20:        0.100
+
+339  -  (title:alzheimer's title:drug title:treatment) (title:what title:drugs title:being title:used title:treatment title:alzheimer's title:disease title:how title:successful) (title:relevant title:document title:should title:name title:drug title:used title:treatment title:alzheimer's title:disease title:also title:its title:manufacturer title:should title:give title:some title:indication title:drug's title:success title:failure)
+
+339 Stats:
+  Search Seconds:         0.015
+  DocName Seconds:        0.219
+  Num Points:         1,000.000
+  Num Good Points:        3.000
+  Max Good Points:       10.000
+  Average Precision:      0.107
+  MRR:                    1.000
+  Recall:                 0.300
+  Precision At 1:         1.000
+  Precision At 2:         0.500
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.200
+  Precision At 6:         0.167
+  Precision At 7:         0.143
+  Precision At 8:         0.125
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.083
+  Precision At 13:        0.077
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.062
+  Precision At 17:        0.059
+  Precision At 18:        0.056
+  Precision At 19:        0.053
+  Precision At 20:        0.050
+
+340  -  (title:land title:mine title:ban) (title:identify title:any title:actions title:being title:taken title:propel title:nations title:world title:toward title:treaty title:banning title:production title:transfer title:use title:land title:mines) (title:brought title:about title:various title:conflicts title:estimated title:100 title:million title:land title:mines title:buried title:60 title:countries title:thousands title:acres title:land title:made title:unusable title:estimated title:every title:22 title:minutes title:man title:woman title:child title:killed title:maimed title:land title:mine title:identify title:any title:actions title:being title:taken title:propel title:nations title:world title:toward title:treaty title:banning title:production title:transfer title:use title:land title:mines title:also title:interest title:would title:identification title:actions title:being title:undertaken title:sanitize title:thousands title:acres title:now title:made title:unusable title:due title:use title:mines)
+
+340 Stats:
+  Search Seconds:         0.039
+  DocName Seconds:        0.218
   Num Points:         1,000.000
   Num Good Points:        4.000
-  Max Good Points:        5.000
-  Average Precision:      0.496
+  Max Good Points:       81.000
+  Average Precision:      0.030
   MRR:                    1.000
-  Recall:                 0.800
+  Recall:                 0.049
   Precision At 1:         1.000
-  Precision At 2:         1.000
+  Precision At 2:         0.500
   Precision At 3:         0.667
-  Precision At 4:         0.500
-  Precision At 5:         0.400
-  Precision At 6:         0.333
+  Precision At 4:         0.750
+  Precision At 5:         0.600
+  Precision At 6:         0.500
   Precision At 7:         0.429
   Precision At 8:         0.375
   Precision At 9:         0.333
@@ -1214,174 +1278,68 @@
   Precision At 19:        0.158
   Precision At 20:        0.150
 
-339  -  (text:alzheimer's text:drug text:treatment) (text:what text:drugs text:being text:used text:treatment text:alzheimer's text:disease text:how text:successful) (text:relevant text:document text:should text:name text:drug text:used text:treatment text:alzheimer's text:disease text:also text:its text:manufacturer text:should text:give text:some text:indication text:drug's text:success text:failure)
-
-339 Stats:
-  Search Seconds:         0.141
-  DocName Seconds:        0.300
-  Num Points:         1,000.000
-  Num Good Points:       10.000
-  Max Good Points:       10.000
-  Average Precision:      0.286
-  MRR:                    0.333
-  Recall:                 1.000
-  Precision At 1:         0.000
-  Precision At 2:         0.000
-  Precision At 3:         0.333
-  Precision At 4:         0.500
-  Precision At 5:         0.400
-  Precision At 6:         0.333
-  Precision At 7:         0.286
-  Precision At 8:         0.250
-  Precision At 9:         0.222
-  Precision At 10:        0.200
-  Precision At 11:        0.182
-  Precision At 12:        0.250
-  Precision At 13:        0.308
-  Precision At 14:        0.286
-  Precision At 15:        0.333
-  Precision At 16:        0.375
-  Precision At 17:        0.353
-  Precision At 18:        0.389
-  Precision At 19:        0.368
-  Precision At 20:        0.350
-
-340  -  (text:land text:mine text:ban) (text:identify text:any text:actions text:being text:taken text:propel text:nations text:world text:toward text:treaty text:banning text:production text:transfer text:use text:land text:mines) (text:brought text:about text:various text:conflicts text:estimated text:100 text:million text:land text:mines text:buried text:60 text:countries text:thousands text:acres text:land text:made text:unusable text:estimated text:every text:22 text:minutes text:man text:woman text:child text:killed text:maimed text:land text:mine text:identify text:any text:actions text:being text:taken text:propel text:nations text:world text:toward text:treaty text:banning text:production text:transfer text:use text:land text:mines text:also text:interest text:would text:identification text:actions text:being text:undertaken text:sanitize text:thousands text:acres text:now text:made text:unusable text:due text:use text:mines)
-
-340 Stats:
-  Search Seconds:         0.450
-  DocName Seconds:        0.437
-  Num Points:         1,000.000
-  Num Good Points:       27.000
-  Max Good Points:       81.000
-  Average Precision:      0.111
-  MRR:                    1.000
-  Recall:                 0.333
-  Precision At 1:         1.000
-  Precision At 2:         1.000
-  Precision At 3:         1.000
-  Precision At 4:         1.000
-  Precision At 5:         1.000
-  Precision At 6:         0.833
-  Precision At 7:         0.714
-  Precision At 8:         0.750
-  Precision At 9:         0.667
-  Precision At 10:        0.600
-  Precision At 11:        0.545
-  Precision At 12:        0.583
-  Precision At 13:        0.615
-  Precision At 14:        0.571
-  Precision At 15:        0.533
-  Precision At 16:        0.562
-  Precision At 17:        0.529
-  Precision At 18:        0.500
-  Precision At 19:        0.474
-  Precision At 20:        0.450
-
-341  -  (text:airport text:security) (text:relevant text:document text:would text:discuss text:how text:effective text:government text:orders text:better text:scrutinize text:passengers text:luggage text:international text:flights text:step text:up text:screening text:all text:carry text:baggage text:has text:been) (text:relevant text:document text:would text:contain text:reports text:what text:new text:steps text:airports text:worldwide text:have text:taken text:better text:scrutinize text:passengers text:luggage text:international text:flights text:step text:up text:screening text:all text:carry text:baggage text:increase text:international text:terrorism text:wake text:twa text:flight text:800 text:disaster text:articles text:airport text:security text:relating text:particular text:additional text:steps text:taken text:airports text:increase text:flight text:safety text:would text:relevant text:mere text:mention text:enhanced text:security text:does text:constitute text:relevance text:additional text:steps text:refer text:something text:beyond text:just text:passenger text:carry text:screening text:using text:normal text:methods text:examples text:new text:steps text:would text:additional text:personnel text:sophisticated text:monitoring text:screening text:devices text:extraordinary text:measures text:check text:luggage text:baggage text:compartment)
+341  -  (title:airport title:security) (title:relevant title:document title:would title:discuss title:how title:effective title:government title:orders title:better title:scrutinize title:passengers title:luggage title:international title:flights title:step title:up title:screening title:all title:carry title:baggage title:has title:been) (title:relevant title:document title:would title:contain title:reports title:what title:new title:steps title:airports title:worldwide title:have title:taken title:better title:scrutinize title:passengers title:luggage title:international title:flights title:step title:up title:screening title:all title:carry title:baggage title:increase title:international title:terrorism title:wake title:twa title:flight title:800 title:disaster title:articles title:airport title:security title:relating title:particular title:additional title:steps title:taken title:airports title:increase title:flight title:safety title:would title:relevant title:mere title:mention title:enhanced title:security title:does title:constitute title:relevance title:additional title:steps title:refer title:something title:beyond title:just title:passenger title:carry title:screening title:using title:normal title:methods title:examples title:new title:steps title:would title:additional title:personnel title:sophisticated title:monitoring title:screening title:devices title:extraordinary title:measures title:check title:luggage title:baggage title:compartment)
 
 341 Stats:
-  Search Seconds:         0.595
-  DocName Seconds:        0.641
+  Search Seconds:         0.041
+  DocName Seconds:        0.157
   Num Points:         1,000.000
-  Num Good Points:       62.000
+  Num Good Points:       15.000
   Max Good Points:       81.000
-  Average Precision:      0.377
+  Average Precision:      0.051
   MRR:                    1.000
-  Recall:                 0.765
+  Recall:                 0.185
   Precision At 1:         1.000
   Precision At 2:         1.000
-  Precision At 3:         1.000
-  Precision At 4:         1.000
-  Precision At 5:         1.000
-  Precision At 6:         1.000
-  Precision At 7:         0.857
-  Precision At 8:         0.875
-  Precision At 9:         0.889
-  Precision At 10:        0.900
-  Precision At 11:        0.909
-  Precision At 12:        0.833
-  Precision At 13:        0.846
-  Precision At 14:        0.857
-  Precision At 15:        0.867
-  Precision At 16:        0.875
-  Precision At 17:        0.882
-  Precision At 18:        0.889
-  Precision At 19:        0.895
-  Precision At 20:        0.850
-
-342  -  (text:diplomatic text:expulsion) (text:end text:cold text:war text:seems text:have text:intensified text:economic text:competition text:has text:started text:generate text:serious text:friction text:between text:nations text:attempts text:made text:diplomatic text:personnel text:acquire text:sensitive text:trade text:technology text:information text:obtain text:information text:highly text:classified text:industrial text:projects text:identify text:instances text:where text:attempts text:have text:been text:made text:personnel text:diplomatic text:status text:obtain text:information text:nature) (text:identify text:instances text:where text:attempts text:have text:been text:made text:personnel text:diplomatic text:status text:obtain text:information text:nature text:interest text:would (text:country text:s) text:involved text:information text:hopefully text:acquired text:exposure text:resulted text:expulsion text:diplomatic text:personnel)
-
-342 Stats:
-  Search Seconds:         0.323
-  DocName Seconds:        0.405
-  Num Points:         1,000.000
-  Num Good Points:        8.000
-  Max Good Points:       23.000
-  Average Precision:      0.078
-  MRR:                    1.000
-  Recall:                 0.348
-  Precision At 1:         1.000
-  Precision At 2:         0.500
-  Precision At 3:         0.333
-  Precision At 4:         0.250
-  Precision At 5:         0.400
-  Precision At 6:         0.333
-  Precision At 7:         0.286
-  Precision At 8:         0.250
-  Precision At 9:         0.222
-  Precision At 10:        0.200
-  Precision At 11:        0.182
-  Precision At 12:        0.167
-  Precision At 13:        0.154
-  Precision At 14:        0.214
-  Precision At 15:        0.200
-  Precision At 16:        0.188
-  Precision At 17:        0.176
-  Precision At 18:        0.167
-  Precision At 19:        0.158
-  Precision At 20:        0.150
-
-343  -  (text:police text:deaths) (text:identify text:instances text:where text:civilian text:policeman text:has text:been text:killed text:either text:during text:performance text:his text:duty text:because text:other text:association text:occupation text:e.g text:killed text:gun text:keep text:from text:testifying text:etc) (text:whatever text:reason text:breakdown text:family text:values text:loss text:respect text:authoritative text:figure text:seems text:have text:been text:substantial text:increase text:number text:policemen text:being text:killed text:identify text:instances text:where text:civilian text:policeman text:has text:been text:killed text:either text:during text:performance text:his text:duty text:because text:other text:association text:occupation text:e.g text:killed text:gun text:keep text:from text:testifying text:etc text:military text:police text:foreign (text:military text:type) text:personnel text:considered text:policemen text:should text:considered text:relevant)
-
-343 Stats:
-  Search Seconds:         0.402
-  DocName Seconds:        0.367
-  Num Points:         1,000.000
-  Num Good Points:      103.000
-  Max Good Points:      290.000
-  Average Precision:      0.068
-  MRR:                    0.250
-  Recall:                 0.355
-  Precision At 1:         0.000
-  Precision At 2:         0.000
-  Precision At 3:         0.000
-  Precision At 4:         0.250
-  Precision At 5:         0.400
-  Precision At 6:         0.333
-  Precision At 7:         0.286
-  Precision At 8:         0.250
-  Precision At 9:         0.222
-  Precision At 10:        0.200
-  Precision At 11:        0.182
-  Precision At 12:        0.167
-  Precision At 13:        0.154
-  Precision At 14:        0.143
-  Precision At 15:        0.200
-  Precision At 16:        0.188
-  Precision At 17:        0.176
-  Precision At 18:        0.222
+  Precision At 3:         0.667
+  Precision At 4:         0.500
+  Precision At 5:         0.600
+  Precision At 6:         0.667
+  Precision At 7:         0.571
+  Precision At 8:         0.625
+  Precision At 9:         0.556
+  Precision At 10:        0.500
+  Precision At 11:        0.455
+  Precision At 12:        0.417
+  Precision At 13:        0.385
+  Precision At 14:        0.357
+  Precision At 15:        0.333
+  Precision At 16:        0.312
+  Precision At 17:        0.294
+  Precision At 18:        0.278
   Precision At 19:        0.263
   Precision At 20:        0.250
 
-344  -  (text:abuses (text:e text:mail)) (text:availability (text:e text:mail) text:many text:people text:through text:job text:school text:affiliation text:has text:allowed text:many text:efficiencies text:communications text:also text:has text:provided text:opportunity text:abuses text:what text:steps text:have text:been text:taken (text:world text:wide) text:those text:bearing text:cost (text:e text:mail) text:prevent text:excesses) (text:relevant text:document text:concern text:dissatisfaction text:entity text:paying text:cost text:electronic text:mail text:particularly text:sought text:items text:which text:relate text:system text:users text:employees text:who text:abuse text:system text:engaging text:communications text:type text:related text:payer's text:desired text:use text:system)
+342  -  (title:diplomatic title:expulsion) (title:end title:cold title:war title:seems title:have title:intensified title:economic title:competition title:has title:started title:generate title:serious title:friction title:between title:nations title:attempts title:made title:diplomatic title:personnel title:acquire title:sensitive title:trade title:technology title:information title:obtain title:information title:highly title:classified title:industrial title:projects title:identify title:instances title:where title:attempts title:have title:been title:made title:personnel title:diplomatic title:status title:obtain title:information title:nature) (title:identify title:instances title:where title:attempts title:have title:been title:made title:personnel title:diplomatic title:status title:obtain title:information title:nature title:interest title:would (title:country title:s) title:involved title:information title:hopefully title:acquired title:exposure title:resulted title:expulsion title:diplomatic title:personnel)
 
-344 Stats:
-  Search Seconds:         0.286
-  DocName Seconds:        0.469
+342 Stats:
+  Search Seconds:         0.026
+  DocName Seconds:        0.208
   Num Points:         1,000.000
-  Num Good Points:        5.000
-  Max Good Points:        5.000
-  Average Precision:      0.160
-  MRR:                    0.500
-  Recall:                 1.
+  Num Good Points:        1.000
+  Max Good Points:       23.000
+  Average Precision:      0.000
+  MRR:                    0.000
+  Recall:                 0.043
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.000
+  Precision At 10:        0.000
+  Precision At 11:        0.000
+  Precision At 12:        0.000
+  Precision At 13:        0.000
+  Precision At 14:        0.000
+  Precision At 15:        0.000
+  Precision At 16:        0.000
+  Precision At 17:        0.000
+  Precision At 18:        0.000
+  Precision At 19:        0.000
+  Precision At 20:        0.000
+
+343  -  (title:police title:deaths) (title:identify title:instances title:where title:civilian title:policeman title:has title:been title:killed title:either title:during title:performance title:his title:duty title:because title:other title:association title:occupation title:e.g title:killed title:gun title:keep title:from title:testifying title:etc) (title:whatever title:reason title:breakdown title:family title:values title:loss title:respect title:authoritative t

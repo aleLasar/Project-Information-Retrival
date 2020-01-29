@@ -1,15 +1,11 @@
 package com.ir13.project;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.io.UnsupportedEncodingException;
 import java.nio.file.Paths;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -19,20 +15,14 @@ import org.apache.lucene.benchmark.quality.QualityBenchmark;
 import org.apache.lucene.benchmark.quality.QualityQuery;
 import org.apache.lucene.benchmark.quality.QualityQueryParser;
 import org.apache.lucene.benchmark.quality.QualityStats;
-import org.apache.lucene.benchmark.quality.trec.*;
+import org.apache.lucene.benchmark.quality.trec.TrecJudge;
+import org.apache.lucene.benchmark.quality.trec.TrecTopicsReader;
 import org.apache.lucene.benchmark.quality.utils.SimpleQQParser;
 import org.apache.lucene.benchmark.quality.utils.SubmissionReport;
-import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
-import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
 import org.apache.lucene.queryparser.classic.ParseException;
-import org.apache.lucene.queryparser.classic.QueryParserBase;
-import org.apache.lucene.search.BooleanClause;
-import org.apache.lucene.search.BooleanQuery;
 import org.apache.lucene.search.IndexSearcher;
-import org.apache.lucene.search.ScoreDoc;
-import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.search.similarities.Similarity;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
@@ -41,57 +31,50 @@ import org.apache.lucene.search.similarities.LMJelinekMercerSimilarity;
 public class LuceneSearcher {
 
     public static void runQueries(String queryfile, Analyzer analyzer, String indexDir, String outputRun, String[] topicFiles, String qrelsPath, String outputStats) {
-        try {
-            Directory dir = FSDirectory.open(Paths.get(indexDir));
-            try (IndexReader reader = DirectoryReader.open(dir)) {
-                IndexSearcher searcher = new IndexSearcher(reader);
-                Similarity similarity = new LMJelinekMercerSimilarity((float) 0.2);
-                searcher.setSimilarity(similarity);
 
-                //aggiungo campi delle query
-                String topicTRECNames[] = {"title", "description", "narrative"};
-                QualityQueryParser topicTRECParser = new SimpleQQParser(topicTRECNames, "text");
+        try (Directory dir = FSDirectory.open(Paths.get(indexDir)); IndexReader reader = DirectoryReader.open(dir)) {
+            IndexSearcher searcher = new IndexSearcher(reader);
+            Similarity similarity = new LMJelinekMercerSimilarity((float) 0.2);
+            searcher.setSimilarity(similarity);
 
-                //per ogni file di query
-                for (String topicFile : topicFiles) {
-                    //try-with-resources
-                    try (
-                            BufferedReader topicFileReader = new BufferedReader(new InputStreamReader(new FileInputStream(new File(queryfile + topicFile))));
-                            BufferedWriter writerVSM = new BufferedWriter(new FileWriter(new File(outputRun + topicFile)));
-                            BufferedReader qrelsReader = new BufferedReader(new InputStreamReader(new FileInputStream(new File(qrelsPath + topicFile))))) {
+            //aggiungo campi delle query
+            String topicTRECNames[] = {"title", "description", "narrative"};
+            QualityQueryParser topicTRECParser = new SimpleQQParser(topicTRECNames, "title");
 
-                        //leggo le query
-                        QualityQuery[] topicsTREC = new TrecTopicsReader().readQueries(topicFileReader);
+            //per ogni file di query
+            for (String topicFile : topicFiles) {
+                //try-with-resources
+                try (
+                        BufferedReader topicFileReader = new BufferedReader(new InputStreamReader(new FileInputStream(new File(queryfile + topicFile))));
+                        BufferedReader qrelsReader = new BufferedReader(new InputStreamReader(new FileInputStream(new File(qrelsPath + topicFile))))) {
 
-                        QualityBenchmark run = new QualityBenchmark(topicsTREC, topicTRECParser, searcher, "doc_number");
+                    //leggo le query
+                    QualityQuery[] topicsTREC = new TrecTopicsReader().readQueries(topicFileReader);
 
-                        PrintWriter loggerRun = new PrintWriter(new File(outputStats + topicFile));
+                    QualityBenchmark run = new QualityBenchmark(topicsTREC, topicTRECParser, searcher, "doc_number");
 
-                        //Una volta calcolato va dato in pasto a execute
-                        TrecJudge judge = new TrecJudge(qrelsReader);
+                    PrintWriter loggerRun = new PrintWriter(new File(outputStats + topicFile));
 
-                        // validate topics & judgments match each other
-                        judge.validateData(topicsTREC, loggerRun);
-                        QualityStats stats[] = run.execute(judge, new SubmissionReport(new PrintWriter(new File(outputRun + topicFile)), "RUN"), loggerRun);
+                    //Una volta calcolato va dato in pasto a execute
+                    TrecJudge judge = new TrecJudge(qrelsReader);
 
-                        QualityStats avg = QualityStats.average(stats);
-                        System.out.println("MAP: " + avg.getAvp());
-                        System.out.println("Recall: " + avg.getRecall());
-                        break;
-                    } catch (ParseException ex) {
-                        Logger.getLogger(LuceneSearcher.class.getName()).log(Level.SEVERE, null, ex);
-                    } catch (Exception ex) {
-                        Logger.getLogger(LuceneSearcher.class.getName()).log(Level.SEVERE, null, ex);
-                    }
+                    // validate topics & judgments match each other
+                    judge.validateData(topicsTREC, loggerRun);
+                    QualityStats stats[] = run.execute(judge, new SubmissionReport(new PrintWriter(new File(outputRun + topicFile)), "RUN"), loggerRun);
+
+                    QualityStats avg = QualityStats.average(stats);
+                    System.out.println("MAP: " + avg.getAvp());
+                    System.out.println("Recall: " + avg.getRecall());
+                } catch (ParseException ex) {
+                    Logger.getLogger(LuceneSearcher.class.getName()).log(Level.SEVERE, null, ex);
+                } catch (Exception ex) {
+                    Logger.getLogger(LuceneSearcher.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
-        } catch (FileNotFoundException ex) {
-            Logger.getLogger(LuceneSearcher.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (UnsupportedEncodingException ex) {
-            Logger.getLogger(LuceneSearcher.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
             Logger.getLogger(LuceneSearcher.class.getName()).log(Level.SEVERE, null, ex);
         }
+
     }
 
 }
