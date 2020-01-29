@@ -2,7 +2,6 @@ package com.ir13.project;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
 import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -21,7 +20,6 @@ import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.index.IndexWriterConfig.OpenMode;
 import org.apache.lucene.index.Term;
 import org.apache.lucene.search.similarities.LMJelinekMercerSimilarity;
-import org.apache.lucene.search.similarities.MultiSimilarity;
 import org.apache.lucene.search.similarities.Similarity;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
@@ -54,9 +52,9 @@ public class LuceneIndexer {
             Directory dir = FSDirectory.open(Paths.get(indexPath));
 
             IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
-            Similarity similarity[] = {new LMJelinekMercerSimilarity((float) 0.2)};
+            //Similarity similarity = new LMJelinekMercerSimilarity((float) 0.2);
 
-            iwc.setSimilarity(new MultiSimilarity(similarity));
+            //iwc.setSimilarity(similarity);
             if (create) {
                 iwc.setOpenMode(OpenMode.CREATE);
             } else {
