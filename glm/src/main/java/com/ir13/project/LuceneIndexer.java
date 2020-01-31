@@ -52,9 +52,7 @@ public class LuceneIndexer {
             Directory dir = FSDirectory.open(Paths.get(indexPath));
 
             IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
-            //Similarity similarity = new LMJelinekMercerSimilarity((float) 0.2);
 
-            //iwc.setSimilarity(similarity);
             if (create) {
                 iwc.setOpenMode(OpenMode.CREATE);
             } else {
@@ -113,14 +111,9 @@ public class LuceneIndexer {
             String title;
             String date;
             Document doc = new Document();
-            // Add the path of the file as a field named "path".
             Field pathField = new StringField("path", file.toString(), Field.Store.YES);
             doc.add(pathField);
 
-            // Add the last modified date of the file a field named "modified".
-            /*Field modifiedField = new LongPoint("modified", lastModified);
-                    doc.add(modifiedField);*/
-            // Reading Foreign Broadcast Information Service (1996)- fbis
             if (file.toString().contains("FBIS")) {
 
                 publication = "fbis";

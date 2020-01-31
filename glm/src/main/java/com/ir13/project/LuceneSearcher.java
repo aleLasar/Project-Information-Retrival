@@ -19,14 +19,21 @@ import org.apache.lucene.benchmark.quality.trec.TrecJudge;
 import org.apache.lucene.benchmark.quality.trec.TrecTopicsReader;
 import org.apache.lucene.benchmark.quality.utils.SimpleQQParser;
 import org.apache.lucene.benchmark.quality.utils.SubmissionReport;
+import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
+import org.apache.lucene.index.DocsEnum;
 import org.apache.lucene.index.IndexReader;
+import org.apache.lucene.index.IndexableField;
+import org.apache.lucene.index.MultiFields;
+import org.apache.lucene.index.Term;
+import org.apache.lucene.index.TermsEnum;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.similarities.Similarity;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.search.similarities.LMJelinekMercerSimilarity;
+import org.apache.lucene.util.BytesRef;
 
 public class LuceneSearcher {
 
@@ -39,7 +46,7 @@ public class LuceneSearcher {
 
             //aggiungo campi delle query
             String topicTRECNames[] = {"title", "description", "narrative"};
-            QualityQueryParser topicTRECParser = new SimpleQQParser(topicTRECNames, "title");
+            QualityQueryParser topicTRECParser = new SimpleQQParser(topicTRECNames, "text");
 
             //per ogni file di query
             for (String topicFile : topicFiles) {
@@ -63,8 +70,12 @@ public class LuceneSearcher {
                     QualityStats stats[] = run.execute(judge, new SubmissionReport(new PrintWriter(new File(outputRun + topicFile)), "RUN"), loggerRun);
 
                     QualityStats avg = QualityStats.average(stats);
+                    System.out.println("Topics: " + topicFile + "\n*********");
                     System.out.println("MAP: " + avg.getAvp());
-                    System.out.println("Recall: " + avg.getRecall());
+                    System.out.println("GMAP: " + Math.pow(LuceneSearcher.getProduct(stats), 1.0 / stats.length));
+                    System.out.println("RECALL: " + avg.getRecall());
+                    System.out.println("\n\n\n");
+
                 } catch (ParseException ex) {
                     Logger.getLogger(LuceneSearcher.class.getName()).log(Level.SEVERE, null, ex);
                 } catch (Exception ex) {
@@ -75,6 +86,14 @@ public class LuceneSearcher {
             Logger.getLogger(LuceneSearcher.class.getName()).log(Level.SEVERE, null, ex);
         }
 
+    }
+
+    private static double getProduct(QualityStats[] stats) {
+        double product = 1;
+        for (QualityStats stat : stats) {
+            product *= stat.getAvp();
+        }
+        return product;
     }
 
 }
