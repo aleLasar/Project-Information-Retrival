@@ -19,55 +19,48 @@ import org.apache.lucene.benchmark.quality.trec.TrecJudge;
 import org.apache.lucene.benchmark.quality.trec.TrecTopicsReader;
 import org.apache.lucene.benchmark.quality.utils.SimpleQQParser;
 import org.apache.lucene.benchmark.quality.utils.SubmissionReport;
-import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
-import org.apache.lucene.index.DocsEnum;
 import org.apache.lucene.index.IndexReader;
-import org.apache.lucene.index.IndexableField;
-import org.apache.lucene.index.MultiFields;
-import org.apache.lucene.index.Term;
-import org.apache.lucene.index.TermsEnum;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.similarities.Similarity;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.search.similarities.LMJelinekMercerSimilarity;
-import org.apache.lucene.util.BytesRef;
 
 public class LuceneSearcher {
 
     public static void runQueries(String queryfile, Analyzer analyzer, String indexDir, String outputRun, String[] topicFiles, String qrelsPath, String outputStats) {
 
-        try (Directory dir = FSDirectory.open(Paths.get(indexDir)); IndexReader reader = DirectoryReader.open(dir)) {
+        try (
+                Directory dir = FSDirectory.open(Paths.get(indexDir));
+                IndexReader reader = DirectoryReader.open(dir)) {
             IndexSearcher searcher = new IndexSearcher(reader);
             Similarity similarity = new LMJelinekMercerSimilarity((float) 0.2);
             searcher.setSimilarity(similarity);
 
             //aggiungo campi delle query
-            String topicTRECNames[] = {"title", "description", "narrative"};
-            QualityQueryParser topicTRECParser = new SimpleQQParser(topicTRECNames, "text");
+            QualityQueryParser topicTRECParser = new SimpleQQParser(new String[]{"title", "description", "narrative"}, "text");
 
             //per ogni file di query
             for (String topicFile : topicFiles) {
-                //try-with-resources
                 try (
                         BufferedReader topicFileReader = new BufferedReader(new InputStreamReader(new FileInputStream(new File(queryfile + topicFile))));
-                        BufferedReader qrelsReader = new BufferedReader(new InputStreamReader(new FileInputStream(new File(qrelsPath + topicFile))))) {
+                        BufferedReader qrelsReader = new BufferedReader(new InputStreamReader(new FileInputStream(new File(qrelsPath + topicFile))));
+                        PrintWriter loggerRun = new PrintWriter(new File(outputStats + topicFile));
+                        PrintWriter loggerStats = new PrintWriter(new File(outputRun + topicFile));) {
 
                     //leggo le query
                     QualityQuery[] topicsTREC = new TrecTopicsReader().readQueries(topicFileReader);
 
                     QualityBenchmark run = new QualityBenchmark(topicsTREC, topicTRECParser, searcher, "doc_number");
 
-                    PrintWriter loggerRun = new PrintWriter(new File(outputStats + topicFile));
-
                     //Una volta calcolato va dato in pasto a execute
                     TrecJudge judge = new TrecJudge(qrelsReader);
 
                     // validate topics & judgments match each other
                     judge.validateData(topicsTREC, loggerRun);
-                    QualityStats stats[] = run.execute(judge, new SubmissionReport(new PrintWriter(new File(outputRun + topicFile)), "RUN"), loggerRun);
+                    QualityStats stats[] = run.execute(judge, new SubmissionReport(loggerStats, "RUN"), loggerRun);
 
                     QualityStats avg = QualityStats.average(stats);
                     System.out.println("Topics: " + topicFile + "\n*********");
@@ -76,8 +69,6 @@ public class LuceneSearcher {
                     System.out.println("RECALL: " + avg.getRecall());
                     System.out.println("\n\n\n");
 
-                } catch (ParseException ex) {
-                    Logger.getLogger(LuceneSearcher.class.getName()).log(Level.SEVERE, null, ex);
                 } catch (Exception ex) {
                     Logger.getLogger(LuceneSearcher.class.getName()).log(Level.SEVERE, null, ex);
                 }
