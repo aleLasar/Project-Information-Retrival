@@ -60,6 +60,7 @@ public class LuceneSearcher {
 
                     // validate topics & judgments match each other
                     judge.validateData(topicsTREC, loggerRun);
+
                     QualityStats stats[] = run.execute(judge, new SubmissionReport(loggerStats, "RUN"), loggerRun);
 
                     QualityStats avg = QualityStats.average(stats);
@@ -68,7 +69,6 @@ public class LuceneSearcher {
                     System.out.println("GMAP: " + Math.pow(LuceneSearcher.getProduct(stats), 1.0 / stats.length));
                     System.out.println("RECALL: " + avg.getRecall());
                     System.out.println("\n\n\n");
-
                 } catch (Exception ex) {
                     Logger.getLogger(LuceneSearcher.class.getName()).log(Level.SEVERE, null, ex);
                 }

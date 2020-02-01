@@ -1,8 +1,8 @@
 351  -  (text:falkland text:petroleum text:exploration) (text:what text:information text:available text:petroleum text:exploration text:south text:atlantic text:near text:falkland text:islands) (text:any text:document text:discussing text:petroleum text:exploration text:south text:atlantic text:near text:falkland text:islands text:considered text:relevant text:documents text:discussing text:petroleum text:exploration text:continental text:south text:america text:relevant)
 
 351 Stats:
-  Search Seconds:         0.206
-  DocName Seconds:        0.526
+  Search Seconds:         0.132
+  DocName Seconds:        0.354
   Num Points:         1,000.000
   Num Good Points:       32.000
   Max Good Points:       48.000
@@ -33,8 +33,8 @@
 352  -  (text:british text:chunnel text:impact) (text:what text:impact text:has text:chunnel text:had text:british text:economy text:life text:style text:british) (text:documents text:discussing text:following text:issues text:relevant text:projected text:actual text:impact text:life text:styles text:british text:long text:term text:changes text:economic text:policy text:relations text:major text:changes text:other text:transportation text:systems text:linked text:continent text:documents text:discussing text:following text:issues text:relevant text:expense text:construction text:schedule text:routine text:marketing text:ploys text:other text:channel text:crossers text:i.e text:schedule text:changes text:price text:drops text:etc)
 
 352 Stats:
-  Search Seconds:         0.588
-  DocName Seconds:        0.649
+  Search Seconds:         0.379
+  DocName Seconds:        0.419
   Num Points:         1,000.000
   Num Good Points:       15.000
   Max Good Points:      246.000
@@ -65,8 +65,8 @@
 353  -  (text:antarctica text:exploration) (text:identify text:systematic text:explorations text:scientific text:investigations text:antarctica text:current text:planned) (text:documents text:discussing text:following text:issues text:relevant text:systematic text:explorations text:scientific text:investigations text:antarctica text:e.g text:seismology text:ionospheric text:physics text:possible text:economic text:development text:other text:research text:currently text:conducted text:planned text:future text:banning text:mineral text:mining text:documents text:discussing text:tourism (text:non text:relevant) text:documents text:discussing text:disrupting text:scientific text:experiments (text:non text:relevant) text:unless text:specific text:experiment text:identified)
 
 353 Stats:
-  Search Seconds:         0.203
-  DocName Seconds:        0.322
+  Search Seconds:         0.187
+  DocName Seconds:        0.300
   Num Points:         1,000.000
   Num Good Points:       32.000
   Max Good Points:      122.000
@@ -97,8 +97,8 @@
 354  -  (text:journalist text:risks) (text:identify text:instances text:where text:journalist text:has text:been text:put text:risk text:e.g text:killed text:arrested text:taken text:hostage text:performance text:his text:work) (text:any text:document text:identifying text:instance text:where text:journalist text:correspondent text:has text:been text:killed text:arrested text:taken text:hostage text:performance text:his text:work text:relevant)
 
 354 Stats:
-  Search Seconds:         0.314
-  DocName Seconds:        0.464
+  Search Seconds:         0.313
+  DocName Seconds:        0.354
   Num Points:         1,000.000
   Num Good Points:       95.000
   Max Good Points:      361.000
@@ -129,8 +129,8 @@
 355  -  (text:ocean text:remote text:sensing) (text:identify text:documents text:discussing text:development text:application text:spaceborne text:ocean text:remote text:sensing) (text:documents text:discussing text:development text:application text:spaceborne text:ocean text:remote text:sensing text:oceanography text:seabed text:prospecting text:mining text:any (text:marine text:science) text:activity text:relevant text:documents text:discuss text:application text:satellite text:remote text:sensing text:geography text:agriculture text:forestry text:mining text:mineral text:prospecting text:any (text:land text:bound) text:science text:relevant text:nor text:references text:international text:marketing text:promotional text:advertizing text:any (text:remote text:sensing) text:technology text:synthetic text:aperture text:radar text:sar text:employed text:ocean text:remote text:sensing text:relevant)
 
 355 Stats:
-  Search Seconds:         0.210
-  DocName Seconds:        0.349
+  Search Seconds:         0.195
+  DocName Seconds:        0.278
   Num Points:         1,000.000
   Num Good Points:       28.000
   Max Good Points:       45.000
@@ -161,8 +161,8 @@
 356  -  (text:postmenopausal text:estrogen text:britain) (text:identify text:documents text:discussing text:use text:estrogen text:postmenopausal text:women text:britain) (text:use text:hormone text:replacement text:therapy text:outside text:united text:kingdom text:relevant text:united text:kingdom text:british text:development text:marketing text:estrogen text:suppressing text:drugs text:relevant)
 
 356 Stats:
-  Search Seconds:         0.103
-  DocName Seconds:        0.343
+  Search Seconds:         0.109
+  DocName Seconds:        0.305
   Num Points:         1,000.000
   Num Good Points:        5.000
   Max Good Points:       17.000
@@ -193,8 +193,8 @@
 357  -  (text:territorial text:waters text:dispute) (text:identify text:documents text:discussing text:international text:boundary text:disputes text:relevant (text:200 text:mile) text:special text:economic text:zones (text:12 text:mile) text:territorial text:waters text:subsequent text:passing text:international text:convention text:law text:sea) (text:relevant text:documents text:must text:discuss text:international text:boundary text:dispute text:relevant (text:200 text:mile) text:special text:economic text:zones (text:12 text:mile) text:territorial text:waters text:subsequent text:passing text:international text:convention text:law text:sea text:documents text:merely text:express text:agreement text:disagreement text:any text:precepts text:law text:sea text:relevant text:nor text:any text:documents text:passively text:allude text:existence text:convention text:any text:its (text:non text:controversial) text:applications)
 
 357 Stats:
-  Search Seconds:         0.344
-  DocName Seconds:        0.337
+  Search Seconds:         0.349
+  DocName Seconds:        0.319
   Num Points:         1,000.000
   Num Good Points:      119.000
   Max Good Points:      270.000
@@ -225,8 +225,8 @@
 358  -  ((text:blood text:alcohol) text:fatalities) (text:what text:role text:does (text:blood text:alcohol) text:level text:play text:automobile text:accident text:fatalities) (text:relevant text:documents text:must text:contain text:information text:automobile text:accidents text:which text:fatality (text:blood text:alcohol) text:level text:driver text:vehicle text:must text:identified)
 
 358 Stats:
-  Search Seconds:         0.177
-  DocName Seconds:        0.347
+  Search Seconds:         0.249
+  DocName Seconds:        0.399
   Num Points:         1,000.000
   Num Good Points:       50.000
   Max Good Points:       51.000
@@ -257,8 +257,8 @@
 359  -  (text:mutual text:fund text:predictors) (text:reliable text:consistent text:predictors text:mutual text:fund text:performance) (text:document text:must text:contain text:least text:one text:factor text:rankings text:risks text:yields text:costs text:fund text:performance text:relevant text:documents text:discuss text:mutual text:fund text:rankings text:considered text:relevant)
 
 359 Stats:
-  Search Seconds:         0.124
-  DocName Seconds:        0.400
+  Search Seconds:         0.345
+  DocName Seconds:        0.419
   Num Points:         1,000.000
   Num Good Points:       19.000
   Max Good Points:       28.000
@@ -289,8 +289,8 @@
 360  -  (text:drug text:legalization text:benefits) (text:what text:benefits text:any text:drug text:legalization) (text:relevant text:documents text:may text:contain text:information text:perceived text:benefits text:drug text:legalization text:crime text:reduction text:improved text:treatment text:using text:monies text:which text:otherwise text:would text:have text:gone text:crime text:fighting text:reduced text:drug text:addiction text:increased text:governmental text:income text:documents text:discuss text:drug text:legalization text:whether text:legalization text:perceived text:beneficial text:relevant)
 
 360 Stats:
-  Search Seconds:         0.360
-  DocName Seconds:        0.311
+  Search Seconds:         0.342
+  DocName Seconds:        0.366
   Num Points:         1,000.000
   Num Good Points:       94.000
   Max Good Points:      151.000
@@ -321,8 +321,8 @@
 361  -  (text:clothing text:sweatshops) (text:identify text:documents text:discuss text:clothing text:sweatshops) (text:relevant text:document text:must text:identify text:country text:working text:conditions text:salary text:type text:clothing text:shoes text:being text:produced text:relevant text:documents text:may text:also text:include text:name text:business text:company text:type text:manufacturing text:designer text:label)
 
 361 Stats:
-  Search Seconds:         0.267
-  DocName Seconds:        0.337
+  Search Seconds:         0.307
+  DocName Seconds:        0.496
   Num Points:         1,000.000
   Num Good Points:        7.000
   Max Good Points:        9.000
@@ -353,8 +353,8 @@
 362  -  (text:human text:smuggling) (text:identify text:incidents text:human text:smuggling) (text:relevant text:document text:shows text:incident text:humans text:least text:ten text:being text:smuggled text:smugglers text:would text:have text:realize text:monetary text:gain text:actions text:while text:people text:being text:smuggled text:may text:may text:willing text:participants)
 
 362 Stats:
-  Search Seconds:         0.238
-  DocName Seconds:        0.327
+  Search Seconds:         0.312
+  DocName Seconds:        0.510
   Num Points:         1,000.000
   Num Good Points:       16.000
   Max Good Points:       39.000
@@ -385,8 +385,8 @@
 363  -  (text:transportation text:tunnel text:disasters) (text:what text:disasters text:have text:occurred text:tunnels text:used text:transportation) (text:relevant text:document text:identifies text:disaster text:tunnel text:used text:trains text:motor text:vehicles text:people text:wind text:tunnels text:tunnels text:used text:wiring text:sewage text:water text:oil text:etc text:relevant text:cause text:problem text:may text:fire text:earthquake text:flood text:explosion text:can text:accidental text:planned text:documents text:discuss text:tunnel text:disasters text:occurring text:during text:construction text:tunnel text:relevant text:lives text:were text:threatened)
 
 363 Stats:
-  Search Seconds:         0.291
-  DocName Seconds:        0.411
+  Search Seconds:         0.657
+  DocName Seconds:        0.752
   Num Points:         1,000.000
   Num Good Points:        7.000
   Max Good Points:       16.000
@@ -417,8 +417,8 @@
 364  -  text:rabies (text:identify text:documents text:discussing text:cases text:where text:rabies text:have text:been text:confirmed text:what text:anything text:being text:done text:about) (text:relevant text:document text:identifies text:confirmed text:cases text:rabies text:may text:contain text:actions text:taken text:correct text:problem)
 
 364 Stats:
-  Search Seconds:         0.202
-  DocName Seconds:        0.434
+  Search Seconds:         0.352
+  DocName Seconds:        0.544
   Num Points:         1,000.000
   Num Good Points:       32.000
   Max Good Points:       35.000
@@ -449,8 +449,8 @@
 365  -  (text:el text:nino) (text:what text:effects text:have text:been text:attributed text:el text:nino) (text:document text:relevant text:describes text:particular text:phenomenon text:either text:specific text:event text:generalization text:like text:flood text:drought text:warming text:etc text:names text:el text:nino text:cause text:being text:contributing text:factor)
 
 365 Stats:
-  Search Seconds:         0.189
-  DocName Seconds:        0.456
+  Search Seconds:         0.285
+  DocName Seconds:        0.668
   Num Points:         1,000.000
   Num Good Points:       35.000
   Max Good Points:       35.000
@@ -481,8 +481,8 @@
 366  -  (text:commercial text:cyanide text:uses) (text:what text:industrial text:commercial text:uses text:cyanide text:its text:derivatives) (text:document text:relevant text:names text:describes text:process text:uses text:cyanide text:commercially text:mentions (text:cyanide text:rich) text:waste text:comes text:from text:particular text:industry)
 
 366 Stats:
-  Search Seconds:         0.170
-  DocName Seconds:        0.357
+  Search Seconds:         0.402
+  DocName Seconds:        0.688
   Num Points:         1,000.000
   Num Good Points:       92.000
   Max Good Points:       99.000
@@ -513,8 +513,8 @@
 367  -  text:piracy (text:what text:modern text:instances text:have text:been text:old text:fashioned text:piracy text:boarding text:taking text:control text:boats) (text:documents text:discussing text:piracy text:any text:body text:water text:relevant text:documents text:discussing text:legal text:taking text:ships text:contents text:national text:authority (text:non text:relevant) text:clashes text:between text:fishing text:vessels text:over text:fishing text:relevant text:unless text:one text:vessel text:boarded)
 
 367 Stats:
-  Search Seconds:         0.404
-  DocName Seconds:        0.304
+  Search Seconds:         0.585
+  DocName Seconds:        0.614
   Num Points:         1,000.000
   Num Good Points:       51.000
   Max Good Points:      189.000
@@ -545,8 +545,8 @@
 368  -  (text:vitro text:fertilization) (text:identify text:documents text:discuss text:vitro text:fertilization) (text:relevant text:document text:describe text:any text:aspect text:process text:vitro text:fertilization text:uniting text:two text:human text:germ text:cells text:sperm text:egg text:outside text:human text:body text:artificial text:environment text:documents text:describe text:related text:techniques text:freezing text:eggs text:sperm text:embryos text:future text:implantation text:also text:relevant)
 
 368 Stats:
-  Search Seconds:         0.175
-  DocName Seconds:        0.250
+  Search Seconds:         0.414
+  DocName Seconds:        0.555
   Num Points:         1,000.000
   Num Good Points:       42.000
   Max Good Points:       61.000
@@ -577,8 +577,8 @@
 369  -  (text:anorexia text:nervosa text:bulimia) (text:what text:causes text:treatments text:anorexia text:nervosa text:bulimia) (text:relevant text:document text:describe text:causes text:eating text:disorders text:anorexia text:nervosa text:bulimia text:documents text:describe text:symptoms text:including text:taking text:laxatives (text:self text:induced) text:vomiting text:excessive text:exercise text:relevant text:discussions text:treatment text:disorders text:also text:relevant)
 
 369 Stats:
-  Search Seconds:         0.145
-  DocName Seconds:        0.259
+  Search Seconds:         0.413
+  DocName Seconds:        0.798
   Num Points:         1,000.000
   Num Good Points:       10.000
   Max Good Points:       13.000
@@ -609,8 +609,8 @@
 370  -  ((text:food text:drug) text:laws) (text:what text:laws text:dealing text:quality text:processing text:food text:beverages text:drugs) (text:relevant text:document text:contain text:specific text:information text:laws text:dealing text:matters text:quality text:control text:processing text:use text:additives text:preservatives text:avoidance text:impurities text:poisonous text:substances text:spoilage text:prevention text:nutritional text:enrichment text:grading text:meat text:vegetables text:relevant text:information text:includes text:limited text:federal text:regulations text:targeting text:three text:major text:areas text:label text:abuse text:deceptive text:definitions text:misleading text:health text:claims text:untrue text:serving text:sizes text:proposed text:standard text:definitions text:terms text:high text:fiber text:low text:fat)
 
 370 Stats:
-  Search Seconds:         0.333
-  DocName Seconds:        0.318
+  Search Seconds:         0.683
+  DocName Seconds:        0.772
   Num Points:         1,000.000
   Num Good Points:      153.000
   Max Good Points:      336.000
@@ -641,8 +641,8 @@
 371  -  (text:health text:insurance text:holistic) (text:what text:extent text:health text:insurance text:coverage text:holistic text:other (text:non text:traditional) (text:medicine text:medical) text:treatments text:example text:acupuncture) (text:discussions text:whether text:particular text:health text:insurance text:plans text:cover text:alternative text:treatments text:relevant text:discussions text:coverage text:preventative text:programs text:health text:education text:wellness text:sessions text:also text:relevant)
 
 371 Stats:
-  Search Seconds:         0.260
-  DocName Seconds:        0.322
+  Search Seconds:         0.352
+  DocName Seconds:        0.818
   Num Points:         1,000.000
   Num Good Points:       12.000
   Max Good Points:       17.000
@@ -673,8 +673,8 @@
 372  -  (text:native text:american text:casino) (text:identify text:documents text:discuss text:growth text:native text:american text:casino text:gambling) (text:relevant text:documents text:include text:discussions text:regarding text:native text:american text:casino text:gambling text:its text:social text:implications text:effects text:local text:native text:american text:economies text:legal text:aspects text:related text:native text:american text:tribal text:autonomy)
 
 372 Stats:
-  Search Seconds:         0.173
-  DocName Seconds:        0.317
+  Search Seconds:         0.486
+  DocName Seconds:        0.595
   Num Points:         1,000.000
   Num Good Points:       22.000
   Max Good Points:       49.000
@@ -705,8 +705,8 @@
 373  -  (text:encryption text:equipment text:export) (text:identify text:documents text:discuss text:concerns text:united text:states text:regarding text:export text:encryption text:equipment) (text:documents text:merely text:mention text:name text:company text:group text:produces text:encryption text:equipment text:does text:mention text:exportation text:commercial text:exploitation text:encryption text:equipment text:relevant text:documents text:which text:refer text:governmental text:access text:encryption text:systems text:purposes (text:counter text:intelligence) (text:anti text:crime) text:activities text:relevant)
 
 373 Stats:
-  Search Seconds:         0.289
-  DocName Seconds:        0.395
+  Search Seconds:         0.323
+  DocName Seconds:        0.883
   Num Points:         1,000.000
   Num Good Points:       20.000
   Max Good Points:       33.000
@@ -737,8 +737,8 @@
 374  -  (text:nobel text:prize text:winners) (text:identify text:provide text:background text:information text:nobel text:prize text:winners) (text:minimum text:relevant text:documents text:must text:contain text:following text:information text:year text:nobel text:prize text:award text:field text:study text:recipients text:name text:when text:document text:announces text:what text:obviously text:current text:award text:year text:required)
 
 374 Stats:
-  Search Seconds:         0.280
-  DocName Seconds:        0.365
+  Search Seconds:         0.411
+  DocName Seconds:        0.756
   Num Points:         1,000.000
   Num Good Points:      161.000
   Max Good Points:      204.000
@@ -769,8 +769,8 @@
 375  -  (text:hydrogen text:energy) (text:what text:status text:research text:hydrogen text:feasible text:energy text:source) (text:relevant text:document text:describe text:progress text:research text:controlled text:hydrogen text:fusion text:use text:hydrogen text:fuel text:power text:engines)
 
 375 Stats:
-  Search Seconds:         0.183
-  DocName Seconds:        0.383
+  Search Seconds:         0.174
+  DocName Seconds:        0.547
   Num Points:         1,000.000
   Num Good Points:       62.000
   Max Good Points:       80.000
@@ -801,8 +801,8 @@
 376  -  (text:world text:court) (text:what text:types text:cases text:were text:heard text:world text:court text:international text:court text:justice) (text:documents text:report text:particular text:cases text:heard text:world text:court text:including text:war text:tribunals text:created text:court text:relevant)
 
 376 Stats:
-  Search Seconds:         0.323
-  DocName Seconds:        0.341
+  Search Seconds:         0.355
+  DocName Seconds:        0.499
   Num Points:         1,000.000
   Num Good Points:       24.000
   Max Good Points:      102.000
@@ -833,8 +833,8 @@
 377  -  (text:cigar text:smoking) (text:identify text:documents text:discuss text:renewed text:popularity text:cigar text:smoking) (text:relevant text:document text:discuss text:extent text:resurgence text:cigar text:smoking text:social text:economic text:issues text:attendant text:documents text:discuss text:cigar text:nights text:cigar text:rooms text:cigar text:production text:relevant)
 
 377 Stats:
-  Search Seconds:         0.113
-  DocName Seconds:        0.396
+  Search Seconds:         0.193
+  DocName Seconds:        0.565
   Num Points:         1,000.000
   Num Good Points:       23.000
   Max Good Points:       39.000
@@ -865,8 +865,8 @@
 378  -  (text:euro text:opposition) (text:identify text:documents text:discuss text:opposition text:introduction text:euro text:european text:currency) (text:relevant text:document text:should text:include text:countries text:individuals text:who text:oppose text:use text:euro (text:reason text:s) text:opposition text:its text:use)
 
 378 Stats:
-  Search Seconds:         0.183
-  DocName Seconds:        0.342
+  Search Seconds:         0.215
+  DocName Seconds:        0.380
   Num Points:         1,000.000
   Num Good Points:       29.000
   Max Good Points:       98.000
@@ -897,8 +897,8 @@
 379  -  text:mainstreaming (text:identify text:documents text:discuss text:mainstreaming text:children text:physical text:mental text:impairments) (text:relevant text:document text:include text:pros text:cons text:mainstreaming text:children text:physical text:mental text:impairments text:benefits text:impaired text:child text:well text:attitude text:beliefs text:concerns text:teachers text:school text:administrators text:regard text:taking text:time text:away text:from text:normal text:children)
 
 379 Stats:
-  Search Seconds:         0.257
-  DocName Seconds:        0.384
+  Search Seconds:         0.225
+  DocName Seconds:        0.391
   Num Points:         1,000.000
   Num Good Points:        8.000
   Max Good Points:       16.000
@@ -929,8 +929,8 @@
 380  -  (text:obesity text:medical text:treatment) (text:identify text:documents text:discuss text:medical text:treatment text:obesity) (text:relevant text:document text:should text:identify text:prescribed text:legal text:medications text:treatments text:used text:combat text:obesity text:positive text:negative text:affects text:resulting text:from text:applications)
 
 380 Stats:
-  Search Seconds:         0.170
-  DocName Seconds:        0.230
+  Search Seconds:         0.199
+  DocName Seconds:        0.310
   Num Points:         1,000.000
   Num Good Points:        7.000
   Max Good Points:        7.000
@@ -961,8 +961,8 @@
 381  -  (text:alternative text:medicine) (text:what text:forms text:alternative text:medicine text:being text:used text:treatment text:illnesses text:diseases text:how text:successful) (text:relevant text:document text:should text:identify text:form text:alternative text:medicine text:which text:being text:utilized text:treatment text:disease text:illness text:identify text:illness text:disease text:being text:treated text:provide text:indication text:success text:procedure)
 
 381 Stats:
-  Search Seconds:         0.196
-  DocName Seconds:        0.285
+  Search Seconds:         0.237
+  DocName Seconds:        0.304
   Num Points:         1,000.000
   Num Good Points:        9.000
   Max Good Points:       28.000
@@ -993,8 +993,8 @@
 382  -  (text:hydrogen text:fuel text:automobiles) (text:identify text:documents text:discuss text:use text:hydrogen text:fuel text:piston text:driven text:automobiles text:safe text:storage text:concern text:use text:hydrogen text:fuel text:cells text:generate text:electricity text:drive text:car) (text:relevant text:document text:may text:discuss text:either text:hydrogen text:using text:fuel text:cells text:electrically text:power text:automobiles text:may text:discuss text:safe text:storage text:hydrogen text:gas text:fuel text:tank text:through text:use text:metal text:hydrides text:use text:piston text:engines)
 
 382 Stats:
-  Search Seconds:         0.250
-  DocName Seconds:        0.261
+  Search Seconds:         0.216
+  DocName Seconds:        0.564
   Num Points:         1,000.000
   Num Good Points:       19.000
   Max Good Points:       22.000
@@ -1025,8 +1025,8 @@
 383  -  (text:mental text:illness text:drugs) (text:identify text:drugs text:used text:treatment text:mental text:illness) (text:relevant text:document text:include text:name text:specific text:generic text:type text:drug text:generalities text:relevant)
 
 383 Stats:
-  Search Seconds:         0.048
-  DocName Seconds:        0.196
+  Search Seconds:         0.071
+  DocName Seconds:        0.365
   Num Points:         1,000.000
   Num Good Points:       34.000
   Max Good Points:      146.000
@@ -1057,8 +1057,8 @@
 384  -  (text:space text:station text:moon) (text:identify text:documents text:discuss text:building text:space text:station text:intent text:colonizing text:moon) (text:relevant text:document text:discuss text:purpose text:space text:station text:initiatives text:towards text:colonizing text:moon text:impediments text:which text:thus text:far text:have text:thwarted text:project text:plans text:currently text:underway text:planning text:stages text:venture text:cost text:countries text:prepared text:make text:commitment text:men text:resources text:facilities text:money text:accomplish text:feat)
 
 384 Stats:
-  Search Seconds:         0.295
-  DocName Seconds:        0.375
+  Search Seconds:         0.325
+  DocName Seconds:        0.432
   Num Points:         1,000.000
   Num Good Points:       44.000
   Max Good Points:       51.000
@@ -1089,8 +1089,8 @@
 385  -  (text:hybrid text:fuel text:cars) (text:identify text:documents text:discuss text:current text:status text:hybrid text:automobile text:engines text:i.e text:cars text:fueled text:something text:other text:than text:gasoline text:only) (text:relevant text:document text:may text:include text:research (text:non text:gasoline) text:powered text:engines text:prototypes text:may text:fueled text:natural text:gas text:methanol text:alcohol text:cost text:consumer text:health text:benefits text:derived text:shortcomings text:horsepower text:passenger text:comfort)
 
 385 Stats:
-  Search Seconds:         0.242
-  DocName Seconds:        0.247
+  Search Seconds:         0.319
+  DocName Seconds:        0.294
   Num Points:         1,000.000
   Num Good Points:       64.000
   Max Good Points:       86.000
@@ -1121,8 +1121,8 @@
 386  -  (text:teaching text:disabled text:children) (text:what text:methods text:currently text:utilized text:anticipated text:teaching text:disabled text:children) (text:relevant text:document text:should text:identify text:method text:procedure text:currently text:used text:teaching text:disabled text:children text:one text:anticipated text:being text:available text:near text:future)
 
 386 Stats:
-  Search Seconds:         0.175
-  DocName Seconds:        0.298
+  Search Seconds:         0.151
+  DocName Seconds:        0.275
   Num Points:         1,000.000
   Num Good Points:        5.000
   Max Good Points:       19.000
@@ -1153,8 +1153,8 @@
 387  -  (text:radioactive text:waste) (text:identify text:documents text:discuss text:effective text:safe text:ways text:permanently text:handle (text:long text:lived) text:radioactive text:wastes) (text:documents text:discuss text:incineration text:cementation text:bitumenization text:vitrification text:underground text:nuclear text:explosion text:relevant)
 
 387 Stats:
-  Search Seconds:         0.141
-  DocName Seconds:        0.354
+  Search Seconds:         0.107
+  DocName Seconds:        0.302
   Num Points:         1,000.000
   Num Good Points:       69.000
   Max Good Points:       85.000
@@ -1185,8 +1185,8 @@
 388  -  (text:organic text:soil text:enhancement) (text:identify text:documents text:discuss text:use text:organic text:fertilizers text:composted text:sludge text:ash text:vegetable text:waste text:microorganisms text:etc text:soil text:enhancers) (text:focus text:topic text:soil text:enhancement text:documents text:discuss text:other text:uses text:organic text:material text:relevant text:nor text:documents text:concentrate text:solely text:chemical text:fertilizers)
 
 388 Stats:
-  Search Seconds:         0.138
-  DocName Seconds:        0.237
+  Search Seconds:         0.150
+  DocName Seconds:        0.293
   Num Points:         1,000.000
   Num Good Points:       34.000
   Max Good Points:       51.000
@@ -1217,8 +1217,8 @@
 389  -  (text:illegal text:technology text:transfer) (text:what text:specific text:entities text:have text:been text:accused text:illegal text:technology text:transfer text:selling text:products text:formulas text:etc text:directly text:indirectly text:foreign text:entities text:other text:than text:peaceful text:purposes) (text:relevant text:selected text:document text:must text:specifically text:identify text:person text:company text:governmental text:entity text:which text:provided text:articles text:useful text:hostile text:purposes text:entities text:outside text:own text:country text:provision text:violated text:laws text:provider's text:country)
 
 389 Stats:
-  Search Seconds:         0.442
-  DocName Seconds:        0.467
+  Search Seconds:         0.370
+  DocName Seconds:        0.495
   Num Points:         1,000.000
   Num Good Points:        5.000
   Max Good Points:      194.000
@@ -1250,7 +1250,7 @@
 
 390 Stats:
   Search Seconds:         0.303
-  DocName Seconds:        0.353
+  DocName Seconds:        0.336
   Num Points:         1,000.000
   Num Good Points:       41.000
   Max Good Points:      134.000
@@ -1281,9 +1281,320 @@
 391  -  ((text:r text:d) text:drug text:prices) (text:identify text:documents text:discuss text:impact text:cost text:research text:development (text:r text:d) text:price text:drugs) (text:documents text:describe text:how text:any text:aspect text:development text:drug text:affects text:its text:price text:relevant text:documents text:discuss text:other text:factors text:affect text:drug text:prices text:advertising text:without text:also text:discussing (text:r text:d) text:costs text:relevant)
 
 391 Stats:
-  Search Seconds:         0.318
-  DocName Seconds:        0.263
+  Search Seconds:         0.317
+  DocName Seconds:        0.318
   Num Points:         1,000.000
   Num Good Points:       91.000
   Max Good Points:      178.000
-  Average Precision:      0.23
+  Average Precision:      0.232
+  MRR:                    1.000
+  Recall:                 0.511
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         1.000
+  Precision At 5:         1.000
+  Precision At 6:         1.000
+  Precision At 7:         1.000
+  Precision At 8:         0.875
+  Precision At 9:         0.889
+  Precision At 10:        0.900
+  Precision At 11:        0.818
+  Precision At 12:        0.750
+  Precision At 13:        0.692
+  Precision At 14:        0.643
+  Precision At 15:        0.667
+  Precision At 16:        0.688
+  Precision At 17:        0.706
+  Precision At 18:        0.667
+  Precision At 19:        0.684
+  Precision At 20:        0.700
+
+392  -  text:robotics (text:what text:applications text:robotics text:world text:today) (text:documents text:concerning (text:r text:d) text:testing text:robotic text:equipment text:relevant text:nor text:documents text:discussing text:future text:applications text:robotics text:task text:completed text:seems text:merely text:another text:computer text:function text:rather text:than text:task text:usually text:done text:people text:relevant)
+
+392 Stats:
+  Search Seconds:         0.294
+  DocName Seconds:        0.482
+  Num Points:         1,000.000
+  Num Good Points:       33.000
+  Max Good Points:      105.000
+  Average Precision:      0.079
+  MRR:                    0.500
+  Recall:                 0.314
+  Precision At 1:         0.000
+  Precision At 2:         0.500
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.400
+  Precision At 6:         0.333
+  Precision At 7:         0.429
+  Precision At 8:         0.500
+  Precision At 9:         0.556
+  Precision At 10:        0.600
+  Precision At 11:        0.636
+  Precision At 12:        0.583
+  Precision At 13:        0.538
+  Precision At 14:        0.571
+  Precision At 15:        0.533
+  Precision At 16:        0.562
+  Precision At 17:        0.529
+  Precision At 18:        0.500
+  Precision At 19:        0.474
+  Precision At 20:        0.450
+
+393  -  (text:mercy text:killing) (text:identify text:documents text:discuss text:mercy text:killings) (text:all text:individual text:cases text:mercy text:killing text:relevant text:except text:letters text:editor text:mentioning text:cases text:relevant text:removal text:life text:support text:systems text:relevant text:general text:mention text:description text:case text:without text:specifics text:victim's text:name text:relevant text:cases text:determined (text:murder text:suicide) text:relevant)
+
+393 Stats:
+  Search Seconds:         0.196
+  DocName Seconds:        0.321
+  Num Points:         1,000.000
+  Num Good Points:        9.000
+  Max Good Points:       71.000
+  Average Precision:      0.003
+  MRR:                    0.000
+  Recall:                 0.127
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.000
+  Precision At 5:         0.000
+  Precision At 6:         0.000
+  Precision At 7:         0.000
+  Precision At 8:         0.000
+  Precision At 9:         0.000
+  Precision At 10:        0.000
+  Precision At 11:        0.000
+  Precision At 12:        0.000
+  Precision At 13:        0.077
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.062
+  Precision At 17:        0.059
+  Precision At 18:        0.056
+  Precision At 19:        0.053
+  Precision At 20:        0.050
+
+394  -  (text:home text:schooling) (text:identify text:documents text:discuss text:education text:children text:home text:home text:schooling) (text:relevant text:document text:would text:contain text:any text:data text:education text:children text:home text:environment text:included text:could text:data text:where text:whom text:community text:acceptance text:successes text:additional text:data text:programs text:aiding text:education text:disadvantaged text:children (text:away text:from text:school) text:environment text:mobile text:vehicle text:classrooms text:would text:considered text:home text:schooling text:therefore text:relevant)
+
+394 Stats:
+  Search Seconds:         0.319
+  DocName Seconds:        0.357
+  Num Points:         1,000.000
+  Num Good Points:        8.000
+  Max Good Points:       17.000
+  Average Precision:      0.092
+  MRR:                    0.500
+  Recall:                 0.471
+  Precision At 1:         0.000
+  Precision At 2:         0.500
+  Precision At 3:         0.333
+  Precision At 4:         0.250
+  Precision At 5:         0.400
+  Precision At 6:         0.333
+  Precision At 7:         0.286
+  Precision At 8:         0.250
+  Precision At 9:         0.222
+  Precision At 10:        0.200
+  Precision At 11:        0.182
+  Precision At 12:        0.167
+  Precision At 13:        0.231
+  Precision At 14:        0.286
+  Precision At 15:        0.267
+  Precision At 16:        0.250
+  Precision At 17:        0.235
+  Precision At 18:        0.222
+  Precision At 19:        0.211
+  Precision At 20:        0.200
+
+395  -  text:tourism (text:provide text:examples text:successful text:attempts text:attract text:tourism text:means text:improve text:local text:economy) (text:relevant text:selected text:document text:specify text:entity text:city text:state text:country text:governmental text:unit text:which text:has text:achieved text:economic text:increase text:due text:entity's text:efforts text:boosting text:tourism text:documents text:which text:only text:concern text:plans text:increasing text:tourism text:relevant text:only text:documents text:which text:detail text:actual text:increase text:relevant)
+
+395 Stats:
+  Search Seconds:         0.365
+  DocName Seconds:        0.507
+  Num Points:         1,000.000
+  Num Good Points:       89.000
+  Max Good Points:      213.000
+  Average Precision:      0.080
+  MRR:                    1.000
+  Recall:                 0.418
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         0.750
+  Precision At 5:         0.600
+  Precision At 6:         0.500
+  Precision At 7:         0.571
+  Precision At 8:         0.500
+  Precision At 9:         0.444
+  Precision At 10:        0.400
+  Precision At 11:        0.364
+  Precision At 12:        0.417
+  Precision At 13:        0.385
+  Precision At 14:        0.357
+  Precision At 15:        0.333
+  Precision At 16:        0.312
+  Precision At 17:        0.294
+  Precision At 18:        0.278
+  Precision At 19:        0.263
+  Precision At 20:        0.250
+
+396  -  (text:sick text:building text:syndrome) (text:identify text:documents text:discuss text:sick text:building text:syndrome (text:building text:related) text:illnesses) (text:relevant text:document text:would text:contain text:any text:data text:refers text:sick text:building (text:building text:related) text:illnesses text:including text:illnesses text:caused text:asbestos text:air text:conditioning text:pollution text:controls (text:work text:related) text:illnesses text:caused text:building text:carpal text:tunnel text:syndrome text:relevant)
+
+396 Stats:
+  Search Seconds:         0.248
+  DocName Seconds:        0.419
+  Num Points:         1,000.000
+  Num Good Points:       43.000
+  Max Good Points:       59.000
+  Average Precision:      0.417
+  MRR:                    1.000
+  Recall:                 0.729
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         1.000
+  Precision At 5:         1.000
+  Precision At 6:         1.000
+  Precision At 7:         1.000
+  Precision At 8:         1.000
+  Precision At 9:         0.889
+  Precision At 10:        0.800
+  Precision At 11:        0.818
+  Precision At 12:        0.833
+  Precision At 13:        0.846
+  Precision At 14:        0.857
+  Precision At 15:        0.867
+  Precision At 16:        0.875
+  Precision At 17:        0.882
+  Precision At 18:        0.889
+  Precision At 19:        0.842
+  Precision At 20:        0.850
+
+397  -  (text:automobile text:recalls) (text:identify text:documents text:discuss text:reasons text:automobile text:recalls) (text:relevant text:document text:specify text:major text:minor text:reasons text:automobile text:recalls text:car text:manufacturers text:documents text:discuss text:truck text:recalls text:relevant)
+
+397 Stats:
+  Search Seconds:         0.091
+  DocName Seconds:        0.323
+  Num Points:         1,000.000
+  Num Good Points:        6.000
+  Max Good Points:       27.000
+  Average Precision:      0.011
+  MRR:                    0.250
+  Recall:                 0.222
+  Precision At 1:         0.000
+  Precision At 2:         0.000
+  Precision At 3:         0.000
+  Precision At 4:         0.250
+  Precision At 5:         0.200
+  Precision At 6:         0.167
+  Precision At 7:         0.143
+  Precision At 8:         0.125
+  Precision At 9:         0.111
+  Precision At 10:        0.100
+  Precision At 11:        0.091
+  Precision At 12:        0.083
+  Precision At 13:        0.077
+  Precision At 14:        0.071
+  Precision At 15:        0.067
+  Precision At 16:        0.062
+  Precision At 17:        0.059
+  Precision At 18:        0.056
+  Precision At 19:        0.053
+  Precision At 20:        0.050
+
+398  -  (text:dismantling text:europe's text:arsenal) (text:identify text:documents text:discuss text:european text:conventional text:arms text:cut text:relates text:dismantling text:europe's text:arsenal) (text:relevant text:documents text:may text:address text:any text:following text:issues text:reducing text:conventional text:non text:nuclear text:forces text:europe text:cfe text:efforts text:toward text:reduction text:have text:begun text:have text:been text:accomplished text:numbers text:weapons text:manpower text:reduced text:through text:treaty text:comparisons text:numbers text:reductions text:made text:warsaw text:pact text:nato text:effect text:arms text:cut text:having text:european text:nations)
+
+398 Stats:
+  Search Seconds:         0.416
+  DocName Seconds:        0.576
+  Num Points:         1,000.000
+  Num Good Points:      101.000
+  Max Good Points:      145.000
+  Average Precision:      0.344
+  MRR:                    1.000
+  Recall:                 0.697
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         1.000
+  Precision At 5:         1.000
+  Precision At 6:         1.000
+  Precision At 7:         1.000
+  Precision At 8:         1.000
+  Precision At 9:         1.000
+  Precision At 10:        1.000
+  Precision At 11:        1.000
+  Precision At 12:        0.917
+  Precision At 13:        0.923
+  Precision At 14:        0.857
+  Precision At 15:        0.867
+  Precision At 16:        0.875
+  Precision At 17:        0.882
+  Precision At 18:        0.889
+  Precision At 19:        0.895
+  Precision At 20:        0.900
+
+399  -  (text:oceanographic text:vessels) (text:identify text:documents text:discuss text:activities text:equipment text:oceanographic text:vessels) (text:relevant text:documents text:contain text:information text:activity text:oceanographic text:vessels text:regardless text:nationality text:items text:undersea text:mapping text:monitoring text:global text:warming text:marine text:environmental text:monitoring text:use text:deep text:sea text:robots text:search text:sunken text:ships text:relevant text:oceanography text:activity text:also text:relevant text:actions text:using text:vessel text:research text:development text:new text:equipment text:exploring text:oceanic text:resources text:any text:reference text:equipment text:use text:aboard text:oceanographic text:vessel text:relevant text:documents text:identify text:vessel text:survey text:ship text:which text:involved text:oceanographic text:activity text:also text:relevant)
+
+399 Stats:
+  Search Seconds:         0.521
+  DocName Seconds:        0.403
+  Num Points:         1,000.000
+  Num Good Points:       43.000
+  Max Good Points:      102.000
+  Average Precision:      0.139
+  MRR:                    1.000
+  Recall:                 0.422
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         0.667
+  Precision At 4:         0.750
+  Precision At 5:         0.800
+  Precision At 6:         0.833
+  Precision At 7:         0.714
+  Precision At 8:         0.625
+  Precision At 9:         0.556
+  Precision At 10:        0.500
+  Precision At 11:        0.545
+  Precision At 12:        0.500
+  Precision At 13:        0.462
+  Precision At 14:        0.429
+  Precision At 15:        0.400
+  Precision At 16:        0.375
+  Precision At 17:        0.412
+  Precision At 18:        0.444
+  Precision At 19:        0.474
+  Precision At 20:        0.450
+
+400  -  (text:amazon text:rain text:forest) (text:what text:measures text:being text:taken text:local text:south text:american text:authorities text:preserve text:amazon text:tropical text:rain text:forest) (text:relevant text:documents text:may text:identify text:official text:organizations text:institutions text:individuals text:countries text:included text:amazon text:rain text:forest text:measures text:being text:taken text:them text:preserve text:rain text:forest text:indications text:degrees text:success text:endeavors)
+
+400 Stats:
+  Search Seconds:         0.222
+  DocName Seconds:        0.350
+  Num Points:         1,000.000
+  Num Good Points:       90.000
+  Max Good Points:      125.000
+  Average Precision:      0.282
+  MRR:                    1.000
+  Recall:                 0.720
+  Precision At 1:         1.000
+  Precision At 2:         1.000
+  Precision At 3:         1.000
+  Precision At 4:         0.750
+  Precision At 5:         0.800
+  Precision At 6:         0.667
+  Precision At 7:         0.714
+  Precision At 8:         0.625
+  Precision At 9:         0.667
+  Precision At 10:        0.600
+  Precision At 11:        0.636
+  Precision At 12:        0.667
+  Precision At 13:        0.692
+  Precision At 14:        0.643
+  Precision At 15:        0.667
+  Precision At 16:        0.688
+  Precision At 17:        0.706
+  Precision At 18:        0.722
+  Precision At 19:        0.737
+  Precision At 20:        0.750
+
