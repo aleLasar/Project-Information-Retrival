@@ -175,17 +175,17 @@ public class WordVecSearcher {
                 }
                 fw.write(buff.toString());
 
-                HashMap<String, String> valori = new HashMap<>();
+                /*HashMap<String, String> valori = new HashMap<>();
                 valori.put("title", query.title);
                 valori.put("description", query.desc);
                 valori.put("narrative", query.narr);
                 QualityQuery topicTREC = new QualityQuery(query.id, valori);
-                topicsTREC.add(topicTREC);
+                topicsTREC.add(topicTREC);*/
             }
-            QualityQueryParser topicTRECParser = new SimpleQQParser(new String[]{"title", "description", "narrative"}, "wv_d");
+            /*QualityQueryParser topicTRECParser = new SimpleQQParser(new String[]{"title", "description", "narrative"}, "wv_d");
             QualityQuery[] topicsTRECArray = topicsTREC.toArray(new QualityQuery[topicsTREC.size()]);
 
-            /*new TrecTopicsReader().readQueries(topicFileReader);*/
+            /*new TrecTopicsReader().readQueries(topicFileReader);
             QualityBenchmark run = new QualityBenchmark(topicsTRECArray, topicTRECParser, searcher, "id");
 
             //Una volta calcolato va dato in pasto a execute
@@ -201,7 +201,7 @@ public class WordVecSearcher {
             System.out.println("MAP: " + avg.getAvp());
             System.out.println("GMAP: " + Math.pow(WordVecSearcher.getProduct(stats), 1.0 / stats.length));
             System.out.println("RECALL: " + avg.getRecall());
-            System.out.println("\n\n\n");
+            System.out.println("\n\n\n");*/
         }
 
     }

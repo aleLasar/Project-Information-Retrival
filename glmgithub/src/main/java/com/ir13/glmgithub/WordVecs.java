@@ -34,9 +34,8 @@ public class WordVecs {
     //ArrayList<WordVec> distList;
     public WordVecs() throws Exception {
 
-        //distList = new ArrayList<>(wordvecmap.size());
-        k = 20;
         String wordvecFile = "src/main/resources/word-to-vec.vec";
+        k = 25;
 
         wordvecmap = new HashMap();
         try (FileReader fr = new FileReader(wordvecFile);
@@ -135,14 +134,12 @@ public class WordVecs {
             return null;
         }
 
-        for (Map.Entry<String, WordVec> entry : wordvecmap.entrySet()) {
-            WordVec wv = entry.getValue();
-            if (wv.word.equals(queryWord)) {
-                continue;
-            }
+        wordvecmap.entrySet().stream().map((entry) -> entry.getValue()).filter((wv) -> !(wv.word.equals(queryWord))).map((wv) -> {
             wv.querySim = queryVec.cosineSim(wv);
+            return wv;
+        }).forEachOrdered((wv) -> {
             distList.add(wv);
-        }
+        });
         Collections.sort(distList);
         return distList.subList(0, Math.min(k, distList.size()));
     }
@@ -162,7 +159,6 @@ public class WordVecs {
     }
 
     private boolean isLegalToken(String word) {
-        boolean flag = true;
         for (int i = 0; i < word.length(); i++) {
             if (!isLetter(word.charAt(i))) {
                 return false;

@@ -218,7 +218,7 @@ public class WordVecIndexer {
      by its neighbouring terms (as obtained from
      the abstract vector space of word2vec).*/
     public void expandIndex() throws Exception {
-        String wvIndexPath = "src/main/resources/expand1";
+        String wvIndexPath = "src/main/resources/expand2";
         lambda = 0.5f;
 
         if (wvIndexPath == null) {
@@ -382,7 +382,7 @@ public class WordVecIndexer {
         }
 
         // number of neighbors wanted
-        final int K = 3;
+        final int K = 5;
         final float thresh = 0.6f;
 
         // P(t|t',C)
