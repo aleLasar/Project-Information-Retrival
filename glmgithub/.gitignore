@@ -32,6 +32,7 @@ hs_err_pid*
 src/main/resources/docs/*
 src/main/resources/index/*
 src/main/resources/expand1/*
+src/main/resources/trec.dump
 target/*
 .idea/*
 nb-configuration.xml
