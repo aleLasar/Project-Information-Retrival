@@ -21,7 +21,6 @@ import org.apache.lucene.benchmark.quality.utils.SimpleQQParser;
 import org.apache.lucene.benchmark.quality.utils.SubmissionReport;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
-import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.similarities.Similarity;
 import org.apache.lucene.store.Directory;
@@ -47,8 +46,8 @@ public class LuceneSearcher {
                 try (
                         BufferedReader topicFileReader = new BufferedReader(new InputStreamReader(new FileInputStream(new File(queryfile + topicFile))));
                         BufferedReader qrelsReader = new BufferedReader(new InputStreamReader(new FileInputStream(new File(qrelsPath + topicFile))));
-                        PrintWriter loggerRun = new PrintWriter(new File(outputStats + topicFile));
-                        PrintWriter loggerStats = new PrintWriter(new File(outputRun + topicFile));) {
+                        PrintWriter loggerRun = new PrintWriter(new File(outputRun + topicFile));
+                        PrintWriter loggerStats = new PrintWriter(new File(outputStats + topicFile));) {
 
                     //leggo le query
                     QualityQuery[] topicsTREC = new TrecTopicsReader().readQueries(topicFileReader);
@@ -61,7 +60,7 @@ public class LuceneSearcher {
                     // validate topics & judgments match each other
                     judge.validateData(topicsTREC, loggerRun);
 
-                    QualityStats stats[] = run.execute(judge, new SubmissionReport(loggerStats, "RUN"), loggerRun);
+                    QualityStats stats[] = run.execute(judge, new SubmissionReport(loggerRun, "RUN"), loggerStats);
 
                     QualityStats avg = QualityStats.average(stats);
                     System.out.println("Topics: " + topicFile + "\n*********");
