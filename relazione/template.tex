@@ -35,7 +35,7 @@
 \ifCLASSINFOpdf
   \usepackage[pdftex]{graphicx}
   % declare the path(s) where your graphic files are
-  \graphicspath{{immagini/}}
+  \graphicspath{{img/}}
   % and their extensions so you won't have to specify these with
   % every instance of \includegraphics
   \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
@@ -53,7 +53,7 @@
 
 % *** MATH PACKAGES ***
 %
-%\usepackage{amsmath}
+\usepackage{amsmath}
 % A popular package from the American Mathematical Society that provides
 % many useful and powerful commands for dealing with mathematics.
 %
@@ -230,8 +230,10 @@
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
 
-
 \newcommand{\mail}[1]{\href{mailto:#1}{\texttt{#1}}}
 \newcommand{\omissis}{[\textellipsis\unkern]}
 \newcommand{\inglese}[1]{\foreignlanguage{english}{\em #1}}
 \usepackage{verbatim}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{tabularx}\newcolumntype{Y}{>{\centering\arraybackslash}X}

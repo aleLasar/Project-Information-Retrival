@@ -1,1 +1,37 @@
- 
+\section{Aspects reproduced}\label{sec:reproduction}
+\IEEEPARstart{T}{o} reproduce the evaluation results reported in the paper, we decided to use the most recent version of Lucene available at the date of paper's publication, that is Lucene 5.1.0.
+This choice was made because the Lucene framework has very different aspects between one version and another, many implementations change and it is not backwards compatible.
+The aspects reproduced concern the indexing of the documents present in the TREC 7 collection.
+The indexed TREC documents are in XML format, described in DTD specifications. In fact, each type of document has a structure different from the others.
+There are four types of documents:
+\begin{itemize}
+    \item FR94: Federal Register 1994;
+    \item FT: Financial Times Limited 1991, 1992, 1993, 1994;
+    \item FBIS: Foreign Broadcast Information Service 1996;
+    \item LATIMES: Los Angeles Times 1989, 1990.
+\end{itemize}
+
+\pagebreak
+
+Although each structure is different, we have noticed the similarity with standard HTML code, also as regards the entities, for this reason we decided to use an HTML parser to obtain the documents in text format.
+To create the transposed index we used the \textit{Lucene Standard Analyzer}, which executes the following steps \cite{slides:agosti}:
+\begin{itemize}
+    \item Tokenization: Split the document into tokens (words, connected together in the case of an apostrophe and in other particular cases);
+    \item Stopwords removal: removal of a standard stoplist;
+    \item Creation of the transposed index: the index is saved on the disk.
+\end{itemize}
+
+At this point we have tried to reproduce the results obtained with the basic language model, i.e. with Jelinek-Mercer and parameter \(\lambda\) set to 0.2 (without transformation into similar terms).
+
+The reproduction of the GLM turned out to be more difficult than expected.
+A first approach was trying to reproduce the probability described in the various terms reported above into functions, extending the LMSimilarity class made available by Lucene to represent a similarity, but obtaining an incomplete and inefficient implementation just for the calculation of the probability of the term without transformation.
+Subsequently, using the GitHub repository of Debasis Ganguly \cite{github:ganguly}, one of the authors of the paper, and having adapted it to our needs, we managed to obtain a better implementation, even if not yet sufficiently performing to get to the results reported in the paper.
+This repository has many classes useless for the purpose of reproduction, that we deleted.
+We later adapted some improperly used Java constructs, in order to obtain a more readable and performing code (functional programming).
+The classes we used are:
+\begin{itemize}
+    \item LMLinearCombinationTermQuery: contains the implementation of second and third term of the GLM formula;
+    \item TRECQuery: contains a method for obtaining the w2v representation of the query represented, based on the GLM;
+    \item WordVecIndexer: index documents to get the words of the same. With a list of nearest neighbors, it expands the index with similar terms in the document and collection. To calculate the nearest neighbors use a list of terms in w2v representation;
+    \item WordVecSearcher: runs a GLM run.
+\end{itemize}

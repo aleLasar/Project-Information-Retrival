@@ -1,0 +1,34 @@
+\phantomsection
+\addcontentsline{toc}{chapter}{Frontespizio}
+\begin{frontespizio}
+
+    \makeatletter\@makeother\#
+    \Preambolo{\makeatletter}
+    \Preambolo{\renewcommand{\Relatore}[1]{
+        \advance\front@relcount\@ne
+            \front@reltoks=\expandafter{\the\front@reltoks\\#1%
+                \ifdefined\front@signatures\\[1cm]
+                \dotfill\\\fi
+            }
+        }
+    }
+    
+    \Preambolo{\makeatother}
+
+    \Universita{Padova}
+    \Filigrana[height=3cm,before=2,after=7]{immagini/unipd}
+    \Dipartimento{Matematica ``Tullio Levi-Civita''}
+    \Corso[Laurea]{Informatica}
+    \Annoaccademico{2019--2020}
+    \Titolo{Analysis~and~reproducibility~of~paper ``A~Word~Embedding~based Generalized~Language~Model for~Information~Retrieval'', D.~Ganguly,~D.~Roy,~M.~Mitra,~G.J.F.~Jones,~2015.}
+    \Sottotitolo{Progetto di Reperimento dell'informazione}
+    \NCandidato{}
+    \NRelatore{}{}
+    \Candidato{Alessio Lazzaron}
+    \Candidato{Matteo Marchiori}
+    \Relatore{Andrea Oriolo}
+    \Relatore{Fabio Piras}
+    \Rientro{3cm}
+    %\Margini{4cm}{5cm}{4cm}{3cm}
+    \Preambolo{\usepackage{iwona}}
+\end{frontespizio}
