@@ -227,16 +227,17 @@ public class TRECQuery {
 
             if (alpha > 0) {
                 thisTerm = new Term(WordVecIndexer.FIELD_P_WVEC_D, term);
-                Query tq_d = new LMLinearCombinationTermQuery(thisTerm, pf, alpha, this.parent);
+                Query tq_d = new LMLinearCombinationTermQuery(thisTerm, pf, alpha, mu);
                 q.add(tq_d, BooleanClause.Occur.SHOULD);
             }
 
             if (beta > 0) {
                 thisTerm = new Term(WordVecIndexer.FIELD_P_WVEC_C, term);
-                Query tq_c = new LMLinearCombinationTermQuery(thisTerm, pf, beta, this.parent);
+                Query tq_c = new LMLinearCombinationTermQuery(thisTerm, pf, beta, mu);
                 q.add(tq_c, BooleanClause.Occur.SHOULD);
             }
         }
         return q;
     }
 }
+

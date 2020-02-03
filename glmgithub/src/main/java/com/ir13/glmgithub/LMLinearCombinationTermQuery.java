@@ -37,7 +37,7 @@ class GeneralizedLMSimilarity extends LMJelinekMercerSimilarity {
     }
 
     public GeneralizedLMSimilarity(boolean usePayload) {
-        super(0.f);
+        super(0.2f);
         this.usePayload = usePayload;
     }
 
@@ -87,13 +87,12 @@ public class LMLinearCombinationTermQuery extends PayloadTermQuery {
     float mu;  // mu è il corrispondente di lambda per il payload
     WordVecSearcher parent;
 
-    public LMLinearCombinationTermQuery(Term term, PayloadFunction function, float mu, WordVecSearcher parent) {
+    /*public LMLinearCombinationTermQuery(Term term, PayloadFunction function, float mu, WordVecSearcher parent) {
         super(term, function, true);
         this.mu = mu;
         this.parent = parent;
 
-    }
-
+    }*/
     public LMLinearCombinationTermQuery(Term term, PayloadFunction function, float lambda, float mu) {
         super(term, function, true);
         this.lambda = lambda;

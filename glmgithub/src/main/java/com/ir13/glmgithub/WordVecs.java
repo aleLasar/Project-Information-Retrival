@@ -12,7 +12,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
 import java.util.StringTokenizer;
 
 /*
@@ -34,8 +33,8 @@ public class WordVecs {
     //ArrayList<WordVec> distList;
     public WordVecs() throws Exception {
 
-        String wordvecFile = "src/main/resources/word-to-vec.vec";
-        k = 25;
+        String wordvecFile = "src/main/resources/glove.6B.50d.txt";
+        k = 3;
 
         wordvecmap = new HashMap();
         try (FileReader fr = new FileReader(wordvecFile);
@@ -51,29 +50,6 @@ public class WordVecs {
         }
     }
 
-    /*public WordVecs(Properties prop) throws Exception {
-        this.prop = prop;
-        //distList = new ArrayList<>(wordvecmap.size());
-        k = Integer.parseInt(prop.getProperty("wordvecs.numnearest", "25"));
-        String wordvecFile = prop.getProperty("wordvecs.vecfile");
-
-        if (wordvecFile == null) {
-            return;
-        }
-
-        wordvecmap = new HashMap();
-        try (FileReader fr = new FileReader(wordvecFile);
-                BufferedReader br = new BufferedReader(fr)) {
-            String line;
-
-            while ((line = br.readLine()) != null) {
-                WordVec wv = new WordVec(line);
-                if (isLegalToken(wv.word)) {
-                    wordvecmap.put(wv.word, wv);
-                }
-            }
-        }
-    }*/
     static public WordVecs createInstance() throws Exception {
         if (singleTon == null) {
             singleTon = new WordVecs();
@@ -94,17 +70,16 @@ public class WordVecs {
         try (PrintWriter pout = new PrintWriter(NNDumpPath)) {
             System.out.println("Precomputing NNs for each word");
 
-            wordvecmap.entrySet().stream().map((entry) -> entry.getValue()).filter((wv) -> (isLegalToken(wv.word))).map((wv) -> {
+            wordvecmap.entrySet().stream().map((entry) -> entry.getValue()).filter((wv) -> (isLegalToken(wv.word))).map((WordVec wv) -> {
                 System.out.println("Precomputing NNs for " + wv.word);
                 return wv;
-            }).forEachOrdered((wv) -> {
+            }).forEachOrdered((WordVec wv) -> {
                 List<WordVec> nns = getNearestNeighbors(wv.word);
                 if (nns != null) {
                     pout.print(wv.word + "\t");
-                    for (int i = 0; i < nns.size(); i++) {
-                        WordVec nn = nns.get(i);
+                    nns.forEach((nn) -> {
                         pout.print(nn.word + ":" + nn.querySim + "\t");
-                    }
+                    });
                     pout.print("\n");
                 }
             });
