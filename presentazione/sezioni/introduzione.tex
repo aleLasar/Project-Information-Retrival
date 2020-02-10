@@ -39,7 +39,7 @@
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Formulazione GLM}
+\begin{frame}{Formula GLM}
     \setlength{\abovedisplayskip}{1pt}
     \setlength{\belowdisplayskip}{1pt}
     \[
@@ -50,13 +50,13 @@
     \]
     \begin{itemize}
         \item Termine \(\lambda\): Probabilità del termine \(t\) della query all'interno del documento \(d\) senza trasformazione.
-        \item Termine \(\alpha\): Probabilità di trasformare il termine \(t\) della query in un termine \({t}'\) appartenente a \(d\).
-        \item Termine \(\beta\): Probabilità di trasformare il termine \(t\) della query in un termine \({t}'\) appartenente alla collezione \(C\).
-        \item Termine \(1-\lambda-\alpha-\beta\): Probabilità del termine \(t\) della query di trovarsi all'interno della collezione \(C\).
+        \item Termine \(\alpha\): Probabilità di trasformare i termini \({t}'\) del documento in un termine \(t\) della query.
+        \item Termine \(\beta\): Probabilità di trasformare i termini \({t}'\) della collezione \(C\) in un termine \(t\) della query.
+        \item Termine \(1-\lambda-\alpha-\beta\): Probabilità del termine \(t\) della query all'interno della collezione \(C\).
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Trasformazione di \(t\) in \({t}'\)}
+\begin{frame}{Trasformazione di \({t}'\) in \(t\)}
 
     \begin{columns}
         \begin{column}{0.5\textwidth}
@@ -69,8 +69,8 @@
 
     \bigskip
     \begin{itemize}
-        \item Per il calcolo della similarità tra \(t\) e \({t}'\) entrambi i termini vengono rappresentati mediante Word Embedding.
-        \item Una volta ottenuta la loro rappresentazione, per il calcolo dello score di similarità viene utilizzata la Cosine Similarity.
+        \item Entrambi i termini \(t\) e \({t}'\) vengono rappresentati mediante word embedding.
+        \item Per il calcolo della similarità viene usata la Cosine Similarity.
     \end{itemize}
 
     \[sim(A,B) = cos(\vartheta ) = \frac{A * B}{\left \| A \right \| * \left \| B \right \|} = \frac{\sum_{i=1}^{n} Ai * Bi}{\sqrt{\sum_{i=1}^{n}Ai^{2}}\sqrt{\sum_{i=1}^{n}Bi^{2}}}\]
@@ -78,23 +78,11 @@
 \end{frame}
 
 \begin{frame}{Caratteristiche GLM}
-    \setlength{\abovedisplayskip}{-12pt}
-    \setlength{\belowdisplayskip}{-2pt}
-    \[
-        \begin{split}
-            P(t|d) & = \lambda P(t|d) + \alpha \sum_{{t}'\in d}P(t,{t}'|d)P({t}')\\
-            & + \beta \sum_{{t}'\in N}P(t,{t}'|C)P({t}') + (1-\lambda-\alpha-\beta)P(t|C)
-        \end{split}
-    \]
-    \begin{itemize}
-        \item Maggiore è il valore di similarità tra un termine \(t\) della query e i termini \({t}'\) del documento, maggiore sarà il valore del termine in \(\alpha\).
-        \item Maggiore è il valore di similarità tra un termine \(t\) della query e i termini \({t}'\) della collezione, maggiore sarà il valore del termine in \(\beta\).
-        \item Il GLM generalizza il Language Model considerando non solo i singoli termini della query ma anche i termini semanticamente simili a essi, favorendo i documenti il cui contesto è simile a quello della query.
-    \end{itemize}
-\end{frame}
 
-\begin{frame}{\phantom{meme}}
-    \begin{center}
-        \includegraphics[width=0.6\textwidth]{img/meme.jpg}
-    \end{center}
+    L'utilizzo del Generalized Language Model ha due vantaggi:
+
+    \begin{itemize}
+        \item Stima quanto un termine è semanticamente simile al contenuto di un documento.
+        \item Colma le differenze di vocabolario tra query e documenti aggiungendo termini correlati al documento.
+    \end{itemize}
 \end{frame}
